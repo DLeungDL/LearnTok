@@ -8,7 +8,7 @@
 
 **讓 AI 幫你出片。** LearnTok AI 把**學習素材**或**腳本 JSON** 變成 9:16 豎屏雙人對話科普影片 — LLM 生成腳本、Edge-TTS 雙聲線、RVC 聲線轉換與 ffmpeg 合成，品質閘門把關、`--seed` 可重現。
 
-**[English](README.en.md) · [简体中文](README.zh-CN.md) · **繁體中文**
+[English](README.en.md) · [简体中文](README.zh-CN.md) · **繁體中文**
 
 `素材 / 腳本 → LLM 腳本生成 → Edge-TTS 雙聲線 → RVC 聲線轉換 → 響度校準 → ffmpeg 合成 → output/out_<id>_v01.mp4`
 
