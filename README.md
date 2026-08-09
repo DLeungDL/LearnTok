@@ -1,7 +1,7 @@
 # LearnTok AI
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/DLeungDL/LearnTok"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/DLeungDL/LearnTok?cacheSeconds=86400"></a>
   <a href="https://github.com/DLeungDL/LearnTok"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DLeungDL/LearnTok"></a>
   <img alt="Works with" src="https://img.shields.io/badge/works%20with-Edge--TTS%20%C2%B7%20RVC%20%C2%B7%20ffmpeg-8A2BE2">
 </p>
