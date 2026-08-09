@@ -1,0 +1,380 @@
+{
+  "id": "org_forms",
+  "title": "開公司還是合夥？四種企業組織形式一次搞懂",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "同樣做生意，有人賠光身家，有人只虧本金？",
+      "audio_file": "audio/lines/tts_org_forms_line0001_A.mp3",
+      "start": 0.1,
+      "end": 4.396
+    },
+    {
+      "speaker": "B",
+      "text": "關鍵在企業形式，先從個人獨資說起。",
+      "terms": [
+        {
+          "cn": "個人獨資",
+          "en": "Sole Proprietorship",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_org_forms_line0002_B.mp3",
+      "start": 4.516,
+      "end": 8.428
+    },
+    {
+      "speaker": "B",
+      "text": "這決定你賠錢時，要賠到什麼程度。",
+      "audio_file": "audio/lines/tts_org_forms_line0003_B.mp3",
+      "start": 8.548,
+      "end": 11.86
+    },
+    {
+      "speaker": "A",
+      "text": "老闆自己扛全部，賺賠都算自己的？",
+      "audio_file": "audio/lines/tts_org_forms_line0004_A.mp3",
+      "start": 11.98,
+      "end": 15.412
+    },
+    {
+      "speaker": "B",
+      "text": "對，無限責任，賠了要拿全部家產還。",
+      "terms": [
+        {
+          "cn": "無限責任",
+          "en": "Unlimited Liability",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_org_forms_line0005_B.mp3",
+      "start": 15.532,
+      "end": 20.044
+    },
+    {
+      "speaker": "B",
+      "text": "一個人扛，賺多虧多都自己吞。",
+      "audio_file": "audio/lines/tts_org_forms_line0006_B.mp3",
+      "start": 20.164,
+      "end": 23.548
+    },
+    {
+      "speaker": "A",
+      "text": "那多找幾個人合夥，比較保險？",
+      "audio_file": "audio/lines/tts_org_forms_line0007_A.mp3",
+      "start": 23.668,
+      "end": 26.764
+    },
+    {
+      "speaker": "B",
+      "text": "普通合夥人是無限連帶責任，風險更大。",
+      "terms": [
+        {
+          "cn": "普通合夥",
+          "en": "General Partnership",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_org_forms_line0008_B.mp3",
+      "start": 26.884,
+      "end": 31.252
+    },
+    {
+      "speaker": "B",
+      "text": "夥伴欠債你也得跟著還，合夥人互相扛債。",
+      "audio_file": "audio/lines/tts_org_forms_line0009_B.mp3",
+      "start": 31.372,
+      "end": 35.956
+    },
+    {
+      "speaker": "A",
+      "text": "那有限合夥呢？聽名字比較安全。",
+      "audio_file": "audio/lines/tts_org_forms_line0010_A.mp3",
+      "start": 36.076,
+      "end": 39.844
+    },
+    {
+      "speaker": "B",
+      "text": "LP 只出資，責任以出資額為限。",
+      "terms": [
+        {
+          "cn": "有限合夥",
+          "en": "Limited Partnership",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_org_forms_line0011_B.mp3",
+      "start": 39.964,
+      "end": 43.132
+    },
+    {
+      "speaker": "B",
+      "text": "虧最多就是本金，不會燒到身家。",
+      "audio_file": "audio/lines/tts_org_forms_line0012_B.mp3",
+      "start": 43.252,
+      "end": 46.684
+    },
+    {
+      "speaker": "A",
+      "text": "GP 呢？誰管經營？",
+      "audio_file": "audio/lines/tts_org_forms_line0013_A.mp3",
+      "start": 46.804,
+      "end": 49.612
+    },
+    {
+      "speaker": "B",
+      "text": "GP 管經營，但得負無限責任。",
+      "audio_file": "audio/lines/tts_org_forms_line0014_B.mp3",
+      "start": 49.732,
+      "end": 53.02
+    },
+    {
+      "speaker": "B",
+      "text": "出資不管事，管事要扛責。",
+      "audio_file": "audio/lines/tts_org_forms_line0015_B.mp3",
+      "start": 53.14,
+      "end": 56.14
+    },
+    {
+      "speaker": "A",
+      "text": "所以 LP 出錢，GP 出力又扛責？",
+      "audio_file": "audio/lines/tts_org_forms_line0016_A.mp3",
+      "start": 56.26,
+      "end": 60.1
+    },
+    {
+      "speaker": "B",
+      "text": "對，LP 一插手經營，保護可能失效。",
+      "audio_file": "audio/lines/tts_org_forms_line0017_B.mp3",
+      "start": 60.22,
+      "end": 64.276
+    },
+    {
+      "speaker": "B",
+      "text": "這就是有限合夥的遊戲規則。",
+      "audio_file": "audio/lines/tts_org_forms_line0018_B.mp3",
+      "start": 64.396,
+      "end": 67.276
+    },
+    {
+      "speaker": "A",
+      "text": "那乾脆成立公司，不是最安全？",
+      "audio_file": "audio/lines/tts_org_forms_line0019_A.mp3",
+      "start": 67.396,
+      "end": 70.516
+    },
+    {
+      "speaker": "B",
+      "text": "公司有獨立法人資格，股東只負有限責任。",
+      "terms": [
+        {
+          "cn": "獨立法人資格",
+          "en": "Separate Legal Personality",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:2"
+        },
+        {
+          "cn": "有限責任",
+          "en": "Limited Liability",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_org_forms_line0020_B.mp3",
+      "start": 70.636,
+      "end": 74.428
+    },
+    {
+      "speaker": "B",
+      "text": "公司欠債，股東最多虧掉出資額。",
+      "audio_file": "audio/lines/tts_org_forms_line0021_B.mp3",
+      "start": 74.548,
+      "end": 77.884
+    },
+    {
+      "speaker": "A",
+      "text": "那大家不都開公司？獨資沒活路？",
+      "audio_file": "audio/lines/tts_org_forms_line0022_A.mp3",
+      "start": 78.004,
+      "end": 81.628
+    },
+    {
+      "speaker": "B",
+      "text": "公司要雙重課稅，獨資走穿透稅制。",
+      "terms": [
+        {
+          "cn": "雙重課稅",
+          "en": "Double Taxation",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:4"
+        },
+        {
+          "cn": "穿透稅制",
+          "en": "Pass-through Taxation",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_org_forms_line0023_B.mp3",
+      "start": 81.748,
+      "end": 85.468
+    },
+    {
+      "speaker": "B",
+      "text": "公司先繳企業所得稅，分紅股東再繳一次。",
+      "audio_file": "audio/lines/tts_org_forms_line0024_B.mp3",
+      "start": 85.588,
+      "end": 89.596
+    },
+    {
+      "speaker": "A",
+      "text": "獨資呢？只要繳一次？",
+      "audio_file": "audio/lines/tts_org_forms_line0025_A.mp3",
+      "start": 89.716,
+      "end": 92.452
+    },
+    {
+      "speaker": "B",
+      "text": "對，所得直接算到老闆頭上，企業不繳稅。",
+      "audio_file": "audio/lines/tts_org_forms_line0026_B.mp3",
+      "start": 92.572,
+      "end": 96.628
+    },
+    {
+      "speaker": "B",
+      "text": "但這省下的稅，是用無限責任換的。",
+      "audio_file": "audio/lines/tts_org_forms_line0027_B.mp3",
+      "start": 96.748,
+      "end": 100.228
+    },
+    {
+      "speaker": "A",
+      "text": "那為了省稅，選獨資就好？",
+      "audio_file": "audio/lines/tts_org_forms_line0028_A.mp3",
+      "start": 100.348,
+      "end": 103.012
+    },
+    {
+      "speaker": "B",
+      "text": "但獨資無限責任，出事賠到脫褲。",
+      "audio_file": "audio/lines/tts_org_forms_line0029_B.mp3",
+      "start": 103.132,
+      "end": 106.444
+    },
+    {
+      "speaker": "A",
+      "text": "所以稅和風險，要一起秤？",
+      "audio_file": "audio/lines/tts_org_forms_line0030_A.mp3",
+      "start": 106.564,
+      "end": 109.612
+    },
+    {
+      "speaker": "B",
+      "text": "對，沒有完美形式，只有適合的。",
+      "audio_file": "audio/lines/tts_org_forms_line0031_B.mp3",
+      "start": 109.732,
+      "end": 113.308
+    },
+    {
+      "speaker": "B",
+      "text": "先想清楚能賠多少，再選形式。",
+      "audio_file": "audio/lines/tts_org_forms_line0032_B.mp3",
+      "start": 113.428,
+      "end": 116.932
+    },
+    {
+      "speaker": "A",
+      "text": "那誰能融資？想上市該選哪種？",
+      "audio_file": "audio/lines/tts_org_forms_line0033_A.mp3",
+      "start": 117.052,
+      "end": 120.748
+    },
+    {
+      "speaker": "B",
+      "text": "公司能發股票、債券，還能公開上市。",
+      "terms": [
+        {
+          "cn": "融資能力",
+          "en": "Financing Capability",
+          "source": "materials/公司發行人/1. 企業組織形式及其特點.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_org_forms_line0034_B.mp3",
+      "start": 120.868,
+      "end": 124.804
+    },
+    {
+      "speaker": "A",
+      "text": "所以想做大，只能靠公司制？",
+      "audio_file": "audio/lines/tts_org_forms_line0035_A.mp3",
+      "start": 124.924,
+      "end": 127.876
+    },
+    {
+      "speaker": "B",
+      "text": "對，公司制的融資天花板最高。",
+      "audio_file": "audio/lines/tts_org_forms_line0036_B.mp3",
+      "start": 127.996,
+      "end": 131.26
+    },
+    {
+      "speaker": "B",
+      "text": "合夥能集資，但責任要講清楚。",
+      "audio_file": "audio/lines/tts_org_forms_line0037_B.mp3",
+      "start": 131.38,
+      "end": 134.5
+    },
+    {
+      "speaker": "A",
+      "text": "那總結一下：獨資適合小本生意？",
+      "audio_file": "audio/lines/tts_org_forms_line0038_A.mp3",
+      "start": 134.62,
+      "end": 137.884
+    },
+    {
+      "speaker": "B",
+      "text": "對，風險自擔、稅簡單，但難做大。",
+      "audio_file": "audio/lines/tts_org_forms_line0039_B.mp3",
+      "start": 138.004,
+      "end": 142.636
+    },
+    {
+      "speaker": "A",
+      "text": "公司呢？適合要融資的？",
+      "audio_file": "audio/lines/tts_org_forms_line0040_A.mp3",
+      "start": 142.756,
+      "end": 145.708
+    },
+    {
+      "speaker": "B",
+      "text": "對，有限責任加雙重課稅，權衡取捨。",
+      "audio_file": "audio/lines/tts_org_forms_line0041_B.mp3",
+      "start": 145.828,
+      "end": 150.124
+    },
+    {
+      "speaker": "B",
+      "text": "先看風險，再看稅，沒有最好只有適合。",
+      "audio_file": "audio/lines/tts_org_forms_line0042_B.mp3",
+      "start": 150.244,
+      "end": 154.228
+    },
+    {
+      "speaker": "A",
+      "text": "選形式就是選風險和稅，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_org_forms_line0043_A.mp3",
+      "start": 154.348,
+      "end": 157.228
+    }
+  ]
+}

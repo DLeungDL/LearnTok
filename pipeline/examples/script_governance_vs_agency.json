@@ -1,0 +1,421 @@
+{
+  "id": "governance_vs_agency",
+  "title": "公司治理與委託代理問題：誰在替誰打工？",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "bgm": {
+    "volume": 0.12
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "俺問你，你花錢買了公司股票，你覺得公司是你的嗎？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0001_B.mp3",
+      "start": 0.1,
+      "end": 5.5
+    },
+    {
+      "speaker": "A",
+      "text": "當然是我的啊，我花了錢的。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0002_A.mp3",
+      "start": 5.62,
+      "end": 8.476
+    },
+    {
+      "speaker": "B",
+      "text": "那你能不能決定公司明天做什麼產品？能不能決定誰來當CEO？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0003_B.mp3",
+      "start": 8.596,
+      "end": 14.26
+    },
+    {
+      "speaker": "A",
+      "text": "……不能。那公司到底是誰在管？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0004_A.mp3",
+      "start": 14.38,
+      "end": 17.5
+    },
+    {
+      "speaker": "B",
+      "text": "這就是公司治理要解決的問題。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0005_B.mp3",
+      "start": 17.62,
+      "end": 20.428,
+      "terms": [
+        {
+          "cn": "公司治理",
+          "en": "Corporate Governance"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "公司治理是一套內部控制與程序體系，管的是董事會、管理層、股東之間的權力怎麼分配。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0006_B.mp3",
+      "start": 20.548,
+      "end": 28.42
+    },
+    {
+      "speaker": "B",
+      "text": "你出了錢，但管事的人不一定是你。這中間就會產生矛盾。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0007_B.mp3",
+      "start": 28.54,
+      "end": 34.18
+    },
+    {
+      "speaker": "A",
+      "text": "矛盾？你是說管事的人可能不照我的利益來？那我不是花錢請人坑自己嗎？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0008_A.mp3",
+      "start": 34.3,
+      "end": 40.852
+    },
+    {
+      "speaker": "B",
+      "text": "這就是股東理論的出發點。管理層唯一的任務應該是最大化股東價值。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0009_B.mp3",
+      "start": 40.972,
+      "end": 46.924,
+      "terms": [
+        {
+          "cn": "股東理論",
+          "en": "Shareholder Theory"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "因為股東承擔了剩餘風險。公司賺的錢先付員工、付供應商、還債，最後剩下來的才歸股東。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0010_B.mp3",
+      "start": 47.044,
+      "end": 55.876,
+      "terms": [
+        {
+          "cn": "剩餘風險",
+          "en": "Residual Claims"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "股東拿最後一份，風險最大，所以管理層理論上應該替股東賺最多的錢。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0011_B.mp3",
+      "start": 55.996,
+      "end": 62.476
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來合理。但員工呢？客戶呢？都不管了？那公司不就成了賺錢機器？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0012_A.mp3",
+      "start": 62.596,
+      "end": 70.18
+    },
+    {
+      "speaker": "B",
+      "text": "弗里德曼就是這麼說的——企業的社會責任就是增加利潤。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0013_B.mp3",
+      "start": 70.3,
+      "end": 75.052,
+      "terms": [
+        {
+          "cn": "弗里德曼",
+          "en": "Milton Friedman"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "咕……那如果公司為了賺錢污染河川呢？也是對社會的貢獻？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0014_A.mp3",
+      "start": 75.172,
+      "end": 81.052
+    },
+    {
+      "speaker": "B",
+      "text": "這就是第二派不同意的地方——利益相關者理論。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0015_B.mp3",
+      "start": 81.172,
+      "end": 84.988,
+      "terms": [
+        {
+          "cn": "利益相關者理論",
+          "en": "Stakeholder Theory"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "公司要對所有人負責：員工、客戶、供應商、社區、環境。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0016_B.mp3",
+      "start": 85.108,
+      "end": 91.132
+    },
+    {
+      "speaker": "B",
+      "text": "道理很簡單：你污染了河，社區抗議，政府罰款，客戶抵制，最後股東也虧錢。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0017_B.mp3",
+      "start": 91.252,
+      "end": 99.004
+    },
+    {
+      "speaker": "B",
+      "text": "所以照顧利益相關者，長期來看也是在保護股東。這就是ESG背後的邏輯。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0018_B.mp3",
+      "start": 99.124,
+      "end": 106.516
+    },
+    {
+      "speaker": "A",
+      "text": "所以短期看是成本，長期看是保險？那為什麼不是每間公司都這樣做？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0019_A.mp3",
+      "start": 106.636,
+      "end": 113.38
+    },
+    {
+      "speaker": "B",
+      "text": "因為理論歸理論，管理層也是人，人有自己的利益。這就帶到委託代理問題了。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0020_B.mp3",
+      "start": 113.5,
+      "end": 120.244,
+      "terms": [
+        {
+          "cn": "委託代理問題",
+          "en": "Principal-Agent Problem"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "股東是委託人，管理層是代理人。你花錢請人幫你辦事，但他的利益跟你不一定一致。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0021_B.mp3",
+      "start": 120.364,
+      "end": 127.756,
+      "terms": [
+        {
+          "cn": "委託人",
+          "en": "Principal"
+        },
+        {
+          "cn": "代理人",
+          "en": "Agent"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "你又看不到他每天在做什麼——這叫資訊不對稱。你知道的比他少，他可以利用這個差距佔你便宜。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0022_B.mp3",
+      "start": 127.876,
+      "end": 136.156,
+      "terms": [
+        {
+          "cn": "資訊不對稱",
+          "en": "Information Asymmetry"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "佔什麼樣的便宜？不可能直接偷公司的錢吧？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0023_A.mp3",
+      "start": 136.276,
+      "end": 140.596
+    },
+    {
+      "speaker": "B",
+      "text": "俺舉三個。第一個叫管理層防禦。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0024_B.mp3",
+      "start": 140.716,
+      "end": 144.652,
+      "terms": [
+        {
+          "cn": "管理層防禦",
+          "en": "Entrenchment"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "假設有個項目，成功率五成，成了股東賺十億，失敗虧兩億。對股東來說值得賭。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0025_B.mp3",
+      "start": 144.772,
+      "end": 152.596
+    },
+    {
+      "speaker": "B",
+      "text": "但管理層不賭。因為失敗了他會被董事會炒掉，成功了好處卻歸股東。他冒的是自己的風險，賺的是別人的錢。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0026_B.mp3",
+      "start": 152.716,
+      "end": 162.148
+    },
+    {
+      "speaker": "A",
+      "text": "明明能賺錢卻不賺，那跟笨有什麼區別？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0027_A.mp3",
+      "start": 162.268,
+      "end": 165.988
+    },
+    {
+      "speaker": "B",
+      "text": "不是笨，是精。他在保自己的位子，不是在保你的錢。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0028_B.mp3",
+      "start": 166.108,
+      "end": 171.364
+    },
+    {
+      "speaker": "B",
+      "text": "第二個叫帝國建設。管理層拼命併購擴張，看起來公司越來越大。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0029_B.mp3",
+      "start": 171.484,
+      "end": 177.604,
+      "terms": [
+        {
+          "cn": "帝國建設",
+          "en": "Empire Building"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "但併購的不一定是好標的，可能買回來一堆不賺錢的部門。他為什麼還要買？因為薪酬和權力跟公司規模掛鉤，不是跟利潤掛鉤。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0030_B.mp3",
+      "start": 177.724,
+      "end": 188.548
+    },
+    {
+      "speaker": "A",
+      "text": "所以公司越大他越爽，股東有沒有賺到錢根本不管？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0031_A.mp3",
+      "start": 188.668,
+      "end": 193.732
+    },
+    {
+      "speaker": "B",
+      "text": "對。第三個更狠——自我交易。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0032_B.mp3",
+      "start": 193.852,
+      "end": 197.38,
+      "terms": [
+        {
+          "cn": "自我交易",
+          "en": "Self-Dealing"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "管理層把公司的採購合約發給自己親戚開的公司，價格比市價高一倍。錢從公司流到自己口袋，股東被坑了還不知道。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0033_B.mp3",
+      "start": 197.5,
+      "end": 207.004
+    },
+    {
+      "speaker": "A",
+      "text": "那股東怎麼不直接管？發現了就開除他啊，這不是很簡單嗎？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0034_A.mp3",
+      "start": 207.124,
+      "end": 212.692
+    },
+    {
+      "speaker": "B",
+      "text": "不簡單。一家上市公司可能有幾十萬股東，每人持股零點幾個百分點。誰去盯？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0035_B.mp3",
+      "start": 212.812,
+      "end": 220.564
+    },
+    {
+      "speaker": "B",
+      "text": "大家都覺得別人會去盯，自己等就好。這叫搭便車問題。結果就是沒人盯。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0036_B.mp3",
+      "start": 220.684,
+      "end": 228.076,
+      "terms": [
+        {
+          "cn": "搭便車問題",
+          "en": "Free-Rider Problem"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "啊……就像整層樓的人都在等別人去倒垃圾，最後垃圾堆到天花板上？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0037_A.mp3",
+      "start": 228.196,
+      "end": 234.196
+    },
+    {
+      "speaker": "B",
+      "text": "差不多。所以公司治理需要制度——董事會設審計委員會查帳，薪酬委員會管薪酬，提名委員會管人事。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0038_B.mp3",
+      "start": 234.316,
+      "end": 243.748
+    },
+    {
+      "speaker": "A",
+      "text": "那有這些委員會就沒問題了？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0039_A.mp3",
+      "start": 243.868,
+      "end": 246.676
+    },
+    {
+      "speaker": "B",
+      "text": "有比沒有好。但管理層也會想辦法影響委員會的人選，讓自己人進去。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0040_B.mp3",
+      "start": 246.796,
+      "end": 252.724
+    },
+    {
+      "speaker": "A",
+      "text": "那這不就沒救了？貓抓老鼠永遠抓不完？",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0041_A.mp3",
+      "start": 252.844,
+      "end": 256.9
+    },
+    {
+      "speaker": "B",
+      "text": "你說對了。公司治理不是一勞永逸的事，是持續的博弈。制度能約束大部分，但不能消除全部。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0042_B.mp3",
+      "start": 257.02,
+      "end": 265.564
+    },
+    {
+      "speaker": "B",
+      "text": "股東理論也好，利益相關者理論也好，最終都要靠制度落實，否則就是紙上談兵。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0043_B.mp3",
+      "start": 265.684,
+      "end": 272.26
+    },
+    {
+      "speaker": "A",
+      "text": "所以公司到底是誰的？名義上是股東的，實際上是——",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0044_A.mp3",
+      "start": 272.38,
+      "end": 277.54
+    },
+    {
+      "speaker": "B",
+      "text": "誰在管就是誰的。所以才需要公司治理，不然代理人就變成主人了。",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0045_B.mp3",
+      "start": 277.66,
+      "end": 283.732
+    },
+    {
+      "speaker": "A",
+      "text": "所以說，我買了股票，其實是買了一張「希望別人別坑我」的彩券？咕咕嘎嘎！",
+      "audio_file": "audio/lines/tts_governance_vs_agency_line0046_A.mp3",
+      "start": 283.852,
+      "end": 289.492,
+      "_sfx": "咕咕嘎嘎"
+    }
+  ]
+}

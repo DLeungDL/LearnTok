@@ -1,0 +1,298 @@
+{
+  "id": "ipo_conversion_trends",
+  "title": "公司上市數量：新興市場暴增，發達市場為何銳減？",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "你知道嗎。新興市場上市變多，發達市場卻在減少。",
+      "terms": [
+        {
+          "cn": "新興市場",
+          "en": "Emerging Markets",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        },
+        {
+          "cn": "發達市場",
+          "en": "Developed Markets",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "對，這兩個市場走向完全相反，一個上升一個下降。"
+    },
+    {
+      "speaker": "A",
+      "text": "為什麼新興市場一直增加？因為經濟成長快嗎？"
+    },
+    {
+      "speaker": "B",
+      "text": "經濟快速成長，更多企業達到上市規模。"
+    },
+    {
+      "speaker": "B",
+      "text": "加上金融改革開放，交易所擴容，融資需求旺。",
+      "terms": [
+        {
+          "cn": "金融市場改革",
+          "en": "Financial Market Reform",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:5"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "那發達市場怎麼反而減少？是被併購掉了？"
+    },
+    {
+      "speaker": "B",
+      "text": "併購整合直接消滅上市公司，像科技巨頭收購新創。",
+      "terms": [
+        {
+          "cn": "併購整合",
+          "en": "Mergers and Acquisitions",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:6"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "私募資本增加，企業不必靠IPO也能拿到大資金。",
+      "terms": [
+        {
+          "cn": "私募資本",
+          "en": "Private Capital",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:7"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "所以有些公司寧可保持私有，不想上市？"
+    },
+    {
+      "speaker": "B",
+      "text": "上市要揭露財報，短期業績壓力大，"
+    },
+    {
+      "speaker": "A",
+      "text": "創辦人怕失去控制權。"
+    },
+    {
+      "speaker": "B",
+      "text": "這三大原因並行，共同讓發達市場數量下滑。原來如此，"
+    },
+    {
+      "speaker": "B",
+      "text": "那對投資人影響不小吧。"
+    },
+    {
+      "speaker": "A",
+      "text": "為什麼新興市場的上市公司變多了？",
+      "terms": [
+        {
+          "cn": "新興市場",
+          "en": "Emerging Markets",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "經濟快速成長，更多企業達到上市規模。"
+    },
+    {
+      "speaker": "A",
+      "text": "那改革開放跟這有什麼關係？"
+    },
+    {
+      "speaker": "B",
+      "text": "金融市場改革，交易所擴容，上市更容易。"
+    },
+    {
+      "speaker": "B",
+      "text": "所以是政府放寬限制，公司才變多。"
+    },
+    {
+      "speaker": "A",
+      "text": "對，還有企業融資需求旺盛，需要股權融資。",
+      "terms": [
+        {
+          "cn": "股權融資",
+          "en": "Equity Financing",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "中產階級崛起，消費升級誕生新行業。"
+    },
+    {
+      "speaker": "B",
+      "text": "那國有企業私有化，也是原因之一。",
+      "terms": [
+        {
+          "cn": "私有化",
+          "en": "Privatization",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        },
+        {
+          "cn": "國有企業",
+          "en": "State-Owned Enterprises",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "是的，私有化並上市，一次增加上市公司數量。"
+    },
+    {
+      "speaker": "B",
+      "text": "所以新興市場上市熱潮，是多重因素驅動。"
+    },
+    {
+      "speaker": "B",
+      "text": "你知道嗎。發達市場上市公司變少了。"
+    },
+    {
+      "speaker": "A",
+      "text": "為什麼？公司都不賺錢了嗎？"
+    },
+    {
+      "speaker": "B",
+      "text": "不是。三大原因並行，像三條河匯流。",
+      "terms": [
+        {
+          "cn": "併購整合",
+          "en": "Mergers and Acquisitions",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:2"
+        },
+        {
+          "cn": "私募資本",
+          "en": "Private Capital",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "併購。大魚吃小魚，小魚下市。"
+    },
+    {
+      "speaker": "A",
+      "text": "對，被收購的公司併入，上市公司就少一家。"
+    },
+    {
+      "speaker": "B",
+      "text": "那私募資本是怎麼回事。"
+    },
+    {
+      "speaker": "B",
+      "text": "企業不用上市，私募市場就能融到錢。",
+      "terms": [
+        {
+          "cn": "首次公開募股",
+          "en": "Initial Public Offering, IPO",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "所以公司寧願不上市？"
+    },
+    {
+      "speaker": "B",
+      "text": "對，監管重、壓力大，創辦人怕失控制權。"
+    },
+    {
+      "speaker": "B",
+      "text": "結果公開市場選擇變少，指數更集中。",
+      "terms": [
+        {
+          "cn": "被動投資",
+          "en": "Passive Investing",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:4"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "而且私募市場崛起，機構資金大量轉向。"
+    },
+    {
+      "speaker": "B",
+      "text": "這趨勢對散戶不太妙啊。"
+    },
+    {
+      "speaker": "B",
+      "text": "公司變少，我的投資策略要改嗎。"
+    },
+    {
+      "speaker": "A",
+      "text": "公開市場選擇變少，指數集中在大公司。",
+      "terms": [
+        {
+          "cn": "被動投資",
+          "en": "Passive Investing",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "被動投資影響力擴大，ETF 越來越重要。"
+    },
+    {
+      "speaker": "B",
+      "text": "那主動選股沒用了。",
+      "terms": [
+        {
+          "cn": "主動選股",
+          "en": "Active Stock Picking",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "新興市場機會多，主動選股價值較高。"
+    },
+    {
+      "speaker": "B",
+      "text": "資訊不對稱風險高，得靠主動選股避雷。"
+    },
+    {
+      "speaker": "B",
+      "text": "私募市場崛起，散戶跟不上。"
+    },
+    {
+      "speaker": "A",
+      "text": "機構投資人轉向私募，散戶參與有限。"
+    },
+    {
+      "speaker": "B",
+      "text": "這是長期趨勢，散戶得調整策略。"
+    },
+    {
+      "speaker": "A",
+      "text": "咕咕嘎嘎！投資也要隨趨勢變通！"
+    }
+  ]
+}

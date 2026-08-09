@@ -1,0 +1,587 @@
+{
+  "id": "liquidity_sources_deterioration_ratios",
+  "title": "公司賺錢為什麼會倒閉？流動性的生死線",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "bgm": {
+    "file": "bgm/bgm_sacred_play_secret_place.mp3",
+    "volume": 0.12
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "公司帳面上賺錢，竟然會倒閉？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0001_A.mp3",
+      "start": 0.1,
+      "end": 3.268
+    },
+    {
+      "speaker": "B",
+      "text": "不是開玩笑。帳面賺錢但現金不夠，照樣破產。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0002_B.mp3",
+      "start": 3.388,
+      "end": 8.308
+    },
+    {
+      "speaker": "A",
+      "text": "現金不夠…那不就跟去買珍奶發現沒帶錢包一樣？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0003_A.mp3",
+      "start": 8.428,
+      "end": 12.82
+    },
+    {
+      "speaker": "B",
+      "text": "差不多，但公司沒錢的後果可嚴重多了。這就叫流動性。",
+      "terms": [
+        {
+          "cn": "流動性",
+          "en": "Liquidity"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0004_B.mp3",
+      "start": 12.94,
+      "end": 18.436
+    },
+    {
+      "speaker": "A",
+      "text": "流動性…听起來像水管道，哪裡塞住就哪裡出問題？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0005_A.mp3",
+      "start": 18.556,
+      "end": 23.356
+    },
+    {
+      "speaker": "B",
+      "text": "差不多是這個意思。公司要活下去，得有現金進來。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0006_B.mp3",
+      "start": 23.476,
+      "end": 28.108
+    },
+    {
+      "speaker": "B",
+      "text": "主要來源有三個。第一，現金與有價證券。",
+      "terms": [
+        {
+          "cn": "現金與有價證券",
+          "en": "Cash and Marketable Securities"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0007_B.mp3",
+      "start": 28.228,
+      "end": 32.932
+    },
+    {
+      "speaker": "A",
+      "text": "就是公司的存款和可以馬上賣掉的東西？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0008_A.mp3",
+      "start": 33.052,
+      "end": 36.676
+    },
+    {
+      "speaker": "B",
+      "text": "對，像國庫券這種，賣掉不會虧多少。第二個來源是借款。",
+      "terms": [
+        {
+          "cn": "國庫券",
+          "en": "Treasury Bills"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0009_B.mp3",
+      "start": 36.796,
+      "end": 42.724
+    },
+    {
+      "speaker": "B",
+      "text": "向銀行借錢、用供應商給的付款寬限期。這叫貿易信用。",
+      "terms": [
+        {
+          "cn": "貿易信用",
+          "en": "Trade Credit"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0010_B.mp3",
+      "start": 42.844,
+      "end": 48.148
+    },
+    {
+      "speaker": "A",
+      "text": "供應商給寬限期？那不就是說「下個月再付」？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0011_A.mp3",
+      "start": 48.268,
+      "end": 52.42
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯，等於免息的短期融資。第三個來源是業務現金流。",
+      "terms": [
+        {
+          "cn": "業務現金流",
+          "en": "Cash Flow from the Business"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0012_B.mp3",
+      "start": 52.54,
+      "end": 57.964
+    },
+    {
+      "speaker": "A",
+      "text": "就是公司自己賺的錢囉？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0013_A.mp3",
+      "start": 58.084,
+      "end": 60.556
+    },
+    {
+      "speaker": "B",
+      "text": "對。分兩種：營運現金流和自由現金流。",
+      "terms": [
+        {
+          "cn": "營運現金流",
+          "en": "CFO"
+        },
+        {
+          "cn": "自由現金流",
+          "en": "Free Cash Flow"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0014_B.mp3",
+      "start": 60.676,
+      "end": 65.764
+    },
+    {
+      "speaker": "B",
+      "text": "營運現金流是日常生意賺的錢。自由現金流是扣掉設備投資後剩的。",
+      "terms": [
+        {
+          "cn": "資本支出",
+          "en": "Capital Expenditure"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0015_B.mp3",
+      "start": 65.884,
+      "end": 72.124
+    },
+    {
+      "speaker": "A",
+      "text": "扣掉設備錢…那就像我每月薪水扣掉手機費，剩下的才是真正能花的？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0016_A.mp3",
+      "start": 72.244,
+      "end": 78.196
+    },
+    {
+      "speaker": "B",
+      "text": "你這個比喻很好。自由現金流越高，公司財務彈性越大。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0017_B.mp3",
+      "start": 78.316,
+      "end": 83.98
+    },
+    {
+      "speaker": "A",
+      "text": "那公司為什麼不多留點現金，不就安全了？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0018_A.mp3",
+      "start": 84.1,
+      "end": 87.988
+    },
+    {
+      "speaker": "B",
+      "text": "因為現金閒置會有機會成本。錢放在那不生息，就是損失。",
+      "terms": [
+        {
+          "cn": "機會成本",
+          "en": "Opportunity Cost"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0019_B.mp3",
+      "start": 88.108,
+      "end": 93.892
+    },
+    {
+      "speaker": "A",
+      "text": "所以太多現金也不好，太少又會死？這不是兩難嗎？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0020_A.mp3",
+      "start": 94.012,
+      "end": 99.004
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯。當主要來源不夠用，公司就得動用次要來源。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0021_B.mp3",
+      "start": 99.124,
+      "end": 103.996
+    },
+    {
+      "speaker": "A",
+      "text": "次要來源？聽起來像是絕招。",
+      "terms": [
+        {
+          "cn": "次要流動性來源",
+          "en": "Secondary Liquidity Sources"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0022_A.mp3",
+      "start": 104.116,
+      "end": 107.428
+    },
+    {
+      "speaker": "B",
+      "text": "比如暫停股利、延遲資本支出、發行新股、出售資產。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0023_B.mp3",
+      "start": 107.548,
+      "end": 112.972
+    },
+    {
+      "speaker": "A",
+      "text": "暫停股利？股東不會罵？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0024_A.mp3",
+      "start": 113.092,
+      "end": 116.26
+    },
+    {
+      "speaker": "B",
+      "text": "當然會。暫停股利會傳遞負面訊號，股價通常會跌。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0025_B.mp3",
+      "start": 116.38,
+      "end": 121.732
+    },
+    {
+      "speaker": "B",
+      "text": "出售資產更痛。急著賣，買方會壓價，這叫流動性折價。",
+      "terms": [
+        {
+          "cn": "流動性折價",
+          "en": "Liquidity Discount"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0026_B.mp3",
+      "start": 121.852,
+      "end": 127.66
+    },
+    {
+      "speaker": "A",
+      "text": "就像急著賣二手手機，買家知道你缺錢就狠狠壓價？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0027_A.mp3",
+      "start": 127.78,
+      "end": 132.412
+    },
+    {
+      "speaker": "B",
+      "text": "一模一樣。這些成本加起來叫清算成本。",
+      "terms": [
+        {
+          "cn": "清算成本",
+          "en": "Liquidation Costs"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0028_B.mp3",
+      "start": 132.532,
+      "end": 136.996
+    },
+    {
+      "speaker": "B",
+      "text": "包含仲介費用，和因為資產不夠流動而跌價的損失。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0029_B.mp3",
+      "start": 137.116,
+      "end": 141.964
+    },
+    {
+      "speaker": "A",
+      "text": "最後呢？資產賣光了還是不夠怎麼辦？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0030_A.mp3",
+      "start": 142.084,
+      "end": 146.068
+    },
+    {
+      "speaker": "B",
+      "text": "那就只能申請破產保護了。股東權益可能歸零。",
+      "terms": [
+        {
+          "cn": "破產保護",
+          "en": "Bankruptcy Protection"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0031_B.mp3",
+      "start": 146.188,
+      "end": 150.532
+    },
+    {
+      "speaker": "A",
+      "text": "等等，公司不是有現金和薪水嗎？怎麼會走到這一步？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0032_A.mp3",
+      "start": 150.652,
+      "end": 155.812
+    },
+    {
+      "speaker": "B",
+      "text": "因為流動性會惡化。有兩股力量在抽走現金。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0033_B.mp3",
+      "start": 155.932,
+      "end": 160.588
+    },
+    {
+      "speaker": "B",
+      "text": "第一種叫流動性拖累，現金進不來。",
+      "terms": [
+        {
+          "cn": "流動性拖累",
+          "en": "Drags on Liquidity"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0034_B.mp3",
+      "start": 160.708,
+      "end": 164.284
+    },
+    {
+      "speaker": "A",
+      "text": "現金進不來？客戶不付錢？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0035_A.mp3",
+      "start": 164.404,
+      "end": 167.74
+    },
+    {
+      "speaker": "B",
+      "text": "對，應收帳款收不回來。客戶拖延付款，從三十天拖到九十天。",
+      "terms": [
+        {
+          "cn": "應收帳款",
+          "en": "Receivables"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0036_B.mp3",
+      "start": 167.86,
+      "end": 174.412
+    },
+    {
+      "speaker": "B",
+      "text": "還有過時庫存，賣不出去，錢卡在倉庫裡。",
+      "terms": [
+        {
+          "cn": "過時庫存",
+          "en": "Obsolete Inventory"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0037_B.mp3",
+      "start": 174.532,
+      "end": 178.828
+    },
+    {
+      "speaker": "A",
+      "text": "就像舊型號手機賣不掉，放在抽屜吃灰？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0038_A.mp3",
+      "start": 178.948,
+      "end": 182.788
+    },
+    {
+      "speaker": "B",
+      "text": "一模一樣。第三個是借款限制，銀行拒絕展延貸款。",
+      "terms": [
+        {
+          "cn": "借款限制",
+          "en": "Borrowing Constraints"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0039_B.mp3",
+      "start": 182.908,
+      "end": 188.116
+    },
+    {
+      "speaker": "A",
+      "text": "那現金進不來，出去的速度勒？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0040_A.mp3",
+      "start": 188.236,
+      "end": 191.14
+    },
+    {
+      "speaker": "B",
+      "text": "這就是第二種力量，流動性拉拽，現金出得快。",
+      "terms": [
+        {
+          "cn": "流動性拉拽",
+          "en": "Pulls on Liquidity"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0041_B.mp3",
+      "start": 191.26,
+      "end": 195.772
+    },
+    {
+      "speaker": "B",
+      "text": "供應商縮短付款期，從六十天變三十天。銀行也縮減信用額度。",
+      "terms": [
+        {
+          "cn": "信用額度",
+          "en": "Line of Credit"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0042_B.mp3",
+      "start": 195.892,
+      "end": 201.94
+    },
+    {
+      "speaker": "A",
+      "text": "進來的變慢，出去的變快？這不是會被抽乾？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0043_A.mp3",
+      "start": 202.06,
+      "end": 206.356
+    },
+    {
+      "speaker": "B",
+      "text": "正是如此。兩股力量同時發生，就形成惡性循環。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0044_B.mp3",
+      "start": 206.476,
+      "end": 211.732
+    },
+    {
+      "speaker": "B",
+      "text": "現金不夠就延遲付款，供應商就更縮額度，越縮越沒錢。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0045_B.mp3",
+      "start": 211.852,
+      "end": 217.468
+    },
+    {
+      "speaker": "A",
+      "text": "就像漏水的水桶，補不快就越漏越多？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0046_A.mp3",
+      "start": 217.588,
+      "end": 221.068
+    },
+    {
+      "speaker": "B",
+      "text": "差不多。那怎麼衡量公司的流動性夠不夠呢？用比率。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0047_B.mp3",
+      "start": 221.188,
+      "end": 226.372
+    },
+    {
+      "speaker": "B",
+      "text": "第一個，流動比率。流動資產除以流動負債。",
+      "terms": [
+        {
+          "cn": "流動比率",
+          "en": "Current Ratio"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0048_B.mp3",
+      "start": 226.492,
+      "end": 231.22
+    },
+    {
+      "speaker": "A",
+      "text": "這個最寬鬆，把所有東西都算進去？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0049_A.mp3",
+      "start": 231.34,
+      "end": 234.724
+    },
+    {
+      "speaker": "B",
+      "text": "對，但包括庫存，庫存不一定能馬上變現。所以有第二個。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0050_B.mp3",
+      "start": 234.844,
+      "end": 240.724
+    },
+    {
+      "speaker": "B",
+      "text": "速動比率，扣掉庫存，只算現金、證券和應收帳款。",
+      "terms": [
+        {
+          "cn": "速動比率",
+          "en": "Quick Ratio"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0051_B.mp3",
+      "start": 240.844,
+      "end": 246.508
+    },
+    {
+      "speaker": "A",
+      "text": "也叫酸性測試？名字聽起來很嚇人。",
+      "terms": [
+        {
+          "cn": "酸性測試",
+          "en": "Acid-Test Ratio"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0052_A.mp3",
+      "start": 246.628,
+      "end": 250.396
+    },
+    {
+      "speaker": "B",
+      "text": "名字嚇人而已，就是更嚴格的考試。最嚴格的是現金比率。",
+      "terms": [
+        {
+          "cn": "現金比率",
+          "en": "Cash Ratio"
+        }
+      ],
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0053_B.mp3",
+      "start": 250.516,
+      "end": 256.252
+    },
+    {
+      "speaker": "B",
+      "text": "只算現金和有價證券，其他都不算。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0054_B.mp3",
+      "start": 256.372,
+      "end": 259.828
+    },
+    {
+      "speaker": "A",
+      "text": "那這個比率越高越好囉？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0055_A.mp3",
+      "start": 259.948,
+      "end": 262.372
+    },
+    {
+      "speaker": "B",
+      "text": "一般來說是，但太高也有問題。現金太多代表閒置，沒投資。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0056_B.mp3",
+      "start": 262.492,
+      "end": 268.564
+    },
+    {
+      "speaker": "A",
+      "text": "就像你存了一堆錢在那不生息，但什麼都不買？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0057_A.mp3",
+      "start": 268.684,
+      "end": 272.788
+    },
+    {
+      "speaker": "B",
+      "text": "對，機會成本太高。可能反映管理層太保守，不敢投資。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0058_B.mp3",
+      "start": 272.908,
+      "end": 278.236
+    },
+    {
+      "speaker": "A",
+      "text": "所以流動性就像呼吸，太快會喘，太慢會撐？",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0059_A.mp3",
+      "start": 278.356,
+      "end": 282.892
+    },
+    {
+      "speaker": "B",
+      "text": "很好的比喻。流動性管理就是找到那個剛剛好的節奏。",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0060_B.mp3",
+      "start": 283.012,
+      "end": 287.812
+    },
+    {
+      "speaker": "A",
+      "text": "剛剛好…公司在賺錢和活下去之間，原來就只差一口氣啊，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_liquidity_sources_deterioration_ratios_line0061_A.mp3",
+      "start": 287.932,
+      "end": 293.164
+    }
+  ]
+}

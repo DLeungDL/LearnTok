@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learntok-ai"
+version = "0.1.0"
+description = "LearnTok AI — 從學習素材生成雙人對話科普影片的自動化管線"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []          # 核心零依賴：CLI + validate 所需（保持極輕）
+
+[project.optional-dependencies]
+tts  = ["edge-tts==7.2.8"]
+llm  = ["openai==2.52.0", "python-dotenv==1.2.2"]
+rag  = ["chromadb==1.5.9", "sentence-transformers==5.6.1"]
+rvc  = ["rvc-python==0.1.5", "faiss-cpu==1.14.3", "librosa==0.11.0",
+        "pyworld==0.3.5", "torchcrepe==0.0.24", "praat-parselmouth==0.4.7",
+        "hydra-core==1.3.4", "omegaconf==2.3.1", "loguru==0.7.3",
+        "python-multipart==0.0.32", "uvicorn==0.51.0", "ffmpeg-python==0.2.0",
+        "av==18.0.0", "bitarray==3.9.2", "sacrebleu==2.6.0"]
+all  = ["learntok-ai[tts,llm,rag,rvc]"]
+
+[project.scripts]
+learntok = "learntok.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+learntok = ["templates/*.md"]

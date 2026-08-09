@@ -1,0 +1,969 @@
+{
+  "id": "governance_mechanisms_esg",
+  "title": "公司治理機制與ESG：誰在盯著管理層？",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "bgm": {
+    "volume": 0.12
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "上次俺們聊到管理層可能坑股東",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0001_B.mp3",
+      "start": 0.1,
+      "end": 3.46
+    },
+    {
+      "speaker": "B",
+      "text": "那你覺得，誰來盯著他們？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0002_B.mp3",
+      "start": 3.58,
+      "end": 6.292
+    },
+    {
+      "speaker": "A",
+      "text": "股東吧？畢竟是自己的錢",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0003_A.mp3",
+      "start": 6.412,
+      "end": 9.316
+    },
+    {
+      "speaker": "B",
+      "text": "股東只是其中一環",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0004_B.mp3",
+      "start": 9.436,
+      "end": 11.596
+    },
+    {
+      "speaker": "B",
+      "text": "公司治理的制約機制是一整張網",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0005_B.mp3",
+      "start": 11.716,
+      "end": 14.884,
+      "terms": [
+        {
+          "cn": "公司治理",
+          "en": "Corporate Governance"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "俺從最基礎的講起",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0006_B.mp3",
+      "start": 15.004,
+      "end": 17.26
+    },
+    {
+      "speaker": "B",
+      "text": "公司報告與透明度",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0007_B.mp3",
+      "start": 17.38,
+      "end": 19.66,
+      "terms": [
+        {
+          "cn": "公司報告與透明度",
+          "en": "Corporate Reporting and Transparency"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "公司要定期出季報、年報",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0008_B.mp3",
+      "start": 19.78,
+      "end": 22.612
+    },
+    {
+      "speaker": "B",
+      "text": "還要請外部獨立審計師查帳",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0009_B.mp3",
+      "start": 22.732,
+      "end": 25.708,
+      "terms": [
+        {
+          "cn": "獨立審計師",
+          "en": "Audit"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "確保數字是真的",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0010_B.mp3",
+      "start": 25.828,
+      "end": 27.82
+    },
+    {
+      "speaker": "B",
+      "text": "如果財報造假，投資者怎麼做理性決策？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0011_B.mp3",
+      "start": 27.94,
+      "end": 31.756
+    },
+    {
+      "speaker": "B",
+      "text": "所以透明度是整個資本市場的基礎",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0012_B.mp3",
+      "start": 31.876,
+      "end": 35.188
+    },
+    {
+      "speaker": "A",
+      "text": "那如果審計師跟管理層勾結呢？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0013_A.mp3",
+      "start": 35.308,
+      "end": 38.452
+    },
+    {
+      "speaker": "A",
+      "text": "查帳的不是拿公司的錢嗎？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0014_A.mp3",
+      "start": 38.572,
+      "end": 41.26
+    },
+    {
+      "speaker": "B",
+      "text": "好問題",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0015_B.mp3",
+      "start": 41.38,
+      "end": 43.156
+    },
+    {
+      "speaker": "B",
+      "text": "所以審計委員會要由獨立董事組成",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0016_B.mp3",
+      "start": 43.276,
+      "end": 47.044,
+      "terms": [
+        {
+          "cn": "審計委員會",
+          "en": "Audit Committee"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "不能跟管理層有利益關係",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0017_B.mp3",
+      "start": 47.164,
+      "end": 49.876
+    },
+    {
+      "speaker": "B",
+      "text": "再來是股東機制",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0018_B.mp3",
+      "start": 49.996,
+      "end": 51.868
+    },
+    {
+      "speaker": "B",
+      "text": "股東可以透過股東大會投票",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0019_B.mp3",
+      "start": 51.988,
+      "end": 54.844,
+      "terms": [
+        {
+          "cn": "股東大會",
+          "en": "Shareholder Meetings"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "年度股東大會選董事、審薪酬",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0020_B.mp3",
+      "start": 54.964,
+      "end": 58.372,
+      "terms": [
+        {
+          "cn": "年度股東大會",
+          "en": "AGM"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "臨時股東大會處理併購、換董事這種大事",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0021_B.mp3",
+      "start": 58.492,
+      "end": 62.668,
+      "terms": [
+        {
+          "cn": "臨時股東大會",
+          "en": "EGM"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "但如果我是散戶，只持有零點幾個百分點",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0022_A.mp3",
+      "start": 62.788,
+      "end": 66.652
+    },
+    {
+      "speaker": "A",
+      "text": "我去投票有用嗎？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0023_A.mp3",
+      "start": 66.772,
+      "end": 68.74
+    },
+    {
+      "speaker": "B",
+      "text": "說實話，大部分散戶根本不去",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0024_B.mp3",
+      "start": 68.86,
+      "end": 72.124
+    },
+    {
+      "speaker": "B",
+      "text": "這就是上次聊的搭便車問題",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0025_B.mp3",
+      "start": 72.244,
+      "end": 75.556
+    },
+    {
+      "speaker": "B",
+      "text": "結果管理層反而能用少數票通過決議",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0026_B.mp3",
+      "start": 75.676,
+      "end": 79.252
+    },
+    {
+      "speaker": "B",
+      "text": "但機構投資者不一樣",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0027_B.mp3",
+      "start": 79.372,
+      "end": 81.7
+    },
+    {
+      "speaker": "B",
+      "text": "他們會搞股東積極主義",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0028_B.mp3",
+      "start": 81.82,
+      "end": 84.244,
+      "terms": [
+        {
+          "cn": "股東積極主義",
+          "en": "Shareholder Activism"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "不是只投票，而是主動介入",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0029_B.mp3",
+      "start": 84.364,
+      "end": 87.412
+    },
+    {
+      "speaker": "B",
+      "text": "公開提案、爭取董事席位、公開批評管理層",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0030_B.mp3",
+      "start": 87.532,
+      "end": 92.044
+    },
+    {
+      "speaker": "B",
+      "text": "像卡爾伊坎就逼蘋果擴大股票回購",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0031_B.mp3",
+      "start": 92.164,
+      "end": 95.5,
+      "terms": [
+        {
+          "cn": "卡爾伊坎",
+          "en": "Carl Icahn"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "艾利歐特推動過AT&T調整策略",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0032_B.mp3",
+      "start": 95.62,
+      "end": 99.244,
+      "terms": [
+        {
+          "cn": "艾利歐特",
+          "en": "Elliott Management"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "所以大股東可以當壞人",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0033_A.mp3",
+      "start": 99.364,
+      "end": 102.028
+    },
+    {
+      "speaker": "A",
+      "text": "那小股東呢？被坑了只能認了？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0034_A.mp3",
+      "start": 102.148,
+      "end": 105.364
+    },
+    {
+      "speaker": "B",
+      "text": "還有法院",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0035_B.mp3",
+      "start": 105.484,
+      "end": 107.26
+    },
+    {
+      "speaker": "B",
+      "text": "股東可以提派生訴訟",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0036_B.mp3",
+      "start": 107.38,
+      "end": 109.756,
+      "terms": [
+        {
+          "cn": "派生訴訟",
+          "en": "Derivative Lawsuit"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "就是代表公司告管理層",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0037_B.mp3",
+      "start": 109.876,
+      "end": 112.564
+    },
+    {
+      "speaker": "B",
+      "text": "賠償歸公司，不是歸股東個人",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0038_B.mp3",
+      "start": 112.684,
+      "end": 115.612
+    },
+    {
+      "speaker": "B",
+      "text": "等於小股東替公司討回被偷的錢",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0039_B.mp3",
+      "start": 115.732,
+      "end": 118.9
+    },
+    {
+      "speaker": "A",
+      "text": "那如果這些都沒用呢？管理層鐵了心要坑人？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0040_A.mp3",
+      "start": 119.02,
+      "end": 123.676
+    },
+    {
+      "speaker": "B",
+      "text": "還有外部市場——公司收購",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0041_B.mp3",
+      "start": 123.796,
+      "end": 126.58,
+      "terms": [
+        {
+          "cn": "公司收購",
+          "en": "Corporate Takeovers"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "如果公司股價太低，外部投資者可以直接收購",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0042_B.mp3",
+      "start": 126.7,
+      "end": 130.804
+    },
+    {
+      "speaker": "B",
+      "text": "收購成功第一件事就是換掉管理層",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0043_B.mp3",
+      "start": 130.924,
+      "end": 134.452
+    },
+    {
+      "speaker": "B",
+      "text": "這就是為什麼管理層怕敵意收購",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0044_B.mp3",
+      "start": 134.572,
+      "end": 137.74,
+      "terms": [
+        {
+          "cn": "敵意收購",
+          "en": "Hostile Takeover"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "等等，那管理層不能自衛嗎？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0045_A.mp3",
+      "start": 137.86,
+      "end": 140.596
+    },
+    {
+      "speaker": "A",
+      "text": "總不能坐著等被踢吧？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0046_A.mp3",
+      "start": 140.716,
+      "end": 143.116
+    },
+    {
+      "speaker": "B",
+      "text": "他們當然會",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0047_B.mp3",
+      "start": 143.236,
+      "end": 145.012
+    },
+    {
+      "speaker": "B",
+      "text": "最經典的叫毒丸計畫",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0048_B.mp3",
+      "start": 145.132,
+      "end": 148.036,
+      "terms": [
+        {
+          "cn": "毒丸計畫",
+          "en": "Poison Pill"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "當有人持股超過門檻，比如百分之十五",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0049_B.mp3",
+      "start": 148.156,
+      "end": 151.996
+    },
+    {
+      "speaker": "B",
+      "text": "公司就向其他股東低價增發新股",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0050_B.mp3",
+      "start": 152.116,
+      "end": 155.764
+    },
+    {
+      "speaker": "B",
+      "text": "收購方的持股比例被稀釋，收購成本暴漲",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0051_B.mp3",
+      "start": 155.884,
+      "end": 160.012
+    },
+    {
+      "speaker": "B",
+      "text": "等於把毒丸塞進收購方嘴裡",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0052_B.mp3",
+      "start": 160.132,
+      "end": 162.844
+    },
+    {
+      "speaker": "A",
+      "text": "那不是在保護管理層的位子，而不是保護股東？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0053_A.mp3",
+      "start": 162.964,
+      "end": 166.828
+    },
+    {
+      "speaker": "B",
+      "text": "你說對了一半",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0054_B.mp3",
+      "start": 166.948,
+      "end": 168.748
+    },
+    {
+      "speaker": "B",
+      "text": "毒丸可以擋低價收購",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0055_B.mp3",
+      "start": 168.868,
+      "end": 171.316
+    },
+    {
+      "speaker": "B",
+      "text": "但也可能被管理層拿來保自己",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0056_B.mp3",
+      "start": 171.436,
+      "end": 174.028
+    },
+    {
+      "speaker": "B",
+      "text": "還有一招叫錯開董事會選舉",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0057_B.mp3",
+      "start": 174.148,
+      "end": 177.004,
+      "terms": [
+        {
+          "cn": "錯開董事會選舉",
+          "en": "Staggered Board Elections"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "每年只改選三分之一董事",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0058_B.mp3",
+      "start": 177.124,
+      "end": 179.908
+    },
+    {
+      "speaker": "B",
+      "text": "就算收購方買到多數股份",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0059_B.mp3",
+      "start": 180.028,
+      "end": 182.74
+    },
+    {
+      "speaker": "B",
+      "text": "也要等兩三年才能完全控制董事會",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0060_B.mp3",
+      "start": 182.86,
+      "end": 186.34
+    },
+    {
+      "speaker": "A",
+      "text": "所以這些防禦措施到底是保護公司還是保護管理層？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0061_A.mp3",
+      "start": 186.46,
+      "end": 191.428
+    },
+    {
+      "speaker": "B",
+      "text": "兩面刃",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0062_B.mp3",
+      "start": 191.548,
+      "end": 193.324
+    },
+    {
+      "speaker": "B",
+      "text": "擋掉惡意收購是好事",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0063_B.mp3",
+      "start": 193.444,
+      "end": 195.892
+    },
+    {
+      "speaker": "B",
+      "text": "但如果管理層爛，這些措施反而讓你換不掉他",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0064_B.mp3",
+      "start": 196.012,
+      "end": 200.116
+    },
+    {
+      "speaker": "B",
+      "text": "除了股東，還有其他人會盯著管理層",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0065_B.mp3",
+      "start": 200.236,
+      "end": 203.932
+    },
+    {
+      "speaker": "B",
+      "text": "債權人透過債券契約限制公司行為",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0066_B.mp3",
+      "start": 204.052,
+      "end": 207.82
+    },
+    {
+      "speaker": "B",
+      "text": "員工透過勞動法規和工會制衡",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0067_B.mp3",
+      "start": 207.94,
+      "end": 211.276
+    },
+    {
+      "speaker": "B",
+      "text": "客戶和供應商透過合約施壓",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0068_B.mp3",
+      "start": 211.396,
+      "end": 214.54
+    },
+    {
+      "speaker": "B",
+      "text": "政府透過法規強制",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0069_B.mp3",
+      "start": 214.66,
+      "end": 217.18
+    },
+    {
+      "speaker": "B",
+      "text": "社群媒體透過聲譽風險施壓",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0070_B.mp3",
+      "start": 217.3,
+      "end": 220.54,
+      "terms": [
+        {
+          "cn": "聲譽風險",
+          "en": "Reputational Risk"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "哇，所以整個社會都在盯著管理層？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0071_A.mp3",
+      "start": 220.66,
+      "end": 224.332
+    },
+    {
+      "speaker": "A",
+      "text": "那治理不好的公司會怎樣？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0072_A.mp3",
+      "start": 224.452,
+      "end": 227.02
+    },
+    {
+      "speaker": "B",
+      "text": "三個風險",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0073_B.mp3",
+      "start": 227.14,
+      "end": 228.916
+    },
+    {
+      "speaker": "B",
+      "text": "第一，控制系統薄弱",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0074_B.mp3",
+      "start": 229.036,
+      "end": 231.7,
+      "terms": [
+        {
+          "cn": "控制系統薄弱",
+          "en": "Weak Control Systems"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "審計失效、風險沒被發現",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0075_B.mp3",
+      "start": 231.82,
+      "end": 235.06
+    },
+    {
+      "speaker": "B",
+      "text": "第二，錯誤決策",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0076_B.mp3",
+      "start": 235.18,
+      "end": 237.316
+    },
+    {
+      "speaker": "B",
+      "text": "管理層怕風險，放棄了對股東有利的好投資",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0077_B.mp3",
+      "start": 237.436,
+      "end": 241.396
+    },
+    {
+      "speaker": "B",
+      "text": "第三，違約與破產風險",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0078_B.mp3",
+      "start": 241.516,
+      "end": 244.324,
+      "terms": [
+        {
+          "cn": "違約與破產風險",
+          "en": "Default and Bankruptcy Risks"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "過度借錢，現金流斷了，公司倒閉",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0079_B.mp3",
+      "start": 244.444,
+      "end": 248.14
+    },
+    {
+      "speaker": "B",
+      "text": "這三個是連鎖的",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0080_B.mp3",
+      "start": 248.26,
+      "end": 250.228
+    },
+    {
+      "speaker": "B",
+      "text": "控制薄弱導致錯誤決策",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0081_B.mp3",
+      "start": 250.348,
+      "end": 253.18
+    },
+    {
+      "speaker": "B",
+      "text": "錯誤決策導致財務惡化，最後破產",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0082_B.mp3",
+      "start": 253.3,
+      "end": 256.804
+    },
+    {
+      "speaker": "A",
+      "text": "雷曼兄弟就是這樣？控制失效，然後全垮了？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0083_A.mp3",
+      "start": 256.924,
+      "end": 261.34
+    },
+    {
+      "speaker": "B",
+      "text": "對，過度槓桿加上流動性枯竭",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0084_B.mp3",
+      "start": 261.46,
+      "end": 265.3
+    },
+    {
+      "speaker": "B",
+      "text": "就是治理失效的教科書案例",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0085_B.mp3",
+      "start": 265.42,
+      "end": 268.324
+    },
+    {
+      "speaker": "B",
+      "text": "這也是為什麼投資人越來越看重ESG",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0086_B.mp3",
+      "start": 268.444,
+      "end": 272.308
+    },
+    {
+      "speaker": "B",
+      "text": "ESG不是做慈善，是風險管理",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0087_B.mp3",
+      "start": 272.428,
+      "end": 275.788
+    },
+    {
+      "speaker": "A",
+      "text": "ESG？環境、社會、治理？這跟公司治理有什麼關係？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0088_A.mp3",
+      "start": 275.908,
+      "end": 282.268
+    },
+    {
+      "speaker": "B",
+      "text": "G就是治理，你剛才學的那些都是G",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0089_B.mp3",
+      "start": 282.388,
+      "end": 286.636
+    },
+    {
+      "speaker": "B",
+      "text": "但E和S近年來越來越重要",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0090_B.mp3",
+      "start": 286.756,
+      "end": 289.66
+    },
+    {
+      "speaker": "B",
+      "text": "環境因素最大的風險是氣候變遷",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0091_B.mp3",
+      "start": 289.78,
+      "end": 293.188,
+      "terms": [
+        {
+          "cn": "環境因素",
+          "en": "E"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "分兩種：物理風險和轉型風險",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0092_B.mp3",
+      "start": 293.308,
+      "end": 296.764
+    },
+    {
+      "speaker": "B",
+      "text": "物理風險是極端天氣直接損壞資產",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0093_B.mp3",
+      "start": 296.884,
+      "end": 300.556,
+      "terms": [
+        {
+          "cn": "物理風險",
+          "en": "Physical Risk"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "颱風砸了工廠、洪水淹了倉庫",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0094_B.mp3",
+      "start": 300.676,
+      "end": 304.012
+    },
+    {
+      "speaker": "B",
+      "text": "轉型風險是社會轉向低碳經濟的過程中，舊資產變廢物",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0095_B.mp3",
+      "start": 304.132,
+      "end": 309.46,
+      "terms": [
+        {
+          "cn": "轉型風險",
+          "en": "Transition Risk"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "舊資產變廢物？你是說燃煤電廠以後不能用了？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0096_A.mp3",
+      "start": 309.58,
+      "end": 313.996
+    },
+    {
+      "speaker": "B",
+      "text": "對。這叫擱淺資產",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0097_B.mp3",
+      "start": 314.116,
+      "end": 317.116,
+      "terms": [
+        {
+          "cn": "擱淺資產",
+          "en": "Stranded Assets"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "石油公司的油田儲量可能永遠開採不了",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0098_B.mp3",
+      "start": 317.236,
+      "end": 320.932
+    },
+    {
+      "speaker": "B",
+      "text": "因為政策不允許了",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0099_B.mp3",
+      "start": 321.052,
+      "end": 323.044
+    },
+    {
+      "speaker": "B",
+      "text": "社會因素管的是員工權益、客戶保護、社區關係",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0100_B.mp3",
+      "start": 323.164,
+      "end": 327.7,
+      "terms": [
+        {
+          "cn": "社會因素",
+          "en": "S"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "蘋果供應鏈出過強迫勞動事件，那就是S出問題",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0101_B.mp3",
+      "start": 327.82,
+      "end": 332.644
+    },
+    {
+      "speaker": "A",
+      "text": "所以ESG三個字母，其實就是在問",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0102_A.mp3",
+      "start": 332.764,
+      "end": 336.724
+    },
+    {
+      "speaker": "A",
+      "text": "這公司會不會搞砸環境、搞砸社會、搞砸治理？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0103_A.mp3",
+      "start": 336.844,
+      "end": 341.284
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0104_B.mp3",
+      "start": 341.404,
+      "end": 343.18
+    },
+    {
+      "speaker": "B",
+      "text": "而且G最早被納入投資分析",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0105_B.mp3",
+      "start": 343.3,
+      "end": 346.756
+    },
+    {
+      "speaker": "B",
+      "text": "因為安隆和世界通訊的會計醜聞太震撼了",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0106_B.mp3",
+      "start": 346.876,
+      "end": 350.716,
+      "terms": [
+        {
+          "cn": "安隆",
+          "en": "Enron"
+        },
+        {
+          "cn": "世界通訊",
+          "en": "WorldCom"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "E和S是近年才追上來的",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0107_B.mp3",
+      "start": 350.836,
+      "end": 353.86
+    },
+    {
+      "speaker": "B",
+      "text": "因為氣候政策和社會運動的壓力越來越大",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0108_B.mp3",
+      "start": 353.98,
+      "end": 357.868
+    },
+    {
+      "speaker": "A",
+      "text": "所以一間公司治理好不好，不只是內部的事？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0109_A.mp3",
+      "start": 357.988,
+      "end": 362.068
+    },
+    {
+      "speaker": "A",
+      "text": "還要看它對環境、社會的影響？",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0110_A.mp3",
+      "start": 362.188,
+      "end": 365.284
+    },
+    {
+      "speaker": "B",
+      "text": "對。治理不好，公司可能倒閉",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0111_B.mp3",
+      "start": 365.404,
+      "end": 369.052
+    },
+    {
+      "speaker": "B",
+      "text": "ESG做不好，公司可能被市場淘汰",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0112_B.mp3",
+      "start": 369.172,
+      "end": 372.604
+    },
+    {
+      "speaker": "B",
+      "text": "都是生存問題",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0113_B.mp3",
+      "start": 372.724,
+      "end": 374.692
+    },
+    {
+      "speaker": "A",
+      "text": "所以說，投資一家公司，其實是在賭它的管理層守不守規矩？咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_governance_mechanisms_esg_line0114_A.mp3",
+      "start": 374.812,
+      "end": 380.284
+    }
+  ]
+}

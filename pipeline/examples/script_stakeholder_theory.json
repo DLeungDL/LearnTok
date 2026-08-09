@@ -1,0 +1,377 @@
+{
+  "id": "stakeholder_theory",
+  "title": "公司治理的兩大陣營：股東至上還是眾生平等？",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "等等，公司到底算誰的？股東的嗎？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0001_A.mp3",
+      "start": 0.1,
+      "end": 3.868
+    },
+    {
+      "speaker": "B",
+      "text": "公司治理規範股東、董事會和管理層。",
+      "terms": [
+        {
+          "cn": "公司治理",
+          "en": "Corporate Governance",
+          "source": "materials/公司發行人/4.1 公司治理和利益相關方理論.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0002_B.mp3",
+      "start": 3.988,
+      "end": 8.068
+    },
+    {
+      "speaker": "B",
+      "text": "誰有權、誰監督，都靠這套制度。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0003_B.mp3",
+      "start": 8.188,
+      "end": 12.004
+    },
+    {
+      "speaker": "A",
+      "text": "所以公司只為股東賺錢？裁員也合理？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0004_A.mp3",
+      "start": 12.124,
+      "end": 16.54
+    },
+    {
+      "speaker": "B",
+      "text": "這是股東理論，主張股東價值優先。",
+      "terms": [
+        {
+          "cn": "股東理論",
+          "en": "Shareholder Theory",
+          "source": "materials/公司發行人/4.1 公司治理和利益相關方理論.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0005_B.mp3",
+      "start": 16.66,
+      "end": 20.38
+    },
+    {
+      "speaker": "B",
+      "text": "利潤優先，弗里德曼說企業責任就是增加利潤。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0006_B.mp3",
+      "start": 20.5,
+      "end": 24.748
+    },
+    {
+      "speaker": "A",
+      "text": "那員工和客戶，都不用管了？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0007_A.mp3",
+      "start": 24.868,
+      "end": 27.868
+    },
+    {
+      "speaker": "B",
+      "text": "另一派說，公司要照顧所有利益相關者。",
+      "terms": [
+        {
+          "cn": "利益相關者理論",
+          "en": "Stakeholder Theory",
+          "source": "materials/公司發行人/4.1 公司治理和利益相關方理論.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0008_B.mp3",
+      "start": 27.988,
+      "end": 31.684
+    },
+    {
+      "speaker": "B",
+      "text": "員工、客戶、供應商、債權人、政府、社區，都相關。",
+      "terms": [
+        {
+          "cn": "利益相關者",
+          "en": "Stakeholders",
+          "source": "materials/公司發行人/4.1 公司治理和利益相關方理論.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0009_B.mp3",
+      "start": 31.804,
+      "end": 38.068
+    },
+    {
+      "speaker": "A",
+      "text": "哇，那公司豈不是要討好所有人？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0010_A.mp3",
+      "start": 38.188,
+      "end": 41.668
+    },
+    {
+      "speaker": "B",
+      "text": "別急，兩派其實沒那麼對立。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0011_B.mp3",
+      "start": 41.788,
+      "end": 44.716
+    },
+    {
+      "speaker": "B",
+      "text": "聽我說完，你就明白了。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0012_B.mp3",
+      "start": 44.836,
+      "end": 47.452
+    },
+    {
+      "speaker": "A",
+      "text": "那公司倒了，股東為什麼最後拿錢？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0013_A.mp3",
+      "start": 47.572,
+      "end": 51.124
+    },
+    {
+      "speaker": "B",
+      "text": "因為股東是所有者，承擔剩餘風險。",
+      "terms": [
+        {
+          "cn": "剩餘風險",
+          "en": "Residual Risk",
+          "source": "materials/公司發行人/4.1 公司治理和利益相關方理論.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0014_B.mp3",
+      "start": 51.244,
+      "end": 54.532
+    },
+    {
+      "speaker": "B",
+      "text": "賺了享剩餘收益，虧了最後受償。",
+      "terms": [
+        {
+          "cn": "剩餘索取權",
+          "en": "Residual Claims",
+          "source": "materials/公司發行人/4.1 公司治理和利益相關方理論.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0015_B.mp3",
+      "start": 54.652,
+      "end": 58.228
+    },
+    {
+      "speaker": "A",
+      "text": "所以股東承擔最多，也拿最多？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0016_A.mp3",
+      "start": 58.348,
+      "end": 61.948
+    },
+    {
+      "speaker": "B",
+      "text": "對，這就是剩餘索取權的邏輯。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0017_B.mp3",
+      "start": 62.068,
+      "end": 65.428
+    },
+    {
+      "speaker": "B",
+      "text": "所以股東，是風險最高的角色。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0018_B.mp3",
+      "start": 65.548,
+      "end": 68.62
+    },
+    {
+      "speaker": "A",
+      "text": "那管理層，豈不是只為股東服務？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0019_A.mp3",
+      "start": 68.74,
+      "end": 72.124
+    },
+    {
+      "speaker": "B",
+      "text": "正是，股東理論的核心就是股東至上。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0020_B.mp3",
+      "start": 72.244,
+      "end": 76.204
+    },
+    {
+      "speaker": "B",
+      "text": "管理層，就是替股東打工。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0021_B.mp3",
+      "start": 76.324,
+      "end": 79.084
+    },
+    {
+      "speaker": "A",
+      "text": "這派對員工，是不是有點殘酷？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0022_A.mp3",
+      "start": 79.204,
+      "end": 82.348
+    },
+    {
+      "speaker": "B",
+      "text": "所以才有利益相關者理論來補。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0023_B.mp3",
+      "start": 82.468,
+      "end": 85.516
+    },
+    {
+      "speaker": "B",
+      "text": "照顧好各方，長期股東也受惠。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0024_B.mp3",
+      "start": 85.636,
+      "end": 88.708
+    },
+    {
+      "speaker": "A",
+      "text": "多花錢還能多賺？怎麼說？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0025_A.mp3",
+      "start": 88.828,
+      "end": 92.188
+    },
+    {
+      "speaker": "B",
+      "text": "員工士氣高、客戶信任，生意更穩。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0026_B.mp3",
+      "start": 92.308,
+      "end": 96.004
+    },
+    {
+      "speaker": "B",
+      "text": "這就是雙贏，不是單方面付出。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0027_B.mp3",
+      "start": 96.124,
+      "end": 99.148
+    },
+    {
+      "speaker": "A",
+      "text": "所以是長期投資，不是做功德？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0028_A.mp3",
+      "start": 99.268,
+      "end": 102.556
+    },
+    {
+      "speaker": "B",
+      "text": "對，這就是兩大理論互補的地方。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0029_B.mp3",
+      "start": 102.676,
+      "end": 106.132
+    },
+    {
+      "speaker": "B",
+      "text": "短期看利潤，長期看永續。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0030_B.mp3",
+      "start": 106.252,
+      "end": 109.492
+    },
+    {
+      "speaker": "A",
+      "text": "那 ESG 是什麼？跟這有關嗎？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0031_A.mp3",
+      "start": 109.612,
+      "end": 113.428
+    },
+    {
+      "speaker": "B",
+      "text": "ESG 就是利益相關者理論的實踐。",
+      "terms": [
+        {
+          "cn": "ESG",
+          "en": "Environmental, Social, and Governance",
+          "source": "materials/公司發行人/4.1 公司治理和利益相關方理論.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0032_B.mp3",
+      "start": 113.548,
+      "end": 116.74
+    },
+    {
+      "speaker": "B",
+      "text": "環境、社會、治理，三管齊下。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0033_B.mp3",
+      "start": 116.86,
+      "end": 120.772
+    },
+    {
+      "speaker": "A",
+      "text": "做這些，股東真的會賺更多？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0034_A.mp3",
+      "start": 120.892,
+      "end": 123.988
+    },
+    {
+      "speaker": "B",
+      "text": "長期來看，ESG 做得好能回饋股東。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0035_B.mp3",
+      "start": 124.108,
+      "end": 127.972
+    },
+    {
+      "speaker": "B",
+      "text": "但前提是，真的要長期執行。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0036_B.mp3",
+      "start": 128.092,
+      "end": 131.332
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來像在畫大餅？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0037_A.mp3",
+      "start": 131.452,
+      "end": 133.708
+    },
+    {
+      "speaker": "B",
+      "text": "但愈來愈多公司把它當策略。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0038_B.mp3",
+      "start": 133.828,
+      "end": 136.636
+    },
+    {
+      "speaker": "A",
+      "text": "所以兩大理論，其實不衝突？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0039_A.mp3",
+      "start": 136.756,
+      "end": 139.804
+    },
+    {
+      "speaker": "B",
+      "text": "對，一個管財務，一個管永續。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0040_B.mp3",
+      "start": 139.924,
+      "end": 143.476
+    },
+    {
+      "speaker": "B",
+      "text": "併用，反而讓公司走得更遠。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0041_B.mp3",
+      "start": 143.596,
+      "end": 146.476
+    },
+    {
+      "speaker": "A",
+      "text": "那我該記住哪句話？",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0042_A.mp3",
+      "start": 146.596,
+      "end": 148.684
+    },
+    {
+      "speaker": "B",
+      "text": "股東至上，還是眾生平等，看公司怎麼選。",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0043_B.mp3",
+      "start": 148.804,
+      "end": 153.052
+    },
+    {
+      "speaker": "A",
+      "text": "公司是眾人的舞台，也是股東的賭注，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_stakeholder_theory_line0044_A.mp3",
+      "start": 153.172,
+      "end": 156.652
+    }
+  ]
+}

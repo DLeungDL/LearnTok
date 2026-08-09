@@ -1,0 +1,428 @@
+{
+  "id": "working_capital",
+  "title": "公司怎麼能不花自己的錢做生意？營運資本的生死奥秘",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "bgm": {
+    "file": "bgm/bgm_sacred_play_secret_place.mp3",
+    "volume": 0.12
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "亞馬遜做生意不花自己的錢，那不是空手套白狼？",
+      "audio_file": "audio/lines/tts_working_capital_line0001_A.mp3",
+      "start": 0.1,
+      "end": 4.54
+    },
+    {
+      "speaker": "B",
+      "text": "不是空手套白狼，是營運資本用得巧。",
+      "terms": [
+        {
+          "cn": "營運資本",
+          "en": "Working Capital"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0002_B.mp3",
+      "start": 4.66,
+      "end": 8.284
+    },
+    {
+      "speaker": "A",
+      "text": "營運資本？那不就是拿別人的錢來轉？哪有這麼好的事。",
+      "audio_file": "audio/lines/tts_working_capital_line0003_A.mp3",
+      "start": 8.404,
+      "end": 13.828
+    },
+    {
+      "speaker": "B",
+      "text": "凡事動腦子。錢不是白拿的，都卡在中間。",
+      "audio_file": "audio/lines/tts_working_capital_line0004_B.mp3",
+      "start": 13.948,
+      "end": 18.436
+    },
+    {
+      "speaker": "B",
+      "text": "從付錢買料，到賣出收款，這叫現金轉換循環。",
+      "terms": [
+        {
+          "cn": "現金轉換循環",
+          "en": "Cash Conversion Cycle"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0005_B.mp3",
+      "start": 18.556,
+      "end": 23.38
+    },
+    {
+      "speaker": "A",
+      "text": "現金轉換循環…像滑水道，錢滑一圈再回來？",
+      "audio_file": "audio/lines/tts_working_capital_line0006_A.mp3",
+      "start": 23.5,
+      "end": 27.844
+    },
+    {
+      "speaker": "B",
+      "text": "差不多。存貨、應收帳款、應付帳款，三站接力。",
+      "audio_file": "audio/lines/tts_working_capital_line0007_B.mp3",
+      "start": 27.964,
+      "end": 33.844
+    },
+    {
+      "speaker": "A",
+      "text": "那這條水道多長，怎麼量？",
+      "audio_file": "audio/lines/tts_working_capital_line0008_A.mp3",
+      "start": 33.964,
+      "end": 36.82
+    },
+    {
+      "speaker": "B",
+      "text": "存貨天數，加收款天數，再扣掉付款天數。",
+      "terms": [
+        {
+          "cn": "存貨週轉天數",
+          "en": "Days of Inventory on Hand (DOH)"
+        },
+        {
+          "cn": "應收帳款週轉天數",
+          "en": "Days Sales Outstanding (DSO)"
+        },
+        {
+          "cn": "應付帳款週轉天數",
+          "en": "Days Payable Outstanding (DPO)"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0009_B.mp3",
+      "start": 36.94,
+      "end": 41.452
+    },
+    {
+      "speaker": "A",
+      "text": "等等，為什麼付款天數是扣掉？那不是越多越好？",
+      "audio_file": "audio/lines/tts_working_capital_line0010_A.mp3",
+      "start": 41.572,
+      "end": 46.252
+    },
+    {
+      "speaker": "B",
+      "text": "因為你先欠供應商，等於免費拿他們的錢周轉。",
+      "audio_file": "audio/lines/tts_working_capital_line0011_B.mp3",
+      "start": 46.372,
+      "end": 50.596
+    },
+    {
+      "speaker": "A",
+      "text": "免費周轉？那我一直拖著不還，不就越拖越賺？",
+      "audio_file": "audio/lines/tts_working_capital_line0012_A.mp3",
+      "start": 50.716,
+      "end": 55.252
+    },
+    {
+      "speaker": "B",
+      "text": "拖太久供應商會翻臉，錢總是要還的。",
+      "audio_file": "audio/lines/tts_working_capital_line0013_B.mp3",
+      "start": 55.372,
+      "end": 59.164
+    },
+    {
+      "speaker": "A",
+      "text": "供應商不是白給的？那早付錢有什麼好處？",
+      "terms": [
+        {
+          "cn": "提早付款折扣",
+          "en": "Early Payment Discount (e.g. 2/10, net 30)"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0014_A.mp3",
+      "start": 59.284,
+      "end": 63.628
+    },
+    {
+      "speaker": "B",
+      "text": "像網購限時優惠，十天內付款打九八折。",
+      "audio_file": "audio/lines/tts_working_capital_line0015_B.mp3",
+      "start": 63.748,
+      "end": 67.756
+    },
+    {
+      "speaker": "A",
+      "text": "超過才多付兩趴，好像不痛不癢？",
+      "audio_file": "audio/lines/tts_working_capital_line0016_A.mp3",
+      "start": 67.876,
+      "end": 71.404
+    },
+    {
+      "speaker": "B",
+      "text": "但那是二十天的利息，年化之後非常可怕。",
+      "terms": [
+        {
+          "cn": "有效年利率",
+          "en": "Effective Annual Rate (EAR)"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0017_B.mp3",
+      "start": 71.524,
+      "end": 75.268
+    },
+    {
+      "speaker": "A",
+      "text": "年化？像把零錢存一年滾利息那樣？",
+      "audio_file": "audio/lines/tts_working_capital_line0018_A.mp3",
+      "start": 75.388,
+      "end": 79.516
+    },
+    {
+      "speaker": "B",
+      "text": "對，放棄這個折扣，年利率約四成多。這是考點。",
+      "audio_file": "audio/lines/tts_working_capital_line0019_B.mp3",
+      "start": 79.636,
+      "end": 84.988
+    },
+    {
+      "speaker": "A",
+      "text": "四成多？那比我借錢買珍奶還貴！這折扣不拿是傻子。",
+      "audio_file": "audio/lines/tts_working_capital_line0020_A.mp3",
+      "start": 85.108,
+      "end": 90.748
+    },
+    {
+      "speaker": "B",
+      "text": "對。所以只要貸款利息沒更貴，折扣能拿就拿。",
+      "audio_file": "audio/lines/tts_working_capital_line0021_B.mp3",
+      "start": 90.868,
+      "end": 96.316
+    },
+    {
+      "speaker": "A",
+      "text": "那貿易信用也不見得便宜嘛。",
+      "terms": [
+        {
+          "cn": "貿易信用",
+          "en": "Trade Credit"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0022_A.mp3",
+      "start": 96.436,
+      "end": 99.196
+    },
+    {
+      "speaker": "B",
+      "text": "像亞馬遜賣得快、收錢快，卻拖到很晚才付供應商。",
+      "audio_file": "audio/lines/tts_working_capital_line0023_B.mp3",
+      "start": 99.316,
+      "end": 104.308
+    },
+    {
+      "speaker": "A",
+      "text": "那不是拿供應商的錢做生意？他們怎麼願意？",
+      "audio_file": "audio/lines/tts_working_capital_line0024_A.mp3",
+      "start": 104.428,
+      "end": 108.652
+    },
+    {
+      "speaker": "B",
+      "text": "對，這叫負的營運循環，等於供應商在幫你垫錢。",
+      "audio_file": "audio/lines/tts_working_capital_line0025_B.mp3",
+      "start": 108.772,
+      "end": 113.476
+    },
+    {
+      "speaker": "B",
+      "text": "現在回到營運資本，看公司到底要垫多少錢。",
+      "audio_file": "audio/lines/tts_working_capital_line0026_B.mp3",
+      "start": 113.596,
+      "end": 117.868
+    },
+    {
+      "speaker": "A",
+      "text": "營運資本，不就是流動資產減流動負債？這有什麼好看？",
+      "audio_file": "audio/lines/tts_working_capital_line0027_A.mp3",
+      "start": 117.988,
+      "end": 123.364
+    },
+    {
+      "speaker": "B",
+      "text": "那叫總營運資本，最直接的算法。",
+      "terms": [
+        {
+          "cn": "總營運資本",
+          "en": "Total Working Capital"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0028_B.mp3",
+      "start": 123.484,
+      "end": 126.772
+    },
+    {
+      "speaker": "A",
+      "text": "那把現金也算進去，數字不是很好看？",
+      "audio_file": "audio/lines/tts_working_capital_line0029_A.mp3",
+      "start": 126.892,
+      "end": 130.348
+    },
+    {
+      "speaker": "B",
+      "text": "問得好。還有更嚴的算法叫淨營運資本。",
+      "terms": [
+        {
+          "cn": "淨營運資本",
+          "en": "Net Working Capital"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0030_B.mp3",
+      "start": 130.468,
+      "end": 134.716
+    },
+    {
+      "speaker": "B",
+      "text": "只看營運真正要的：應收帳款加存貨，減應付帳款。",
+      "audio_file": "audio/lines/tts_working_capital_line0031_B.mp3",
+      "start": 134.836,
+      "end": 140.02
+    },
+    {
+      "speaker": "A",
+      "text": "那不就是現金轉換循環，只是換算成金額？",
+      "audio_file": "audio/lines/tts_working_capital_line0032_A.mp3",
+      "start": 140.14,
+      "end": 144.22
+    },
+    {
+      "speaker": "B",
+      "text": "對！循環量時間，營運資本量金額，是一體兩面。",
+      "audio_file": "audio/lines/tts_working_capital_line0033_B.mp3",
+      "start": 144.34,
+      "end": 149.476
+    },
+    {
+      "speaker": "B",
+      "text": "營運資本怎麼管，就看你想保守還是激進。",
+      "audio_file": "audio/lines/tts_working_capital_line0034_B.mp3",
+      "start": 149.596,
+      "end": 153.748
+    },
+    {
+      "speaker": "A",
+      "text": "保守？激進？聽起來像投資性格測驗。",
+      "audio_file": "audio/lines/tts_working_capital_line0035_A.mp3",
+      "start": 153.868,
+      "end": 158.404
+    },
+    {
+      "speaker": "B",
+      "text": "保守型多留現金、靠長期資金，穩但賺得少。",
+      "audio_file": "audio/lines/tts_working_capital_line0036_B.mp3",
+      "start": 158.524,
+      "end": 163.132
+    },
+    {
+      "speaker": "A",
+      "text": "那我全押短期借款，利率低又賺得快，不是更好？",
+      "audio_file": "audio/lines/tts_working_capital_line0037_A.mp3",
+      "start": 163.252,
+      "end": 167.572
+    },
+    {
+      "speaker": "B",
+      "text": "那是激進型，用短期資金撐生意，風險最高。",
+      "audio_file": "audio/lines/tts_working_capital_line0038_B.mp3",
+      "start": 167.692,
+      "end": 172.108
+    },
+    {
+      "speaker": "A",
+      "text": "一場市場緊縮就斷糧？這就是期限錯配？",
+      "terms": [
+        {
+          "cn": "期限錯配",
+          "en": "Maturity Mismatch"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0039_A.mp3",
+      "start": 172.228,
+      "end": 176.428
+    },
+    {
+      "speaker": "B",
+      "text": "用短錢撐長生意，像用衛生紙蓋大樓，銀行一抽就塌。",
+      "audio_file": "audio/lines/tts_working_capital_line0040_B.mp3",
+      "start": 176.548,
+      "end": 181.636
+    },
+    {
+      "speaker": "B",
+      "text": "那銀行一抽錢就塌了。",
+      "audio_file": "audio/lines/tts_working_capital_line0041_B.mp3",
+      "start": 181.756,
+      "end": 184.012
+    },
+    {
+      "speaker": "A",
+      "text": "那零售業跟建築業用的策略一樣嗎？",
+      "terms": [
+        {
+          "cn": "期限匹配",
+          "en": "Matching Principle"
+        }
+      ],
+      "audio_file": "audio/lines/tts_working_capital_line0042_A.mp3",
+      "start": 184.132,
+      "end": 187.42
+    },
+    {
+      "speaker": "B",
+      "text": "零售業週轉快敢用短錢，建築業波動大不敢賭。",
+      "audio_file": "audio/lines/tts_working_capital_line0043_B.mp3",
+      "start": 187.54,
+      "end": 192.292
+    },
+    {
+      "speaker": "B",
+      "text": "像蘋果留一堆現金走保守，亞馬遜週轉快走激進。",
+      "audio_file": "audio/lines/tts_working_capital_line0044_B.mp3",
+      "start": 192.412,
+      "end": 196.972
+    },
+    {
+      "speaker": "A",
+      "text": "所以哪個好，完全看公司體質和膽量？",
+      "audio_file": "audio/lines/tts_working_capital_line0045_A.mp3",
+      "start": 197.092,
+      "end": 200.812
+    },
+    {
+      "speaker": "B",
+      "text": "對，看現金流穩不穩、怕不怕風險，沒有標準答案。",
+      "audio_file": "audio/lines/tts_working_capital_line0046_B.mp3",
+      "start": 200.932,
+      "end": 205.9
+    },
+    {
+      "speaker": "A",
+      "text": "仔細想，公司的錢全部被現金轉換循環纏著。",
+      "audio_file": "audio/lines/tts_working_capital_line0047_A.mp3",
+      "start": 206.02,
+      "end": 210.652
+    },
+    {
+      "speaker": "A",
+      "text": "轉得快就是別人的錢，轉得慢就是自己的命，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_working_capital_line0048_A.mp3",
+      "start": 210.772,
+      "end": 214.9
+    }
+  ]
+}

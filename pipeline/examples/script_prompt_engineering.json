@@ -1,0 +1,461 @@
+{
+  "id": "prompt_engineering",
+  "title": "為什麼 AI 回答時好時壞？提示工程揭密",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "企鵝燈你問過 AI 奇怪問題嗎",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0001_B.mp3",
+      "start": 0.1,
+      "end": 2.956
+    },
+    {
+      "speaker": "A",
+      "text": "問了，答案有時很兩光",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0002_A.mp3",
+      "start": 3.076,
+      "end": 5.644
+    },
+    {
+      "speaker": "B",
+      "text": "那多半是提示沒寫好",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0003_B.mp3",
+      "start": 5.764,
+      "end": 8.116
+    },
+    {
+      "speaker": "A",
+      "text": "提示？跟下指令有關嗎",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0004_A.mp3",
+      "start": 8.236,
+      "end": 11.26
+    },
+    {
+      "speaker": "B",
+      "text": "提示就是我們輸入的文字",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0005_B.mp3",
+      "start": 11.38,
+      "end": 13.876
+    },
+    {
+      "speaker": "B",
+      "text": "設計得好，回應品質就差很多",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0006_B.mp3",
+      "start": 13.996,
+      "end": 17.332
+    },
+    {
+      "speaker": "A",
+      "text": "所以問題在我問法？",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0007_A.mp3",
+      "start": 17.452,
+      "end": 19.852
+    },
+    {
+      "speaker": "B",
+      "text": "對，這就是提示工程",
+      "terms": [
+        {
+          "cn": "提示工程",
+          "en": "Prompt Engineering",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:18"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0008_B.mp3",
+      "start": 19.972,
+      "end": 22.732
+    },
+    {
+      "speaker": "B",
+      "text": "設計並優化輸入，換穩定好輸出",
+      "terms": [
+        {
+          "cn": "優化",
+          "en": "Optimization",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:18"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0009_B.mp3",
+      "start": 22.852,
+      "end": 26.212
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來像跟 AI 好好講話",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0010_A.mp3",
+      "start": 26.332,
+      "end": 29.404
+    },
+    {
+      "speaker": "B",
+      "text": "而且要不斷試錯調整",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0011_B.mp3",
+      "start": 29.524,
+      "end": 32.14
+    },
+    {
+      "speaker": "B",
+      "text": "先設計，再依結果微調",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0012_B.mp3",
+      "start": 32.26,
+      "end": 34.924
+    },
+    {
+      "speaker": "A",
+      "text": "那一個好提示要放什麼",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0013_A.mp3",
+      "start": 35.044,
+      "end": 37.66
+    },
+    {
+      "speaker": "B",
+      "text": "核心是指令加相關內容",
+      "terms": [
+        {
+          "cn": "指令",
+          "en": "Instruction",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:74"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0014_B.mp3",
+      "start": 37.78,
+      "end": 40.468
+    },
+    {
+      "speaker": "B",
+      "text": "像「用兩句話總結這段」",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0015_B.mp3",
+      "start": 40.588,
+      "end": 43.036
+    },
+    {
+      "speaker": "A",
+      "text": "這我懂，跟寫便條一樣",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0016_A.mp3",
+      "start": 43.156,
+      "end": 45.844
+    },
+    {
+      "speaker": "B",
+      "text": "複雜任務還能拆成多條訊息",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0017_B.mp3",
+      "start": 45.964,
+      "end": 49.06
+    },
+    {
+      "speaker": "B",
+      "text": "系統訊息負責設定 AI 人設",
+      "terms": [
+        {
+          "cn": "系統訊息",
+          "en": "System Message",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:62"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0018_B.mp3",
+      "start": 49.18,
+      "end": 52.492
+    },
+    {
+      "speaker": "A",
+      "text": "給 AI 設定角色？",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0019_A.mp3",
+      "start": 52.612,
+      "end": 54.772
+    },
+    {
+      "speaker": "B",
+      "text": "對，像叫它當你的導遊",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0020_B.mp3",
+      "start": 54.892,
+      "end": 57.556
+    },
+    {
+      "speaker": "A",
+      "text": "給幾個範例會更好嗎",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0021_A.mp3",
+      "start": 57.676,
+      "end": 59.98
+    },
+    {
+      "speaker": "B",
+      "text": "有用，這叫少量範例學習",
+      "terms": [
+        {
+          "cn": "少量範例學習",
+          "en": "Few-shot Learning",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:84"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0022_B.mp3",
+      "start": 60.1,
+      "end": 63.196
+    },
+    {
+      "speaker": "B",
+      "text": "先描述任務，再附上輸出範例",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0023_B.mp3",
+      "start": 63.316,
+      "end": 66.532
+    },
+    {
+      "speaker": "A",
+      "text": "沒範例就是零次學習？",
+      "terms": [
+        {
+          "cn": "零次學習",
+          "en": "Zero-shot Learning",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:84"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0024_A.mp3",
+      "start": 66.652,
+      "end": 69.268
+    },
+    {
+      "speaker": "B",
+      "text": "對，有範例模型更好模仿",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0025_B.mp3",
+      "start": 69.388,
+      "end": 72.604
+    },
+    {
+      "speaker": "A",
+      "text": "具體點是不是更好",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0026_A.mp3",
+      "start": 72.724,
+      "end": 74.812
+    },
+    {
+      "speaker": "B",
+      "text": "具體清晰是黃金守則",
+      "terms": [
+        {
+          "cn": "最佳實務",
+          "en": "Best Practices",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:118"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0027_B.mp3",
+      "start": 74.932,
+      "end": 77.596
+    },
+    {
+      "speaker": "B",
+      "text": "長度、格式、風格都寫清楚",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0028_B.mp3",
+      "start": 77.716,
+      "end": 81.316
+    },
+    {
+      "speaker": "A",
+      "text": "像點餐說不要香菜？",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0029_A.mp3",
+      "start": 81.436,
+      "end": 83.716
+    },
+    {
+      "speaker": "B",
+      "text": "差不多，指令和內容要分開",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0030_B.mp3",
+      "start": 83.836,
+      "end": 86.74
+    },
+    {
+      "speaker": "B",
+      "text": "用分隔符隔開，模型更好懂",
+      "terms": [
+        {
+          "cn": "分隔符",
+          "en": "Delimiter",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:117"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0031_B.mp3",
+      "start": 86.86,
+      "end": 89.812
+    },
+    {
+      "speaker": "A",
+      "text": "那怎麼引導它寫下去",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0032_A.mp3",
+      "start": 89.932,
+      "end": 92.188
+    },
+    {
+      "speaker": "B",
+      "text": "給引導詞，讓它接著完成",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0033_B.mp3",
+      "start": 92.308,
+      "end": 95.116
+    },
+    {
+      "speaker": "B",
+      "text": "像是先寫「總而言之」",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0034_B.mp3",
+      "start": 95.236,
+      "end": 97.804
+    },
+    {
+      "speaker": "A",
+      "text": "順序會不會影響結果",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0035_A.mp3",
+      "start": 97.924,
+      "end": 100.444
+    },
+    {
+      "speaker": "B",
+      "text": "會，模型記得住後面的",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0036_B.mp3",
+      "start": 100.564,
+      "end": 103.348
+    },
+    {
+      "speaker": "A",
+      "text": "好麻煩，有沒有捷徑",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0037_A.mp3",
+      "start": 103.468,
+      "end": 105.844
+    },
+    {
+      "speaker": "B",
+      "text": "把好用的提示存成模板",
+      "terms": [
+        {
+          "cn": "提示模板",
+          "en": "Prompt Template",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:118"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0038_B.mp3",
+      "start": 105.964,
+      "end": 108.508
+    },
+    {
+      "speaker": "B",
+      "text": "下次直接用，不用重想",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0039_B.mp3",
+      "start": 108.628,
+      "end": 111.388
+    },
+    {
+      "speaker": "A",
+      "text": "提示庫就是我的武功祕笈",
+      "terms": [
+        {
+          "cn": "提示庫",
+          "en": "Prompt Library",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:113"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0040_A.mp3",
+      "start": 111.508,
+      "end": 114.244
+    },
+    {
+      "speaker": "B",
+      "text": "還有一點，別忘了負責任",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0041_B.mp3",
+      "start": 114.364,
+      "end": 117.028
+    },
+    {
+      "speaker": "B",
+      "text": "提示寫得再好，模型仍有偏見",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0042_B.mp3",
+      "start": 117.148,
+      "end": 120.388
+    },
+    {
+      "speaker": "A",
+      "text": "那豈不是白費功夫",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0043_A.mp3",
+      "start": 120.508,
+      "end": 122.692
+    },
+    {
+      "speaker": "B",
+      "text": "所以要檢查輸出，把關公平性",
+      "terms": [
+        {
+          "cn": "公平性",
+          "en": "Fairness",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:12"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0044_B.mp3",
+      "start": 122.812,
+      "end": 126.388
+    },
+    {
+      "speaker": "B",
+      "text": "這正是負責任 AI 的精神",
+      "terms": [
+        {
+          "cn": "負責任 AI",
+          "en": "Responsible AI",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:27"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_line0045_B.mp3",
+      "start": 126.508,
+      "end": 129.196
+    },
+    {
+      "speaker": "A",
+      "text": "學到了，提示要具體給範例",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0046_A.mp3",
+      "start": 129.316,
+      "end": 132.172
+    },
+    {
+      "speaker": "B",
+      "text": "再搭配系統訊息與模板",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0047_B.mp3",
+      "start": 132.292,
+      "end": 134.764
+    },
+    {
+      "speaker": "B",
+      "text": "反覆試錯，品質自然提升",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0048_B.mp3",
+      "start": 134.884,
+      "end": 138.052
+    },
+    {
+      "speaker": "A",
+      "text": "就像練功，熟能生巧嘛",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0049_A.mp3",
+      "start": 138.172,
+      "end": 141.028
+    },
+    {
+      "speaker": "B",
+      "text": "提示工程，就是好好說話",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0050_B.mp3",
+      "start": 141.148,
+      "end": 144.172
+    },
+    {
+      "speaker": "A",
+      "text": "以後我跟 AI 都是好麻吉，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_prompt_engineering_line0051_A.mp3",
+      "start": 144.292,
+      "end": 147.268
+    }
+  ]
+}

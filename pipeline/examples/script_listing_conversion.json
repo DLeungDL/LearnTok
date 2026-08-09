@@ -1,0 +1,487 @@
+{
+  "id": "listing_conversion",
+  "title": "從上市到私有化：公司身分轉換的關鍵路徑",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "等等，上市不是只能靠 IPO 嗎？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0001_A.mp3",
+      "start": 0.1,
+      "end": 3.34
+    },
+    {
+      "speaker": "B",
+      "text": "不止啊，被收購、SPAC 合併和直接上市都算。",
+      "terms": [
+        {
+          "cn": "特殊目的收購公司",
+          "en": "SPAC",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0002_B.mp3",
+      "start": 3.46,
+      "end": 7.9
+    },
+    {
+      "speaker": "A",
+      "text": "被收購也算上市？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0003_A.mp3",
+      "start": 8.02,
+      "end": 10.108
+    },
+    {
+      "speaker": "B",
+      "text": "對，換成上市公司股票，等於間接上市。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0004_B.mp3",
+      "start": 10.228,
+      "end": 14.404
+    },
+    {
+      "speaker": "A",
+      "text": "那直接上市呢？聽起來很省事。",
+      "terms": [
+        {
+          "cn": "直接上市",
+          "en": "Direct Listing",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0005_A.mp3",
+      "start": 14.524,
+      "end": 17.956
+    },
+    {
+      "speaker": "B",
+      "text": "直接上市不發新股，也不用承銷商。",
+      "terms": [
+        {
+          "cn": "直接上市",
+          "en": "Direct Listing",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:3"
+        },
+        {
+          "cn": "承銷商",
+          "en": "Underwriter",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0006_B.mp3",
+      "start": 18.076,
+      "end": 21.868
+    },
+    {
+      "speaker": "A",
+      "text": "那豈不是又快又省錢？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0007_A.mp3",
+      "start": 21.988,
+      "end": 24.268
+    },
+    {
+      "speaker": "B",
+      "text": "但這招不是每家都適用。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0008_B.mp3",
+      "start": 24.388,
+      "end": 26.86
+    },
+    {
+      "speaker": "B",
+      "text": "只適合知名度超高的公司。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0009_B.mp3",
+      "start": 26.98,
+      "end": 29.62
+    },
+    {
+      "speaker": "A",
+      "text": "那 IPO 豈不是沒優勢了？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0010_A.mp3",
+      "start": 29.74,
+      "end": 32.644
+    },
+    {
+      "speaker": "B",
+      "text": "IPO 能募到新資金，適合缺錢的公司。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0011_B.mp3",
+      "start": 32.764,
+      "end": 36.388
+    },
+    {
+      "speaker": "B",
+      "text": "四條路各有取捨，看公司需求。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0012_B.mp3",
+      "start": 36.508,
+      "end": 39.82
+    },
+    {
+      "speaker": "A",
+      "text": "那 Spotify 為什麼不搞傳統 IPO？",
+      "terms": [
+        {
+          "cn": "首次公開發行",
+          "en": "IPO",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0013_A.mp3",
+      "start": 39.94,
+      "end": 43.972
+    },
+    {
+      "speaker": "B",
+      "text": "關鍵在於要不要發新股。",
+      "terms": [
+        {
+          "cn": "新股",
+          "en": "New Shares",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0014_B.mp3",
+      "start": 44.092,
+      "end": 46.732
+    },
+    {
+      "speaker": "B",
+      "text": "傳統 IPO 發新股籌錢，承銷商也少不了。",
+      "terms": [
+        {
+          "cn": "承銷商",
+          "en": "Underwriter",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0015_B.mp3",
+      "start": 46.852,
+      "end": 50.98
+    },
+    {
+      "speaker": "A",
+      "text": "所以直接上市就是省掉這些？",
+      "terms": [
+        {
+          "cn": "直接上市",
+          "en": "Direct Listing",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0016_A.mp3",
+      "start": 51.1,
+      "end": 54.316
+    },
+    {
+      "speaker": "B",
+      "text": "對，直接上市不發新股，也沒承銷商。",
+      "terms": [
+        {
+          "cn": "直接上市",
+          "en": "Direct Listing",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0017_B.mp3",
+      "start": 54.436,
+      "end": 58.42
+    },
+    {
+      "speaker": "B",
+      "text": "公司夠出名、不缺錢，就不發新股。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0018_B.mp3",
+      "start": 58.54,
+      "end": 62.38
+    },
+    {
+      "speaker": "A",
+      "text": "那沒名氣的公司，只能走 IPO？",
+      "terms": [
+        {
+          "cn": "首次公開發行",
+          "en": "IPO",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0019_A.mp3",
+      "start": 62.5,
+      "end": 65.86
+    },
+    {
+      "speaker": "B",
+      "text": "正是，IPO 慢又貴，適合需要大量資金的公司。",
+      "terms": [
+        {
+          "cn": "首次公開發行",
+          "en": "IPO",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0020_B.mp3",
+      "start": 65.98,
+      "end": 70.468
+    },
+    {
+      "speaker": "B",
+      "text": "像 Spotify 直接掛牌，又快又省。",
+      "terms": [
+        {
+          "cn": "直接上市",
+          "en": "Direct Listing",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0021_B.mp3",
+      "start": 70.588,
+      "end": 73.996
+    },
+    {
+      "speaker": "A",
+      "text": "好不容易上市了，為什麼還要下市？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0022_A.mp3",
+      "start": 74.116,
+      "end": 77.524
+    },
+    {
+      "speaker": "B",
+      "text": "上市不是終點，有人想下車。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0023_B.mp3",
+      "start": 77.644,
+      "end": 80.74
+    },
+    {
+      "speaker": "B",
+      "text": "像馬斯克花 440 億美元買下 Twitter。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0024_B.mp3",
+      "start": 80.86,
+      "end": 84.868
+    },
+    {
+      "speaker": "A",
+      "text": "買下整間公司，這算是下市嗎？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0025_A.mp3",
+      "start": 84.988,
+      "end": 88.06
+    },
+    {
+      "speaker": "B",
+      "text": "對，這就是私有化，買光公眾持股。",
+      "terms": [
+        {
+          "cn": "私有化",
+          "en": "Take-Private",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0026_B.mp3",
+      "start": 88.18,
+      "end": 92.212
+    },
+    {
+      "speaker": "B",
+      "text": "投資集團砸大錢，就能買下整家公司。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0027_B.mp3",
+      "start": 92.332,
+      "end": 95.956
+    },
+    {
+      "speaker": "A",
+      "text": "那常見的私有化玩法有哪些？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0028_A.mp3",
+      "start": 96.076,
+      "end": 98.956
+    },
+    {
+      "speaker": "B",
+      "text": "管理層自己出錢買，叫 MBO。",
+      "terms": [
+        {
+          "cn": "管理層收購",
+          "en": "Management Buyout (MBO)",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0029_B.mp3",
+      "start": 99.076,
+      "end": 102.604
+    },
+    {
+      "speaker": "B",
+      "text": "管理團隊聯手外部資金，一起收購。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0030_B.mp3",
+      "start": 102.724,
+      "end": 106.42
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來像賭博，虧了整間公司陪葬？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0031_A.mp3",
+      "start": 106.54,
+      "end": 110.044
+    },
+    {
+      "speaker": "B",
+      "text": "還有槓桿收購，私募基金舉債買股。",
+      "terms": [
+        {
+          "cn": "槓桿收購",
+          "en": "Leveraged Buyout (LBO)",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0032_B.mp3",
+      "start": 110.164,
+      "end": 113.572
+    },
+    {
+      "speaker": "B",
+      "text": "要約收購以特定價格，向全體股東收購。",
+      "terms": [
+        {
+          "cn": "要約收購",
+          "en": "Tender Offer",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0033_B.mp3",
+      "start": 113.692,
+      "end": 117.436
+    },
+    {
+      "speaker": "A",
+      "text": "股價被低估，私有化後價值更高？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0034_A.mp3",
+      "start": 117.556,
+      "end": 121.132
+    },
+    {
+      "speaker": "B",
+      "text": "對，這就是價值套利，創辦人重獲控制權。",
+      "terms": [
+        {
+          "cn": "價值套利",
+          "en": "Value Arbitrage",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0035_B.mp3",
+      "start": 121.252,
+      "end": 125.764
+    },
+    {
+      "speaker": "B",
+      "text": "擺脫短期壓力，戴爾下市改造後再上市。",
+      "terms": [
+        {
+          "cn": "私有化",
+          "en": "Take-Private",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0036_B.mp3",
+      "start": 125.884,
+      "end": 130.036
+    },
+    {
+      "speaker": "A",
+      "text": "所以上市下市，就是資金與控制權的權衡？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0037_A.mp3",
+      "start": 130.156,
+      "end": 134.452
+    },
+    {
+      "speaker": "B",
+      "text": "對，這正是關鍵取捨。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0038_B.mp3",
+      "start": 134.572,
+      "end": 137.5
+    },
+    {
+      "speaker": "B",
+      "text": "上市能募資，但得受監管。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0039_B.mp3",
+      "start": 137.62,
+      "end": 140.62
+    },
+    {
+      "speaker": "A",
+      "text": "那私有化後，公司不就沒錢了？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0040_A.mp3",
+      "start": 140.74,
+      "end": 143.812
+    },
+    {
+      "speaker": "B",
+      "text": "私募股權基金會出手。",
+      "terms": [
+        {
+          "cn": "私募股權",
+          "en": "Private Equity",
+          "source": "materials/公司發行人/2.2 上市公司與非上市公司之間的轉換.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_conversion_line0041_B.mp3",
+      "start": 143.932,
+      "end": 146.428
+    },
+    {
+      "speaker": "B",
+      "text": "但資金不是白給的，要回報。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0042_B.mp3",
+      "start": 146.548,
+      "end": 149.524
+    },
+    {
+      "speaker": "A",
+      "text": "借錢買公司，風險很大吧？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0043_A.mp3",
+      "start": 149.644,
+      "end": 152.548
+    },
+    {
+      "speaker": "B",
+      "text": "所以才要改造公司、提升價值。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0044_B.mp3",
+      "start": 152.668,
+      "end": 155.788
+    },
+    {
+      "speaker": "B",
+      "text": "風險大，但改造後能再上市。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0045_B.mp3",
+      "start": 155.908,
+      "end": 159.148
+    },
+    {
+      "speaker": "A",
+      "text": "那私募基金，靠什麼賺回來？",
+      "audio_file": "audio/lines/tts_listing_conversion_line0046_A.mp3",
+      "start": 159.268,
+      "end": 162.028
+    },
+    {
+      "speaker": "B",
+      "text": "買下、改造、再上市，高價退出。",
+      "audio_file": "audio/lines/tts_listing_conversion_line0047_B.mp3",
+      "start": 162.148,
+      "end": 166.06
+    },
+    {
+      "speaker": "A",
+      "text": "繞一圈，還是為了錢啊！咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_listing_conversion_line0048_A.mp3",
+      "start": 166.18,
+      "end": 168.772
+    }
+  ]
+}

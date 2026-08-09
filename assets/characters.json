@@ -1,0 +1,47 @@
+﻿{
+  "企鵝燈": {
+    "tts_voice": "zh-CN-XiaoyiNeural",
+    "tts_rate": null,
+    "rvc_model": "rvc_deng_v1.pth",
+    "voice_gain_db": -4.4,
+    "rvc_index": "rvc_deng_v1.index",
+    "pitch": 6,
+    "f0method": "rmvpe",
+    "index_rate": 0.5,
+    "color": "#FFD54F",
+    "role": "questioner",
+    "avatar": "avatars/avatar_deng_default.png",
+    "avatar_side": "left"
+  },
+  "派大星": {
+    "tts_voice": "zh-CN-YunjianNeural",
+    "tts_rate": "-12%",
+    "rvc_model": "rvc_paidaxing_v2.pth",
+    "rvc_index": "rvc_paidaxing_v2.index",
+    "pitch": 4,
+    "f0method": "rmvpe",
+    "index_rate": 0.9,
+    "protect": 0,
+    "filter_radius": 5,
+    "rms_mix_rate": 0,
+    "color": "#4FC3F7",
+    "role": "questioner",
+    "avatar": "avatars/avatar_paidaxing_default.png",
+    "avatar_side": "right",
+    "voice_gain_db": 3.9
+  },
+  "熊大": {
+    "tts_voice": "zh-CN-YunxiNeural",
+    "tts_rate": null,
+    "rvc_model": null,
+    "rvc_index": null,
+    "voice_gain_db": 3.7,
+    "pitch": 0,
+    "f0method": "rmvpe",
+    "index_rate": 0.5,
+    "color": "#81C784",
+    "role": "explainer",
+    "avatar": "avatars/avatar_xiongda_default.png",
+    "avatar_side": "right"
+  }
+}

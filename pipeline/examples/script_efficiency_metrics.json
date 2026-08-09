@@ -1,0 +1,396 @@
+{
+  "id": "efficiency_metrics",
+  "title": "現金轉換循環：公司如何用別人的錢賺錢",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "公司做生意，為什麼要先掏錢？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0001_A.mp3",
+      "start": 0.1,
+      "end": 3.268
+    },
+    {
+      "speaker": "B",
+      "text": "從付錢到收錢，中間有段時間差。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0002_B.mp3",
+      "start": 3.388,
+      "end": 6.868
+    },
+    {
+      "speaker": "B",
+      "text": "這段時間，就是現金轉換循環。",
+      "terms": [
+        {
+          "cn": "現金轉換循環",
+          "en": "Cash Conversion Cycle, CCC",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0003_B.mp3",
+      "start": 6.988,
+      "end": 10.324
+    },
+    {
+      "speaker": "A",
+      "text": "所以公司得先墊錢買原料？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0004_A.mp3",
+      "start": 10.444,
+      "end": 13.372
+    },
+    {
+      "speaker": "B",
+      "text": "對，買料、生產、賣貨，最後才收錢。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0005_B.mp3",
+      "start": 13.492,
+      "end": 18.244
+    },
+    {
+      "speaker": "B",
+      "text": "CCC 越短，資金卡住的時間越少。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0006_B.mp3",
+      "start": 18.364,
+      "end": 21.772
+    },
+    {
+      "speaker": "A",
+      "text": "那負的 CCC 是什麼意思？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0007_A.mp3",
+      "start": 21.892,
+      "end": 24.892
+    },
+    {
+      "speaker": "B",
+      "text": "先收客戶的錢，晚點才付供應商。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0008_B.mp3",
+      "start": 25.012,
+      "end": 28.444
+    },
+    {
+      "speaker": "B",
+      "text": "等於用供應商的錢來營運，效率極高。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0009_B.mp3",
+      "start": 28.564,
+      "end": 32.02
+    },
+    {
+      "speaker": "A",
+      "text": "像亞馬遜那樣？賣貨快，付款拖很久？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0010_A.mp3",
+      "start": 32.14,
+      "end": 36.412
+    },
+    {
+      "speaker": "B",
+      "text": "正是，所以亞馬遜的 CCC 是負的。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0011_B.mp3",
+      "start": 36.532,
+      "end": 40.228
+    },
+    {
+      "speaker": "B",
+      "text": "負 CCC，是資金效率的極致。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0012_B.mp3",
+      "start": 40.348,
+      "end": 43.492
+    },
+    {
+      "speaker": "A",
+      "text": "那 CCC 是怎麼算出來的？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0013_A.mp3",
+      "start": 43.612,
+      "end": 46.732
+    },
+    {
+      "speaker": "B",
+      "text": "拆成存貨、應收、應付三塊。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0014_B.mp3",
+      "start": 46.852,
+      "end": 50.476
+    },
+    {
+      "speaker": "B",
+      "text": "存貨待幾天叫 DOH，客戶拖幾天叫 DSO。",
+      "terms": [
+        {
+          "cn": "存貨週轉天數",
+          "en": "Days of Inventory on Hand",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:3"
+        },
+        {
+          "cn": "應收帳款週轉天數",
+          "en": "Days Sales Outstanding",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0015_B.mp3",
+      "start": 50.596,
+      "end": 54.604
+    },
+    {
+      "speaker": "A",
+      "text": "那 DPO 又是什麼？",
+      "terms": [
+        {
+          "cn": "應付帳款週轉天數",
+          "en": "Days Payable Outstanding",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0016_A.mp3",
+      "start": 54.724,
+      "end": 57.076
+    },
+    {
+      "speaker": "B",
+      "text": "你拖供應商多久才付款，就是 DPO。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0017_B.mp3",
+      "start": 57.196,
+      "end": 61.06
+    },
+    {
+      "speaker": "B",
+      "text": "三個天數加加減減，就是 CCC。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0018_B.mp3",
+      "start": 61.18,
+      "end": 64.972
+    },
+    {
+      "speaker": "A",
+      "text": "所以是 DOH 加 DSO，再減 DPO？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0019_A.mp3",
+      "start": 65.092,
+      "end": 69.052
+    },
+    {
+      "speaker": "B",
+      "text": "對，拖得越久，CCC 就越短。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0020_B.mp3",
+      "start": 69.172,
+      "end": 72.532
+    },
+    {
+      "speaker": "B",
+      "text": "但拖太狠，供應商會翻臉。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0021_B.mp3",
+      "start": 72.652,
+      "end": 75.772
+    },
+    {
+      "speaker": "A",
+      "text": "那正的 CCC 和負的 CCC，差在哪？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0022_A.mp3",
+      "start": 75.892,
+      "end": 79.708
+    },
+    {
+      "speaker": "B",
+      "text": "正的要先墊錢，負的先拿客戶的錢。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0023_B.mp3",
+      "start": 79.828,
+      "end": 83.884
+    },
+    {
+      "speaker": "B",
+      "text": "負的 CCC，等於供應商無息借錢給你。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0024_B.mp3",
+      "start": 84.004,
+      "end": 87.676
+    },
+    {
+      "speaker": "A",
+      "text": "所以亞馬遜靠負 CCC 賺？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0025_A.mp3",
+      "start": 87.796,
+      "end": 91.06
+    },
+    {
+      "speaker": "B",
+      "text": "它賣貨快、收款快，付款拖到六十天。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0026_B.mp3",
+      "start": 91.18,
+      "end": 95.02
+    },
+    {
+      "speaker": "B",
+      "text": "好市多也是，貨架周轉快，現金壓力小。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0027_B.mp3",
+      "start": 95.14,
+      "end": 99.148
+    },
+    {
+      "speaker": "A",
+      "text": "那傳統製造業為什麼做不到？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0028_A.mp3",
+      "start": 99.268,
+      "end": 102.244
+    },
+    {
+      "speaker": "B",
+      "text": "要先買料、生產，等客戶慢慢付款。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0029_B.mp3",
+      "start": 102.364,
+      "end": 106.42
+    },
+    {
+      "speaker": "B",
+      "text": "CCC 是正的，就得自己墊一堆錢。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0030_B.mp3",
+      "start": 106.54,
+      "end": 109.828
+    },
+    {
+      "speaker": "A",
+      "text": "那 CCC 變長，代表公司出事？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0031_A.mp3",
+      "start": 109.948,
+      "end": 113.404
+    },
+    {
+      "speaker": "B",
+      "text": "對，CCC 是流動性的警報器。",
+      "terms": [
+        {
+          "cn": "現金轉換循環",
+          "en": "Cash Conversion Cycle, CCC",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0032_B.mp3",
+      "start": 113.524,
+      "end": 116.86
+    },
+    {
+      "speaker": "B",
+      "text": "庫存和應收帳款，是主要訊號來源。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0033_B.mp3",
+      "start": 116.98,
+      "end": 120.772
+    },
+    {
+      "speaker": "A",
+      "text": "變長會怎樣？會缺錢嗎？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0034_A.mp3",
+      "start": 120.892,
+      "end": 123.748
+    },
+    {
+      "speaker": "B",
+      "text": "庫存賣不掉，或客戶不付款，",
+      "terms": [
+        {
+          "cn": "存貨週轉天數",
+          "en": "Days of Inventory on Hand",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0035_B.mp3",
+      "start": 123.868,
+      "end": 126.82
+    },
+    {
+      "speaker": "B",
+      "text": "存貨和應收天數上升，現金就被卡住。",
+      "terms": [
+        {
+          "cn": "應收帳款週轉天數",
+          "en": "Days Sales Outstanding",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0036_B.mp3",
+      "start": 126.94,
+      "end": 130.876
+    },
+    {
+      "speaker": "A",
+      "text": "供應商催款，也會拉長 CCC？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0037_A.mp3",
+      "start": 130.996,
+      "end": 134.572
+    },
+    {
+      "speaker": "B",
+      "text": "對，DPO 縮短，公司就得提早付錢。",
+      "terms": [
+        {
+          "cn": "應付帳款週轉天數",
+          "en": "Days Payable Outstanding",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0038_B.mp3",
+      "start": 134.692,
+      "end": 139.06
+    },
+    {
+      "speaker": "A",
+      "text": "所以 CCC 越短，營運越健康？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0039_A.mp3",
+      "start": 139.18,
+      "end": 142.924
+    },
+    {
+      "speaker": "B",
+      "text": "越短越穩，現金流轉得越快。",
+      "terms": [
+        {
+          "cn": "營運現金流",
+          "en": "Cash Flow from Operations",
+          "source": "materials/公司發行人/8. 經營效率管理的相關指標.md:9"
+        }
+      ],
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0040_B.mp3",
+      "start": 143.044,
+      "end": 146.284
+    },
+    {
+      "speaker": "A",
+      "text": "那我該盯哪個數字？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0041_A.mp3",
+      "start": 146.404,
+      "end": 148.516
+    },
+    {
+      "speaker": "B",
+      "text": "盯 CCC 的變化，比盯單一數字有用。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0042_B.mp3",
+      "start": 148.636,
+      "end": 152.044
+    },
+    {
+      "speaker": "A",
+      "text": "突然變長，就是警訊？",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0043_A.mp3",
+      "start": 152.164,
+      "end": 154.66
+    },
+    {
+      "speaker": "B",
+      "text": "對，趕快檢查庫存和客戶付款。",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0044_B.mp3",
+      "start": 154.78,
+      "end": 158.62
+    },
+    {
+      "speaker": "A",
+      "text": "警報器響了，先查庫存再查客戶，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_efficiency_metrics_line0045_A.mp3",
+      "start": 158.74,
+      "end": 162.46
+    }
+  ]
+}

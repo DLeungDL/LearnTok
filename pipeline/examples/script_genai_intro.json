@@ -1,0 +1,601 @@
+{
+  "id": "genai_intro",
+  "title": "生成式 AI 大解密：從聊天機器人到大型語言模型",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "AI 聊天機器人，真的懂你嗎。",
+      "audio_file": "audio/lines/tts_genai_intro_line0001_B.mp3",
+      "start": 0.1,
+      "end": 3.148
+    },
+    {
+      "speaker": "A",
+      "text": "它回話快得像猜謎，怎麼做到的？",
+      "audio_file": "audio/lines/tts_genai_intro_line0002_A.mp3",
+      "start": 3.268,
+      "end": 6.508
+    },
+    {
+      "speaker": "B",
+      "text": "這就得從生成式 AI 說起，它其實老早就有。",
+      "terms": [
+        {
+          "cn": "生成式 AI",
+          "en": "Generative AI",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0003_B.mp3",
+      "start": 6.628,
+      "end": 10.804
+    },
+    {
+      "speaker": "A",
+      "text": "咦？不是最近才紅的嗎？",
+      "audio_file": "audio/lines/tts_genai_intro_line0004_A.mp3",
+      "start": 10.924,
+      "end": 13.804
+    },
+    {
+      "speaker": "B",
+      "text": "最早能追到 1960 年代，靠打字聊天機器人。",
+      "audio_file": "audio/lines/tts_genai_intro_line0005_B.mp3",
+      "start": 13.924,
+      "end": 17.932
+    },
+    {
+      "speaker": "B",
+      "text": "它靠關鍵字觸發知識庫回答，但擴展性不足。",
+      "audio_file": "audio/lines/tts_genai_intro_line0006_B.mp3",
+      "start": 18.052,
+      "end": 22.9
+    },
+    {
+      "speaker": "A",
+      "text": "所以那時 AI 只會關鍵字對答，像鸚鵡學舌？",
+      "audio_file": "audio/lines/tts_genai_intro_line0007_A.mp3",
+      "start": 23.02,
+      "end": 27.604
+    },
+    {
+      "speaker": "B",
+      "text": "對，直到 90 年代機器學習出現，能從資料學模式。",
+      "terms": [
+        {
+          "cn": "機器學習",
+          "en": "Machine Learning",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:7"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0008_B.mp3",
+      "start": 27.724,
+      "end": 32.836
+    },
+    {
+      "speaker": "B",
+      "text": "接著神經網路興起，AI 懂更多上下文語境。",
+      "terms": [
+        {
+          "cn": "神經網路",
+          "en": "Neural Networks",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:9"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0009_B.mp3",
+      "start": 32.956,
+      "end": 37.3
+    },
+    {
+      "speaker": "A",
+      "text": "那現在怎麼突然能聊天寫文章了？",
+      "audio_file": "audio/lines/tts_genai_intro_line0010_A.mp3",
+      "start": 37.42,
+      "end": 40.684
+    },
+    {
+      "speaker": "B",
+      "text": "靠 Transformer 架構，",
+      "terms": [
+        {
+          "cn": "Transformer",
+          "en": "Transformer",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:11"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0011_B.mp3",
+      "start": 40.804,
+      "end": 43.036
+    },
+    {
+      "speaker": "A",
+      "text": "能處理長文本與重點。",
+      "audio_file": "audio/lines/tts_genai_intro_line0012_A.mp3",
+      "start": 43.156,
+      "end": 45.724
+    },
+    {
+      "speaker": "B",
+      "text": "所以生成式 AI 是深度學習的子集，你我都能用。",
+      "audio_file": "audio/lines/tts_genai_intro_line0013_B.mp3",
+      "start": 45.844,
+      "end": 50.548
+    },
+    {
+      "speaker": "B",
+      "text": "早期的聊天機器人，常常答非所問，你知道為什麼嗎。",
+      "audio_file": "audio/lines/tts_genai_intro_line0014_B.mp3",
+      "start": 50.668,
+      "end": 55.516
+    },
+    {
+      "speaker": "A",
+      "text": "為什麼？不是應該很懂我嗎？",
+      "audio_file": "audio/lines/tts_genai_intro_line0015_A.mp3",
+      "start": 55.636,
+      "end": 58.78
+    },
+    {
+      "speaker": "B",
+      "text": "因為它們只會關鍵字比對，根本不懂語意。",
+      "terms": [
+        {
+          "cn": "關鍵字",
+          "en": "Keyword",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0016_B.mp3",
+      "start": 58.9,
+      "end": 62.908
+    },
+    {
+      "speaker": "A",
+      "text": "那不就是查字典？太遜了吧。",
+      "audio_file": "audio/lines/tts_genai_intro_line0017_A.mp3",
+      "start": 63.028,
+      "end": 66.124
+    },
+    {
+      "speaker": "A",
+      "text": "後來出現機器學習，讓電腦從資料中找規律。",
+      "terms": [
+        {
+          "cn": "機器學習",
+          "en": "Machine Learning",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0018_A.mp3",
+      "start": 66.244,
+      "end": 70.564
+    },
+    {
+      "speaker": "B",
+      "text": "不用寫死規則，自己學著分類意圖。",
+      "audio_file": "audio/lines/tts_genai_intro_line0019_B.mp3",
+      "start": 70.684,
+      "end": 73.972
+    },
+    {
+      "speaker": "B",
+      "text": "所以它會越學越聰明。",
+      "audio_file": "audio/lines/tts_genai_intro_line0020_B.mp3",
+      "start": 74.092,
+      "end": 76.588
+    },
+    {
+      "speaker": "A",
+      "text": "對，但真正突破是神經網絡的出現。",
+      "terms": [
+        {
+          "cn": "神經網絡",
+          "en": "Neural Networks",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0021_A.mp3",
+      "start": 76.708,
+      "end": 80.404
+    },
+    {
+      "speaker": "B",
+      "text": "它讓電腦理解上下文，不再逐字比對。",
+      "audio_file": "audio/lines/tts_genai_intro_line0022_B.mp3",
+      "start": 80.524,
+      "end": 84.1
+    },
+    {
+      "speaker": "B",
+      "text": "所以現在才能跟我對答如流。",
+      "audio_file": "audio/lines/tts_genai_intro_line0023_B.mp3",
+      "start": 84.22,
+      "end": 87.628
+    },
+    {
+      "speaker": "A",
+      "text": "沒錯，從關鍵字到深度學習，AI 越來越懂人話。",
+      "terms": [
+        {
+          "cn": "深度學習",
+          "en": "Deep Learning",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0024_A.mp3",
+      "start": 87.748,
+      "end": 92.788
+    },
+    {
+      "speaker": "B",
+      "text": "AI 聊天機器人，真的懂你嗎。",
+      "audio_file": "audio/lines/tts_genai_intro_line0025_B.mp3",
+      "start": 92.908,
+      "end": 95.956
+    },
+    {
+      "speaker": "B",
+      "text": "等等，它怎麼記得我前面說啥。",
+      "terms": [
+        {
+          "cn": "大型語言模型",
+          "en": "Large Language Model",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0026_B.mp3",
+      "start": 96.076,
+      "end": 99.004
+    },
+    {
+      "speaker": "A",
+      "text": "這就要講到 Transformer 架構了。",
+      "terms": [
+        {
+          "cn": "Transformer",
+          "en": "Transformer",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0027_A.mp3",
+      "start": 99.124,
+      "end": 102.292
+    },
+    {
+      "speaker": "B",
+      "text": "它靠注意力機制，給每個字不同權重。",
+      "terms": [
+        {
+          "cn": "注意力機制",
+          "en": "Attention Mechanism",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0028_B.mp3",
+      "start": 102.412,
+      "end": 105.916
+    },
+    {
+      "speaker": "B",
+      "text": "所以它會特別關注關鍵字。",
+      "audio_file": "audio/lines/tts_genai_intro_line0029_B.mp3",
+      "start": 106.036,
+      "end": 109.06
+    },
+    {
+      "speaker": "A",
+      "text": "對，不管順序，只挑最相關的資訊。",
+      "audio_file": "audio/lines/tts_genai_intro_line0030_A.mp3",
+      "start": 109.18,
+      "end": 112.756
+    },
+    {
+      "speaker": "B",
+      "text": "那它怎麼理解我打的一串字。",
+      "audio_file": "audio/lines/tts_genai_intro_line0031_B.mp3",
+      "start": 112.876,
+      "end": 115.732
+    },
+    {
+      "speaker": "B",
+      "text": "先靠分詞器，把文本切成詞元。",
+      "terms": [
+        {
+          "cn": "分詞器",
+          "en": "Tokenizer",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0032_B.mp3",
+      "start": 115.852,
+      "end": 119.332
+    },
+    {
+      "speaker": "A",
+      "text": "再轉成數字，它只會算數字。",
+      "audio_file": "audio/lines/tts_genai_intro_line0033_A.mp3",
+      "start": 119.452,
+      "end": 122.62
+    },
+    {
+      "speaker": "B",
+      "text": "那它怎麼決定回我什麼。",
+      "audio_file": "audio/lines/tts_genai_intro_line0034_B.mp3",
+      "start": 122.74,
+      "end": 124.924
+    },
+    {
+      "speaker": "B",
+      "text": "預測下個詞元，看機率分布來選。",
+      "audio_file": "audio/lines/tts_genai_intro_line0035_B.mp3",
+      "start": 125.044,
+      "end": 128.332
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來像在賭博，還帶隨機性？",
+      "audio_file": "audio/lines/tts_genai_intro_line0036_A.mp3",
+      "start": 128.452,
+      "end": 131.548
+    },
+    {
+      "speaker": "B",
+      "text": "對，用 temperature 調節隨機程度。",
+      "terms": [
+        {
+          "cn": "溫度",
+          "en": "Temperature",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0037_B.mp3",
+      "start": 131.668,
+      "end": 135.412
+    },
+    {
+      "speaker": "B",
+      "text": "原來如此，AI 真是神奇！",
+      "audio_file": "audio/lines/tts_genai_intro_line0038_B.mp3",
+      "start": 135.532,
+      "end": 138.724
+    },
+    {
+      "speaker": "A",
+      "text": "為什麼每次問 ChatGPT，答案都不太一樣。",
+      "terms": [
+        {
+          "cn": "ChatGPT",
+          "en": "ChatGPT",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0039_A.mp3",
+      "start": 138.844,
+      "end": 142.828
+    },
+    {
+      "speaker": "B",
+      "text": "對啊，明明問同一句，卻老是變來變去。",
+      "audio_file": "audio/lines/tts_genai_intro_line0040_B.mp3",
+      "start": 142.948,
+      "end": 146.596
+    },
+    {
+      "speaker": "B",
+      "text": "關鍵就在它怎麼『想』出下一個詞。",
+      "audio_file": "audio/lines/tts_genai_intro_line0041_B.mp3",
+      "start": 146.716,
+      "end": 149.452
+    },
+    {
+      "speaker": "A",
+      "text": "它又不是人，哪來的『想』？",
+      "audio_file": "audio/lines/tts_genai_intro_line0042_A.mp3",
+      "start": 149.572,
+      "end": 151.948
+    },
+    {
+      "speaker": "B",
+      "text": "它先把句子拆成小碎片，叫詞元。",
+      "terms": [
+        {
+          "cn": "詞元",
+          "en": "Token",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0043_B.mp3",
+      "start": 152.068,
+      "end": 155.26
+    },
+    {
+      "speaker": "B",
+      "text": "所以『我愛你』會被拆成好幾塊。",
+      "audio_file": "audio/lines/tts_genai_intro_line0044_B.mp3",
+      "start": 155.38,
+      "end": 158.62
+    },
+    {
+      "speaker": "A",
+      "text": "對，這些詞元會變成數字，電腦才看得懂。",
+      "terms": [
+        {
+          "cn": "分詞器",
+          "en": "Tokenizer",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0045_A.mp3",
+      "start": 158.74,
+      "end": 162.94
+    },
+    {
+      "speaker": "B",
+      "text": "那它怎麼決定下一個要接什麼。",
+      "audio_file": "audio/lines/tts_genai_intro_line0046_B.mp3",
+      "start": 163.06,
+      "end": 165.556
+    },
+    {
+      "speaker": "B",
+      "text": "它會算出所有候選詞的機率分布。",
+      "terms": [
+        {
+          "cn": "機率分布",
+          "en": "Probability Distribution",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0047_B.mp3",
+      "start": 165.676,
+      "end": 168.604
+    },
+    {
+      "speaker": "A",
+      "text": "但不是每次都挑機率最高的，會故意隨機。",
+      "audio_file": "audio/lines/tts_genai_intro_line0048_A.mp3",
+      "start": 168.724,
+      "end": 172.636
+    },
+    {
+      "speaker": "B",
+      "text": "故意隨機。那不就跟擲骰子一樣。",
+      "audio_file": "audio/lines/tts_genai_intro_line0049_B.mp3",
+      "start": 172.756,
+      "end": 176.068
+    },
+    {
+      "speaker": "B",
+      "text": "這樣才像人腦，有創意，不呆板。",
+      "audio_file": "audio/lines/tts_genai_intro_line0050_B.mp3",
+      "start": 176.188,
+      "end": 179.716
+    },
+    {
+      "speaker": "A",
+      "text": "隨機的程度，靠溫度參數來控制。",
+      "terms": [
+        {
+          "cn": "溫度參數",
+          "en": "Temperature",
+          "source": "materials/genai-beginners/zh-HK/01-introduction-to-genai/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_intro_line0051_A.mp3",
+      "start": 179.836,
+      "end": 183.148
+    },
+    {
+      "speaker": "B",
+      "text": "那調高一點，是不是就變『嗨咖』模式。",
+      "audio_file": "audio/lines/tts_genai_intro_line0052_B.mp3",
+      "start": 183.268,
+      "end": 186.82
+    },
+    {
+      "speaker": "B",
+      "text": "差不多，調高更隨性，調低更穩定。",
+      "audio_file": "audio/lines/tts_genai_intro_line0053_B.mp3",
+      "start": 186.94,
+      "end": 190.636
+    },
+    {
+      "speaker": "A",
+      "text": "有趣！這樣每次回答都像開驚喜包。",
+      "audio_file": "audio/lines/tts_genai_intro_line0054_A.mp3",
+      "start": 190.756,
+      "end": 194.74
+    },
+    {
+      "speaker": "B",
+      "text": "AI 老師能取代真人嗎。這是個好問題。",
+      "audio_file": "audio/lines/tts_genai_intro_line0055_B.mp3",
+      "start": 194.86,
+      "end": 199.132
+    },
+    {
+      "speaker": "B",
+      "text": "等等，AI 老師很厲害嗎。",
+      "audio_file": "audio/lines/tts_genai_intro_line0056_B.mp3",
+      "start": 199.252,
+      "end": 202.18
+    },
+    {
+      "speaker": "A",
+      "text": "它靠提示來理解你的需求，再生成回應。",
+      "audio_file": "audio/lines/tts_genai_intro_line0057_A.mp3",
+      "start": 202.3,
+      "end": 206.044
+    },
+    {
+      "speaker": "B",
+      "text": "提示。那是什麼。就是你用一句話說清楚想要什麼。",
+      "audio_file": "audio/lines/tts_genai_intro_line0058_B.mp3",
+      "start": 206.164,
+      "end": 211.492
+    },
+    {
+      "speaker": "B",
+      "text": "那不就是跟電腦講話。",
+      "audio_file": "audio/lines/tts_genai_intro_line0059_B.mp3",
+      "start": 211.612,
+      "end": 213.748
+    },
+    {
+      "speaker": "A",
+      "text": "對，但這讓學習變得更個人化了。",
+      "audio_file": "audio/lines/tts_genai_intro_line0060_A.mp3",
+      "start": 213.868,
+      "end": 217.252
+    },
+    {
+      "speaker": "B",
+      "text": "哇，這樣每個人都能有好老師了！",
+      "audio_file": "audio/lines/tts_genai_intro_line0061_B.mp3",
+      "start": 217.372,
+      "end": 220.828
+    },
+    {
+      "speaker": "B",
+      "text": "不過，AI 也有極限，需要人來把關。",
+      "audio_file": "audio/lines/tts_genai_intro_line0062_B.mp3",
+      "start": 220.948,
+      "end": 224.908
+    },
+    {
+      "speaker": "A",
+      "text": "所以它是助手，不是取代者囉？",
+      "audio_file": "audio/lines/tts_genai_intro_line0063_A.mp3",
+      "start": 225.028,
+      "end": 228.052
+    },
+    {
+      "speaker": "B",
+      "text": "正是，這樣想就對了！",
+      "audio_file": "audio/lines/tts_genai_intro_line0064_B.mp3",
+      "start": 228.172,
+      "end": 230.764
+    },
+    {
+      "speaker": "A",
+      "text": "咕咕嘎嘎！這真是個好幫手！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_genai_intro_line0065_A.mp3",
+      "start": 230.884,
+      "end": 232.876
+    }
+  ]
+}

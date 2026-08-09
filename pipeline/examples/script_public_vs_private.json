@@ -1,0 +1,594 @@
+{
+  "id": "public_vs_private",
+  "title": "上市公司 vs 非上市公司：有什麼不同？",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "企鵝燈，我最近在研究股票",
+      "audio_file": "audio/lines/tts_public_vs_private_line0001_B.mp3",
+      "start": 0.1,
+      "end": 3.004
+    },
+    {
+      "speaker": "B",
+      "text": "我發現有些公司在交易所買賣",
+      "audio_file": "audio/lines/tts_public_vs_private_line0002_B.mp3",
+      "start": 3.124,
+      "end": 6.316
+    },
+    {
+      "speaker": "A",
+      "text": "這就是上市和非上市的差別嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0003_A.mp3",
+      "start": 6.436,
+      "end": 9.388
+    },
+    {
+      "speaker": "B",
+      "text": "對，但背後的差異比你想像的大",
+      "audio_file": "audio/lines/tts_public_vs_private_line0004_B.mp3",
+      "start": 9.508,
+      "end": 12.964
+    },
+    {
+      "speaker": "A",
+      "text": "不就是能不能在股市買到嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0005_A.mp3",
+      "start": 13.084,
+      "end": 15.748
+    },
+    {
+      "speaker": "B",
+      "text": "表面上是，但核心差異有四個",
+      "audio_file": "audio/lines/tts_public_vs_private_line0006_B.mp3",
+      "start": 15.868,
+      "end": 19.036
+    },
+    {
+      "speaker": "B",
+      "text": "第一個維度是交易場所",
+      "audio_file": "audio/lines/tts_public_vs_private_line0007_B.mp3",
+      "start": 19.156,
+      "end": 21.7
+    },
+    {
+      "speaker": "A",
+      "text": "上市一定要掛牌嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0008_A.mp3",
+      "start": 21.82,
+      "end": 24.052
+    },
+    {
+      "speaker": "B",
+      "text": "對，要在證交所掛牌才算上市",
+      "audio_file": "audio/lines/tts_public_vs_private_line0009_B.mp3",
+      "start": 24.172,
+      "end": 27.892
+    },
+    {
+      "speaker": "B",
+      "text": "比如紐交所、納斯達克、港交所",
+      "audio_file": "audio/lines/tts_public_vs_private_line0010_B.mp3",
+      "start": 28.012,
+      "end": 31.852
+    },
+    {
+      "speaker": "A",
+      "text": "那非上市公司在哪裡交易",
+      "audio_file": "audio/lines/tts_public_vs_private_line0011_A.mp3",
+      "start": 31.972,
+      "end": 34.828
+    },
+    {
+      "speaker": "B",
+      "text": "不在交易所，只能私下協商轉讓",
+      "audio_file": "audio/lines/tts_public_vs_private_line0012_B.mp3",
+      "start": 34.948,
+      "end": 38.332
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來確實很不方便",
+      "audio_file": "audio/lines/tts_public_vs_private_line0013_A.mp3",
+      "start": 38.452,
+      "end": 40.9
+    },
+    {
+      "speaker": "B",
+      "text": "這就引出第二個差異，流動性",
+      "audio_file": "audio/lines/tts_public_vs_private_line0014_B.mp3",
+      "start": 41.02,
+      "end": 44.212
+    },
+    {
+      "speaker": "B",
+      "text": "上市股份隨時能賣，變現很容易",
+      "audio_file": "audio/lines/tts_public_vs_private_line0015_B.mp3",
+      "start": 44.332,
+      "end": 47.788
+    },
+    {
+      "speaker": "A",
+      "text": "那非上市公司的股份好賣嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0016_A.mp3",
+      "start": 47.908,
+      "end": 50.764
+    },
+    {
+      "speaker": "B",
+      "text": "轉讓可能要花好幾週甚至幾個月",
+      "audio_file": "audio/lines/tts_public_vs_private_line0017_B.mp3",
+      "start": 50.884,
+      "end": 54.052
+    },
+    {
+      "speaker": "A",
+      "text": "那誰願意買賣不掉的股票",
+      "audio_file": "audio/lines/tts_public_vs_private_line0018_A.mp3",
+      "start": 54.172,
+      "end": 56.884
+    },
+    {
+      "speaker": "B",
+      "text": "所以非上市公司要給流動性折價",
+      "audio_file": "audio/lines/tts_public_vs_private_line0019_B.mp3",
+      "start": 57.004,
+      "end": 60.724
+    },
+    {
+      "speaker": "B",
+      "text": "用更低的價格吸引買方接手",
+      "audio_file": "audio/lines/tts_public_vs_private_line0020_B.mp3",
+      "start": 60.844,
+      "end": 63.868
+    },
+    {
+      "speaker": "A",
+      "text": "難怪報酬要求會更高",
+      "audio_file": "audio/lines/tts_public_vs_private_line0021_A.mp3",
+      "start": 63.988,
+      "end": 66.34
+    },
+    {
+      "speaker": "B",
+      "text": "對，這就是流動性溢價",
+      "audio_file": "audio/lines/tts_public_vs_private_line0022_B.mp3",
+      "start": 66.46,
+      "end": 69.364
+    },
+    {
+      "speaker": "A",
+      "text": "那第三個維度是什麼",
+      "audio_file": "audio/lines/tts_public_vs_private_line0023_A.mp3",
+      "start": 69.484,
+      "end": 71.74
+    },
+    {
+      "speaker": "B",
+      "text": "第三個是價格透明度",
+      "audio_file": "audio/lines/tts_public_vs_private_line0024_B.mp3",
+      "start": 71.86,
+      "end": 74.284
+    },
+    {
+      "speaker": "B",
+      "text": "上市股價公開，即時可見",
+      "audio_file": "audio/lines/tts_public_vs_private_line0025_B.mp3",
+      "start": 74.404,
+      "end": 77.596
+    },
+    {
+      "speaker": "A",
+      "text": "非上市公司呢？也有報價嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0026_A.mp3",
+      "start": 77.716,
+      "end": 80.956
+    },
+    {
+      "speaker": "B",
+      "text": "沒有，只能靠融資輪次估值",
+      "audio_file": "audio/lines/tts_public_vs_private_line0027_B.mp3",
+      "start": 81.076,
+      "end": 84.244
+    },
+    {
+      "speaker": "B",
+      "text": "或第三方評估來猜一個價格",
+      "audio_file": "audio/lines/tts_public_vs_private_line0028_B.mp3",
+      "start": 84.364,
+      "end": 87.124
+    },
+    {
+      "speaker": "A",
+      "text": "那買賣雙方資訊差很大耶",
+      "audio_file": "audio/lines/tts_public_vs_private_line0029_A.mp3",
+      "start": 87.244,
+      "end": 90.052
+    },
+    {
+      "speaker": "B",
+      "text": "對，所以投資人要做盡職調查",
+      "audio_file": "audio/lines/tts_public_vs_private_line0030_B.mp3",
+      "start": 90.172,
+      "end": 93.628
+    },
+    {
+      "speaker": "A",
+      "text": "那第四個維度是什麼",
+      "audio_file": "audio/lines/tts_public_vs_private_line0031_A.mp3",
+      "start": 93.748,
+      "end": 95.932
+    },
+    {
+      "speaker": "B",
+      "text": "所有權和經營權的重疊程度",
+      "audio_file": "audio/lines/tts_public_vs_private_line0032_B.mp3",
+      "start": 96.052,
+      "end": 99.22
+    },
+    {
+      "speaker": "B",
+      "text": "上市股權分散，兩者是分開的",
+      "audio_file": "audio/lines/tts_public_vs_private_line0033_B.mp3",
+      "start": 99.34,
+      "end": 102.652
+    },
+    {
+      "speaker": "A",
+      "text": "這就是委託代理問題吧",
+      "audio_file": "audio/lines/tts_public_vs_private_line0034_A.mp3",
+      "start": 102.772,
+      "end": 105.172
+    },
+    {
+      "speaker": "B",
+      "text": "對，股東和管理層利益可能衝突",
+      "audio_file": "audio/lines/tts_public_vs_private_line0035_B.mp3",
+      "start": 105.292,
+      "end": 108.724
+    },
+    {
+      "speaker": "A",
+      "text": "非上市公司就不一樣嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0036_A.mp3",
+      "start": 108.844,
+      "end": 111.628
+    },
+    {
+      "speaker": "B",
+      "text": "創辦人通常兼大股東和管理者",
+      "audio_file": "audio/lines/tts_public_vs_private_line0037_B.mp3",
+      "start": 111.748,
+      "end": 115.204
+    },
+    {
+      "speaker": "B",
+      "text": "兩權合一，代理問題就小很多",
+      "audio_file": "audio/lines/tts_public_vs_private_line0038_B.mp3",
+      "start": 115.324,
+      "end": 118.54
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來非上市也不錯啊",
+      "audio_file": "audio/lines/tts_public_vs_private_line0039_A.mp3",
+      "start": 118.66,
+      "end": 121.18
+    },
+    {
+      "speaker": "B",
+      "text": "各有利弊，要看公司生命週期",
+      "audio_file": "audio/lines/tts_public_vs_private_line0040_B.mp3",
+      "start": 121.3,
+      "end": 124.468
+    },
+    {
+      "speaker": "B",
+      "text": "初創期靠天使投資人，通常不上市",
+      "audio_file": "audio/lines/tts_public_vs_private_line0041_B.mp3",
+      "start": 124.588,
+      "end": 128.308
+    },
+    {
+      "speaker": "A",
+      "text": "那成長期會怎麼走",
+      "audio_file": "audio/lines/tts_public_vs_private_line0042_A.mp3",
+      "start": 128.428,
+      "end": 130.708
+    },
+    {
+      "speaker": "B",
+      "text": "成長期會引進私募股權基金",
+      "audio_file": "audio/lines/tts_public_vs_private_line0043_B.mp3",
+      "start": 130.828,
+      "end": 133.828
+    },
+    {
+      "speaker": "B",
+      "text": "還是留在私募市場裡募資",
+      "audio_file": "audio/lines/tts_public_vs_private_line0044_B.mp3",
+      "start": 133.948,
+      "end": 136.588
+    },
+    {
+      "speaker": "A",
+      "text": "那成熟期就選擇上市嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0045_A.mp3",
+      "start": 136.708,
+      "end": 139.252
+    },
+    {
+      "speaker": "B",
+      "text": "對，可能用IPO進入公開市場",
+      "audio_file": "audio/lines/tts_public_vs_private_line0046_B.mp3",
+      "start": 139.372,
+      "end": 142.78
+    },
+    {
+      "speaker": "B",
+      "text": "上市可以募集大量資金",
+      "audio_file": "audio/lines/tts_public_vs_private_line0047_B.mp3",
+      "start": 142.9,
+      "end": 145.612
+    },
+    {
+      "speaker": "A",
+      "text": "但上市好像也有代價",
+      "audio_file": "audio/lines/tts_public_vs_private_line0048_A.mp3",
+      "start": 145.732,
+      "end": 148.084
+    },
+    {
+      "speaker": "B",
+      "text": "要接受嚴格監管，持續揭露財報",
+      "audio_file": "audio/lines/tts_public_vs_private_line0049_B.mp3",
+      "start": 148.204,
+      "end": 151.876
+    },
+    {
+      "speaker": "B",
+      "text": "還要承受股價波動的壓力",
+      "audio_file": "audio/lines/tts_public_vs_private_line0050_B.mp3",
+      "start": 151.996,
+      "end": 154.588
+    },
+    {
+      "speaker": "A",
+      "text": "那不上市的公司怎麼募資",
+      "audio_file": "audio/lines/tts_public_vs_private_line0051_A.mp3",
+      "start": 154.708,
+      "end": 157.54
+    },
+    {
+      "speaker": "B",
+      "text": "可以走私募，向特定投資人發行",
+      "audio_file": "audio/lines/tts_public_vs_private_line0052_B.mp3",
+      "start": 157.66,
+      "end": 160.9
+    },
+    {
+      "speaker": "A",
+      "text": "什麼是合格投資人",
+      "audio_file": "audio/lines/tts_public_vs_private_line0053_A.mp3",
+      "start": 161.02,
+      "end": 163.228
+    },
+    {
+      "speaker": "B",
+      "text": "要滿足財務門檻的人",
+      "audio_file": "audio/lines/tts_public_vs_private_line0054_B.mp3",
+      "start": 163.348,
+      "end": 165.628
+    },
+    {
+      "speaker": "B",
+      "text": "比如年收入超過二十萬美元",
+      "audio_file": "audio/lines/tts_public_vs_private_line0055_B.mp3",
+      "start": 165.748,
+      "end": 168.892
+    },
+    {
+      "speaker": "A",
+      "text": "他們為什麼要豁免揭露",
+      "audio_file": "audio/lines/tts_public_vs_private_line0056_A.mp3",
+      "start": 169.012,
+      "end": 171.532
+    },
+    {
+      "speaker": "B",
+      "text": "因為風險承受能力比較強",
+      "audio_file": "audio/lines/tts_public_vs_private_line0057_B.mp3",
+      "start": 171.652,
+      "end": 174.652
+    },
+    {
+      "speaker": "A",
+      "text": "那上市公司怎麼募資",
+      "audio_file": "audio/lines/tts_public_vs_private_line0058_A.mp3",
+      "start": 174.772,
+      "end": 177.268
+    },
+    {
+      "speaker": "B",
+      "text": "走公開發行，向大眾發行股份",
+      "audio_file": "audio/lines/tts_public_vs_private_line0059_B.mp3",
+      "start": 177.388,
+      "end": 180.772
+    },
+    {
+      "speaker": "B",
+      "text": "第一次叫IPO，之後可現金增資",
+      "audio_file": "audio/lines/tts_public_vs_private_line0060_B.mp3",
+      "start": 180.892,
+      "end": 184.54
+    },
+    {
+      "speaker": "A",
+      "text": "公開發行要準備什麼文件",
+      "audio_file": "audio/lines/tts_public_vs_private_line0061_A.mp3",
+      "start": 184.66,
+      "end": 187.492
+    },
+    {
+      "speaker": "B",
+      "text": "要公開說明書，還要監管審核",
+      "audio_file": "audio/lines/tts_public_vs_private_line0062_B.mp3",
+      "start": 187.612,
+      "end": 190.828
+    },
+    {
+      "speaker": "B",
+      "text": "比如美國的SEC就要審",
+      "audio_file": "audio/lines/tts_public_vs_private_line0063_B.mp3",
+      "start": 190.948,
+      "end": 193.996
+    },
+    {
+      "speaker": "A",
+      "text": "私募手續會比較簡單嗎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0064_A.mp3",
+      "start": 194.116,
+      "end": 196.804
+    },
+    {
+      "speaker": "B",
+      "text": "只要私募備忘錄和認購協議",
+      "audio_file": "audio/lines/tts_public_vs_private_line0065_B.mp3",
+      "start": 196.924,
+      "end": 199.996
+    },
+    {
+      "speaker": "B",
+      "text": "程序快、成本低、還不用揭露",
+      "audio_file": "audio/lines/tts_public_vs_private_line0066_B.mp3",
+      "start": 200.116,
+      "end": 203.308
+    },
+    {
+      "speaker": "A",
+      "text": "那為什麼不都用私募就好",
+      "audio_file": "audio/lines/tts_public_vs_private_line0067_A.mp3",
+      "start": 203.428,
+      "end": 205.9
+    },
+    {
+      "speaker": "B",
+      "text": "因為私募資金來源有限",
+      "audio_file": "audio/lines/tts_public_vs_private_line0068_B.mp3",
+      "start": 206.02,
+      "end": 208.444
+    },
+    {
+      "speaker": "B",
+      "text": "公開發行能募集幾十億美元",
+      "audio_file": "audio/lines/tts_public_vs_private_line0069_B.mp3",
+      "start": 208.564,
+      "end": 211.66
+    },
+    {
+      "speaker": "A",
+      "text": "難怪科技巨頭都愛上市",
+      "audio_file": "audio/lines/tts_public_vs_private_line0070_A.mp3",
+      "start": 211.78,
+      "end": 214.372
+    },
+    {
+      "speaker": "B",
+      "text": "對，還有直接上市這個選項",
+      "audio_file": "audio/lines/tts_public_vs_private_line0071_B.mp3",
+      "start": 214.492,
+      "end": 217.612
+    },
+    {
+      "speaker": "A",
+      "text": "直接上市和IPO差在哪",
+      "audio_file": "audio/lines/tts_public_vs_private_line0072_A.mp3",
+      "start": 217.732,
+      "end": 220.66
+    },
+    {
+      "speaker": "B",
+      "text": "直接上市不發新股也不募資",
+      "audio_file": "audio/lines/tts_public_vs_private_line0073_B.mp3",
+      "start": 220.78,
+      "end": 224.14
+    },
+    {
+      "speaker": "B",
+      "text": "只是讓舊股能公開交易",
+      "audio_file": "audio/lines/tts_public_vs_private_line0074_B.mp3",
+      "start": 224.26,
+      "end": 226.756
+    },
+    {
+      "speaker": "A",
+      "text": "原來是給早期股東變現的管道",
+      "audio_file": "audio/lines/tts_public_vs_private_line0075_A.mp3",
+      "start": 226.876,
+      "end": 229.684
+    },
+    {
+      "speaker": "B",
+      "text": "還有SPAC也能借殼上市",
+      "audio_file": "audio/lines/tts_public_vs_private_line0076_B.mp3",
+      "start": 229.804,
+      "end": 232.9
+    },
+    {
+      "speaker": "A",
+      "text": "所以上市不上市，各有取捨",
+      "audio_file": "audio/lines/tts_public_vs_private_line0077_A.mp3",
+      "start": 233.02,
+      "end": 236.428
+    },
+    {
+      "speaker": "B",
+      "text": "對，看你要流動性還是控制權",
+      "audio_file": "audio/lines/tts_public_vs_private_line0078_B.mp3",
+      "start": 236.548,
+      "end": 240.172
+    },
+    {
+      "speaker": "A",
+      "text": "投資人也要評估自己的風險承受度",
+      "audio_file": "audio/lines/tts_public_vs_private_line0079_A.mp3",
+      "start": 240.292,
+      "end": 243.628
+    },
+    {
+      "speaker": "B",
+      "text": "這可是CFA考試的重要考點",
+      "audio_file": "audio/lines/tts_public_vs_private_line0080_B.mp3",
+      "start": 243.748,
+      "end": 246.988
+    },
+    {
+      "speaker": "B",
+      "text": "原來如此，我總算搞懂了",
+      "audio_file": "audio/lines/tts_public_vs_private_line0081_B.mp3",
+      "start": 247.108,
+      "end": 250.132
+    },
+    {
+      "speaker": "A",
+      "text": "那我也算半個投資達人了，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_public_vs_private_line0082_A.mp3",
+      "start": 250.252,
+      "end": 252.772
+    }
+  ]
+}

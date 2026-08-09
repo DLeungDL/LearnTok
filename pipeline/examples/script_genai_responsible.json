@@ -1,0 +1,412 @@
+{
+  "id": "genai_responsible",
+  "title": "AI 騙人？負責任生成式 AI 的四大陷阱",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "AI 會一本正經地胡說八道，你信了就輸了。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0001_B.mp3",
+      "start": 0.1,
+      "end": 4.348
+    },
+    {
+      "speaker": "A",
+      "text": "蛤？它還會騙人？",
+      "audio_file": "audio/lines/tts_genai_responsible_line0002_A.mp3",
+      "start": 4.468,
+      "end": 7.108
+    },
+    {
+      "speaker": "B",
+      "text": "這叫幻覺，模型生成不合邏輯或明顯錯誤的內容。",
+      "terms": [
+        {
+          "cn": "幻覺",
+          "en": "Hallucination",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0003_B.mp3",
+      "start": 7.228,
+      "end": 11.86
+    },
+    {
+      "speaker": "A",
+      "text": "那不就亂講一通？誰會信啊？",
+      "audio_file": "audio/lines/tts_genai_responsible_line0004_A.mp3",
+      "start": 11.98,
+      "end": 15.148
+    },
+    {
+      "speaker": "B",
+      "text": "例如問鐵達尼號唯一倖存者，它會煞有其事地給錯答案。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0005_B.mp3",
+      "start": 15.268,
+      "end": 20.452
+    },
+    {
+      "speaker": "B",
+      "text": "對初學者來說，這答案夠有說服力，容易被當成事實。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0006_B.mp3",
+      "start": 20.572,
+      "end": 25.348
+    },
+    {
+      "speaker": "A",
+      "text": "這樣 AI 不就不可靠，公司名聲也毀了？",
+      "audio_file": "audio/lines/tts_genai_responsible_line0007_A.mp3",
+      "start": 25.468,
+      "end": 29.356
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯，所以我們要從四個層面來把關。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0008_B.mp3",
+      "start": 29.476,
+      "end": 33.34
+    },
+    {
+      "speaker": "B",
+      "text": "第一層選對模型，像 GPT-4 這種大模型用在特定",
+      "audio_file": "audio/lines/tts_genai_responsible_line0009_B.mp3",
+      "start": 33.46,
+      "end": 38.692
+    },
+    {
+      "speaker": "A",
+      "text": "小任務上，反而更容易出錯。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0010_A.mp3",
+      "start": 38.812,
+      "end": 41.74
+    },
+    {
+      "speaker": "A",
+      "text": "那第二層呢？第二層是安全系統，",
+      "audio_file": "audio/lines/tts_genai_responsible_line0011_A.mp3",
+      "start": 41.86,
+      "end": 45.412
+    },
+    {
+      "speaker": "B",
+      "text": "像內容過濾器能擋掉有害內容和越獄攻擊。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0012_B.mp3",
+      "start": 45.532,
+      "end": 49.804
+    },
+    {
+      "speaker": "A",
+      "text": "第三層用元提示限制，讓模型只從可信來源提取資訊。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0013_A.mp3",
+      "start": 49.924,
+      "end": 55.036
+    },
+    {
+      "speaker": "B",
+      "text": "那最後一層是介面。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0014_B.mp3",
+      "start": 55.156,
+      "end": 57.604
+    },
+    {
+      "speaker": "B",
+      "text": "對，設計 UI 限制輸入，並誠實告知能力限制。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0015_B.mp3",
+      "start": 57.724,
+      "end": 62.788
+    },
+    {
+      "speaker": "A",
+      "text": "等等，AI 不只說錯話，還會教人做壞事？",
+      "audio_file": "audio/lines/tts_genai_responsible_line0016_A.mp3",
+      "start": 62.908,
+      "end": 67.06
+    },
+    {
+      "speaker": "B",
+      "text": "對，這叫有害內容。",
+      "terms": [
+        {
+          "cn": "有害內容",
+          "en": "Harmful Content",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0017_B.mp3",
+      "start": 67.18,
+      "end": 69.916
+    },
+    {
+      "speaker": "B",
+      "text": "那它都怎麼使壞。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0018_B.mp3",
+      "start": 70.036,
+      "end": 72.004
+    },
+    {
+      "speaker": "A",
+      "text": "像是教人自我傷害，或仇恨貶低他人。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0019_A.mp3",
+      "start": 72.124,
+      "end": 75.892
+    },
+    {
+      "speaker": "B",
+      "text": "甚至指導策劃攻擊，或提供非法行為指引。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0020_B.mp3",
+      "start": 76.012,
+      "end": 80.044
+    },
+    {
+      "speaker": "B",
+      "text": "哇，這不是變成犯罪教科書了。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0021_B.mp3",
+      "start": 80.164,
+      "end": 83.86
+    },
+    {
+      "speaker": "A",
+      "text": "所以我們要防止學生看到這些內容。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0022_A.mp3",
+      "start": 83.98,
+      "end": 87.484
+    },
+    {
+      "speaker": "B",
+      "text": "可以從模型、安全系統、元提示和介面著手。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0023_B.mp3",
+      "start": 87.604,
+      "end": 92.332
+    },
+    {
+      "speaker": "B",
+      "text": "那不就是多裝幾道鎖。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0024_B.mp3",
+      "start": 92.452,
+      "end": 94.612
+    },
+    {
+      "speaker": "A",
+      "text": "沒錯，層層把關才能降低風險。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0025_A.mp3",
+      "start": 94.732,
+      "end": 98.164
+    },
+    {
+      "speaker": "B",
+      "text": "AI 看起來很中立，但會不會偷偷歧視人。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0026_B.mp3",
+      "start": 98.284,
+      "end": 102.244
+    },
+    {
+      "speaker": "B",
+      "text": "會啊，這就是公平性的問題。",
+      "terms": [
+        {
+          "cn": "公平性",
+          "en": "Fairness",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0027_B.mp3",
+      "start": 102.364,
+      "end": 105.316
+    },
+    {
+      "speaker": "A",
+      "text": "AI 學的資料帶著人類偏見，輸出就會有歧視。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0028_A.mp3",
+      "start": 105.436,
+      "end": 109.756
+    },
+    {
+      "speaker": "B",
+      "text": "那不就是隱形眼鏡。看起來透明，其實有色。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0029_B.mp3",
+      "start": 109.876,
+      "end": 114.244
+    },
+    {
+      "speaker": "B",
+      "text": "比喻得好！所以我們要確保 AI 公平對待每個人。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0030_B.mp3",
+      "start": 114.364,
+      "end": 119.668
+    },
+    {
+      "speaker": "A",
+      "text": "先衡量潛在危害，準備多樣化測試提示。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0031_A.mp3",
+      "start": 119.788,
+      "end": 123.82
+    },
+    {
+      "speaker": "B",
+      "text": "然後呢。測完就沒事了嗎。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0032_B.mp3",
+      "start": 123.94,
+      "end": 127.06
+    },
+    {
+      "speaker": "B",
+      "text": "還要從模型、安全系統、提示各層面減輕。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0033_B.mp3",
+      "start": 127.18,
+      "end": 131.548
+    },
+    {
+      "speaker": "A",
+      "text": "哇，那真是辛苦，每個環節都要顧到。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0034_A.mp3",
+      "start": 131.668,
+      "end": 135.58
+    },
+    {
+      "speaker": "B",
+      "text": "這就是負責任 AI 的核心，顧及所有使用者。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0035_B.mp3",
+      "start": 135.7,
+      "end": 139.66
+    },
+    {
+      "speaker": "B",
+      "text": "別怕，有四層防護罩能擋住 AI 的壞毛病。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0036_B.mp3",
+      "start": 139.78,
+      "end": 144.076
+    },
+    {
+      "speaker": "A",
+      "text": "四層？聽起來好像很厲害。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0037_A.mp3",
+      "start": 144.196,
+      "end": 147.508
+    },
+    {
+      "speaker": "B",
+      "text": "第一層是模型，選對適合的模型很重要。",
+      "terms": [
+        {
+          "cn": "模型",
+          "en": "Model",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0038_B.mp3",
+      "start": 147.628,
+      "end": 151.516
+    },
+    {
+      "speaker": "B",
+      "text": "越大越聰明，不是越好嗎。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0039_B.mp3",
+      "start": 151.636,
+      "end": 154.468
+    },
+    {
+      "speaker": "A",
+      "text": "大模型用在特定小任務，反而更容易出錯。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0040_A.mp3",
+      "start": 154.588,
+      "end": 158.356
+    },
+    {
+      "speaker": "B",
+      "text": "第二層是安全系統，像內容過濾器。",
+      "terms": [
+        {
+          "cn": "安全系統",
+          "en": "Safety System",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0041_B.mp3",
+      "start": 158.476,
+      "end": 161.86
+    },
+    {
+      "speaker": "B",
+      "text": "能擋掉有害內容和越獄攻擊。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0042_B.mp3",
+      "start": 161.98,
+      "end": 165.124
+    },
+    {
+      "speaker": "A",
+      "text": "對，還能偵測機器人的不必要請求。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0043_A.mp3",
+      "start": 165.244,
+      "end": 168.556
+    },
+    {
+      "speaker": "B",
+      "text": "第三層是元提示，設定限制並引導模型。",
+      "terms": [
+        {
+          "cn": "元提示",
+          "en": "Meta-prompt",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0044_B.mp3",
+      "start": 168.676,
+      "end": 172.636
+    },
+    {
+      "speaker": "B",
+      "text": "搭配 RAG 技術，只從可信來源提取資訊。",
+      "terms": [
+        {
+          "cn": "檢索增強生成",
+          "en": "RAG",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0045_B.mp3",
+      "start": 172.756,
+      "end": 176.644
+    },
+    {
+      "speaker": "A",
+      "text": "最後一層是用戶體驗，靠設計介面把關。",
+      "terms": [
+        {
+          "cn": "用戶體驗",
+          "en": "User Experience",
+          "source": "materials/genai-beginners/zh-HK/03-using-generative-ai-responsibly/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_responsible_line0046_A.mp3",
+      "start": 176.764,
+      "end": 180.652
+    },
+    {
+      "speaker": "B",
+      "text": "限制輸入，還要誠實告知能力限制。",
+      "audio_file": "audio/lines/tts_genai_responsible_line0047_B.mp3",
+      "start": 180.772,
+      "end": 184.396
+    },
+    {
+      "speaker": "A",
+      "text": "四層防護罩，AI 的壞毛病無處躲。咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_genai_responsible_line0048_A.mp3",
+      "start": 184.516,
+      "end": 188.236
+    }
+  ]
+}

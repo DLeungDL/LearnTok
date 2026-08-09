@@ -1,0 +1,358 @@
+{
+  "id": "apply_patch",
+  "title": "AI 改一千行程式碼，為什麼只回兩行？",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "bgm": {
+    "file": "bgm/bgm_haru_haru.mp3",
+    "volume": 0.08
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "改一千行的程式，AI 只回兩行就改好？",
+      "audio_file": "audio/lines/tts_apply_patch_line0001_A.mp3",
+      "start": 0.1,
+      "end": 3.988
+    },
+    {
+      "speaker": "B",
+      "text": "那是增量補丁，不用重印整份檔案。",
+      "terms": [
+        {
+          "cn": "增量補丁",
+          "en": "Incremental Patch"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0002_B.mp3",
+      "start": 4.108,
+      "end": 7.444
+    },
+    {
+      "speaker": "B",
+      "text": "打個比方，遊戲更新只下載改動的補丁。",
+      "audio_file": "audio/lines/tts_apply_patch_line0003_B.mp3",
+      "start": 7.564,
+      "end": 11.452
+    },
+    {
+      "speaker": "A",
+      "text": "不用重載整個遊戲？省太多吧。",
+      "audio_file": "audio/lines/tts_apply_patch_line0004_A.mp3",
+      "start": 11.572,
+      "end": 15.124
+    },
+    {
+      "speaker": "B",
+      "text": "對，重點是省 Token 消耗，省真金白銀。",
+      "terms": [
+        {
+          "cn": "Token 消耗",
+          "en": "Token Cost"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0005_B.mp3",
+      "start": 15.244,
+      "end": 19.468
+    },
+    {
+      "speaker": "B",
+      "text": "模型按生成字數收費，字越多越貴。",
+      "audio_file": "audio/lines/tts_apply_patch_line0006_B.mp3",
+      "start": 19.588,
+      "end": 23.26
+    },
+    {
+      "speaker": "A",
+      "text": "現在只貼改的兩行，省九成？",
+      "audio_file": "audio/lines/tts_apply_patch_line0007_A.mp3",
+      "start": 23.38,
+      "end": 26.62
+    },
+    {
+      "speaker": "B",
+      "text": "不止省錢，回應速度也快很多。",
+      "terms": [
+        {
+          "cn": "延遲",
+          "en": "Latency"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0008_B.mp3",
+      "start": 26.74,
+      "end": 29.932
+    },
+    {
+      "speaker": "B",
+      "text": "不用慢慢吐完整份，像捷運直達車。",
+      "audio_file": "audio/lines/tts_apply_patch_line0009_B.mp3",
+      "start": 30.052,
+      "end": 33.532
+    },
+    {
+      "speaker": "A",
+      "text": "那 AI 怎麼知道改哪裡？不會改錯？",
+      "audio_file": "audio/lines/tts_apply_patch_line0010_A.mp3",
+      "start": 33.652,
+      "end": 37.684
+    },
+    {
+      "speaker": "B",
+      "text": "先比對上下文，鎖定正確位置。",
+      "terms": [
+        {
+          "cn": "上下文對齊",
+          "en": "Context Matching"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0011_B.mp3",
+      "start": 37.804,
+      "end": 41.068
+    },
+    {
+      "speaker": "B",
+      "text": "只動局部，不碰其他程式碼。",
+      "audio_file": "audio/lines/tts_apply_patch_line0012_B.mp3",
+      "start": 41.188,
+      "end": 44.236
+    },
+    {
+      "speaker": "A",
+      "text": "改最少、錯最少，聽起來很保險。",
+      "audio_file": "audio/lines/tts_apply_patch_line0013_A.mp3",
+      "start": 44.356,
+      "end": 47.788
+    },
+    {
+      "speaker": "B",
+      "text": "凡事動腦子，先想清楚再下手。",
+      "audio_file": "audio/lines/tts_apply_patch_line0014_B.mp3",
+      "start": 47.908,
+      "end": 51.076
+    },
+    {
+      "speaker": "B",
+      "text": "重寫整份常常漏東漏西，這招不會。",
+      "audio_file": "audio/lines/tts_apply_patch_line0015_B.mp3",
+      "start": 51.196,
+      "end": 55.084
+    },
+    {
+      "speaker": "A",
+      "text": "那一次能改幾個檔案？",
+      "audio_file": "audio/lines/tts_apply_patch_line0016_A.mp3",
+      "start": 55.204,
+      "end": 57.58
+    },
+    {
+      "speaker": "B",
+      "text": "一個補丁能同時新增、修改、刪除。",
+      "audio_file": "audio/lines/tts_apply_patch_line0017_B.mp3",
+      "start": 57.7,
+      "end": 61.948
+    },
+    {
+      "speaker": "B",
+      "text": "整批一起執行，不會改一半。",
+      "terms": [
+        {
+          "cn": "原子性",
+          "en": "Atomicity"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0018_B.mp3",
+      "start": 62.068,
+      "end": 65.116
+    },
+    {
+      "speaker": "A",
+      "text": "一次辦三件事，這麼全能？",
+      "audio_file": "audio/lines/tts_apply_patch_line0019_A.mp3",
+      "start": 65.236,
+      "end": 68.188
+    },
+    {
+      "speaker": "B",
+      "text": "要嘛全部成功，要嘛全部不算。",
+      "terms": [
+        {
+          "cn": "事務",
+          "en": "Transaction"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0020_B.mp3",
+      "start": 68.308,
+      "end": 71.716
+    },
+    {
+      "speaker": "B",
+      "text": "失敗就是整批不作數，不半途而廢。",
+      "audio_file": "audio/lines/tts_apply_patch_line0021_B.mp3",
+      "start": 71.836,
+      "end": 75.388
+    },
+    {
+      "speaker": "A",
+      "text": "全部不算？那不是白做工？",
+      "audio_file": "audio/lines/tts_apply_patch_line0022_A.mp3",
+      "start": 75.508,
+      "end": 78.628
+    },
+    {
+      "speaker": "B",
+      "text": "不會，會整個回滾，回到改之前。",
+      "terms": [
+        {
+          "cn": "回滾",
+          "en": "Rollback"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0023_B.mp3",
+      "start": 78.748,
+      "end": 82.324
+    },
+    {
+      "speaker": "B",
+      "text": "像網購退貨，退回原本狀態。",
+      "audio_file": "audio/lines/tts_apply_patch_line0024_B.mp3",
+      "start": 82.444,
+      "end": 85.54
+    },
+    {
+      "speaker": "A",
+      "text": "那改一半的爛攤子，誰收拾？",
+      "audio_file": "audio/lines/tts_apply_patch_line0025_A.mp3",
+      "start": 85.66,
+      "end": 88.612
+    },
+    {
+      "speaker": "B",
+      "text": "乾淨退回，不留半改狀態。",
+      "audio_file": "audio/lines/tts_apply_patch_line0026_B.mp3",
+      "start": 88.732,
+      "end": 91.948
+    },
+    {
+      "speaker": "B",
+      "text": "引擎先驗證，通過才准寫進檔案。",
+      "audio_file": "audio/lines/tts_apply_patch_line0027_B.mp3",
+      "start": 92.068,
+      "end": 95.428
+    },
+    {
+      "speaker": "A",
+      "text": "那補丁對不上，怎麼辦？",
+      "audio_file": "audio/lines/tts_apply_patch_line0028_A.mp3",
+      "start": 95.548,
+      "end": 98.092
+    },
+    {
+      "speaker": "B",
+      "text": "引擎回報對齊失敗，讓 AI 重試。",
+      "audio_file": "audio/lines/tts_apply_patch_line0029_B.mp3",
+      "start": 98.212,
+      "end": 101.548
+    },
+    {
+      "speaker": "B",
+      "text": "這是閉環回饋，越修越準。",
+      "terms": [
+        {
+          "cn": "閉環回饋",
+          "en": "Closed-loop Feedback"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0030_B.mp3",
+      "start": 101.668,
+      "end": 104.836
+    },
+    {
+      "speaker": "A",
+      "text": "對齊不了，不就一直卡著？",
+      "audio_file": "audio/lines/tts_apply_patch_line0031_A.mp3",
+      "start": 104.956,
+      "end": 107.548
+    },
+    {
+      "speaker": "B",
+      "text": "重試到對上為止，不會亂寫。",
+      "audio_file": "audio/lines/tts_apply_patch_line0032_B.mp3",
+      "start": 107.668,
+      "end": 110.74
+    },
+    {
+      "speaker": "B",
+      "text": "這就像對暗號，錯了就重喊一遍。",
+      "audio_file": "audio/lines/tts_apply_patch_line0033_B.mp3",
+      "start": 110.86,
+      "end": 114.052
+    },
+    {
+      "speaker": "A",
+      "text": "跨好幾個檔案重構，也行？",
+      "audio_file": "audio/lines/tts_apply_patch_line0034_A.mp3",
+      "start": 114.172,
+      "end": 117.148
+    },
+    {
+      "speaker": "B",
+      "text": "行，一次補丁連邏輯帶設定一起改。",
+      "terms": [
+        {
+          "cn": "跨檔案重構",
+          "en": "Cross-file Refactor"
+        }
+      ],
+      "audio_file": "audio/lines/tts_apply_patch_line0035_B.mp3",
+      "start": 117.268,
+      "end": 121.228
+    },
+    {
+      "speaker": "B",
+      "text": "連測試都能在同一張補丁補上。",
+      "audio_file": "audio/lines/tts_apply_patch_line0036_B.mp3",
+      "start": 121.348,
+      "end": 124.3
+    },
+    {
+      "speaker": "A",
+      "text": "連測試一起寫，真周到。",
+      "audio_file": "audio/lines/tts_apply_patch_line0037_A.mp3",
+      "start": 124.42,
+      "end": 127.204
+    },
+    {
+      "speaker": "B",
+      "text": "這就是 AI 改程式最省力的方式。",
+      "audio_file": "audio/lines/tts_apply_patch_line0038_B.mp3",
+      "start": 127.324,
+      "end": 130.972
+    },
+    {
+      "speaker": "B",
+      "text": "改得少、改得準、改得快。",
+      "audio_file": "audio/lines/tts_apply_patch_line0039_B.mp3",
+      "start": 131.092,
+      "end": 134.14
+    },
+    {
+      "speaker": "A",
+      "text": "以後 AI 改程式像補丁俠，精準又溫柔，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_apply_patch_line0040_A.mp3",
+      "start": 134.26,
+      "end": 138.436
+    }
+  ]
+}

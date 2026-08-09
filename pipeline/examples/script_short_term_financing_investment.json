@@ -1,0 +1,399 @@
+{
+  "id": "short_term_financing_investment",
+  "title": "借錢講究，花大錢更講究：公司的短期融資與資本預算",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "bgm": {
+    "file": "bgm/bgm_sacred_play_secret_place.mp3",
+    "volume": 0.12
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "公司急著用錢，隨便找家銀行借就好了吧？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0001_A.mp3",
+      "start": 0.1,
+      "end": 4.3
+    },
+    {
+      "speaker": "B",
+      "text": "那可不行。短期融資有一套講究。",
+      "terms": [
+        {
+          "cn": "短期融資",
+          "en": "Short-Term Financing"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0002_B.mp3",
+      "start": 4.42,
+      "end": 8.188
+    },
+    {
+      "speaker": "A",
+      "text": "借錢還有講究？錢到手不就結了？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0003_A.mp3",
+      "start": 8.308,
+      "end": 11.884
+    },
+    {
+      "speaker": "B",
+      "text": "來源別只靠一家銀行，一抽銀根就斷了。",
+      "terms": [
+        {
+          "cn": "信用額度",
+          "en": "Line of Credit"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0004_B.mp3",
+      "start": 12.004,
+      "end": 15.772
+    },
+    {
+      "speaker": "A",
+      "text": "那除了多找幾家，還要注意什麼？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0005_A.mp3",
+      "start": 15.892,
+      "end": 18.988
+    },
+    {
+      "speaker": "B",
+      "text": "額度要有彈性，旺季能多借；利率也要有競爭力。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0006_B.mp3",
+      "start": 19.108,
+      "end": 23.956
+    },
+    {
+      "speaker": "A",
+      "text": "借錢還要貨比三家，跟買菜一樣？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0007_A.mp3",
+      "start": 24.076,
+      "end": 27.436
+    },
+    {
+      "speaker": "B",
+      "text": "對。最難的是第四條，要算隱性與顯性成本。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0008_B.mp3",
+      "start": 27.556,
+      "end": 32.308
+    },
+    {
+      "speaker": "A",
+      "text": "顯性我懂，利息跟手續費。隱性是什麼？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0009_A.mp3",
+      "start": 32.428,
+      "end": 36.628
+    },
+    {
+      "speaker": "B",
+      "text": "像放棄折扣的利息，或銀行要求留補償性餘額。",
+      "terms": [
+        {
+          "cn": "補償性餘額",
+          "en": "Compensating Balance"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0010_B.mp3",
+      "start": 36.748,
+      "end": 41.116
+    },
+    {
+      "speaker": "B",
+      "text": "這些不寫在發票上，卻都算進你的融資總成本。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0011_B.mp3",
+      "start": 41.236,
+      "end": 45.364
+    },
+    {
+      "speaker": "A",
+      "text": "原來看不見的錢，也算借錢成本？這不是變相加價？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0012_A.mp3",
+      "start": 45.484,
+      "end": 50.476
+    },
+    {
+      "speaker": "B",
+      "text": "但能不能借到，先看公司的規模與信用狀況。",
+      "terms": [
+        {
+          "cn": "信用狀況",
+          "en": "Creditworthiness"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0013_B.mp3",
+      "start": 50.596,
+      "end": 54.628
+    },
+    {
+      "speaker": "A",
+      "text": "所以大公司好借，小公司只能吃土？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0014_A.mp3",
+      "start": 54.748,
+      "end": 58.468
+    },
+    {
+      "speaker": "B",
+      "text": "對，像商業本票信用要好才發得動。",
+      "terms": [
+        {
+          "cn": "商業本票",
+          "en": "Commercial Paper"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0015_B.mp3",
+      "start": 58.588,
+      "end": 62.452
+    },
+    {
+      "speaker": "B",
+      "text": "期限短、利率低，但只有大公司玩得起。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0016_B.mp3",
+      "start": 62.572,
+      "end": 66.436
+    },
+    {
+      "speaker": "A",
+      "text": "那沒本票的小公司，拿什麼抵押？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0017_A.mp3",
+      "start": 66.556,
+      "end": 69.652
+    },
+    {
+      "speaker": "B",
+      "text": "把應收帳款或存貨拿去當擔保，利率會低一些。",
+      "terms": [
+        {
+          "cn": "應收帳款融資",
+          "en": "Accounts Receivable Financing"
+        },
+        {
+          "cn": "存貨融資",
+          "en": "Inventory Financing"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0018_B.mp3",
+      "start": 69.772,
+      "end": 74.332
+    },
+    {
+      "speaker": "B",
+      "text": "也可以把應收帳款折價賣出去，叫應收帳款承購。",
+      "terms": [
+        {
+          "cn": "應收帳款承購",
+          "en": "Factoring"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0019_B.mp3",
+      "start": 74.452,
+      "end": 78.844
+    },
+    {
+      "speaker": "A",
+      "text": "犧牲瀧折扣換即時現金，不就像急賣二手手機？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0020_A.mp3",
+      "start": 78.964,
+      "end": 83.452
+    },
+    {
+      "speaker": "B",
+      "text": "借完錢，公司要把錢花在資本投資項目上。",
+      "terms": [
+        {
+          "cn": "資本投資項目",
+          "en": "Capital Investment Project"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0021_B.mp3",
+      "start": 83.572,
+      "end": 87.364
+    },
+    {
+      "speaker": "A",
+      "text": "花大錢蓋廠、買設備，還要分類？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0022_A.mp3",
+      "start": 87.484,
+      "end": 90.964
+    },
+    {
+      "speaker": "B",
+      "text": "對！第一種叫業務維護，換老舊設備、提高效率。",
+      "terms": [
+        {
+          "cn": "業務維護",
+          "en": "Business Maintenance"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0023_B.mp3",
+      "start": 91.084,
+      "end": 96.244
+    },
+    {
+      "speaker": "A",
+      "text": "這些又不賺錢，為什麼還要花？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0024_A.mp3",
+      "start": 96.364,
+      "end": 99.556
+    },
+    {
+      "speaker": "B",
+      "text": "不花，公司會停擺、會罰款，非做不可。這是考點。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0025_B.mp3",
+      "start": 99.676,
+      "end": 105.148
+    },
+    {
+      "speaker": "A",
+      "text": "像車子要保養，不保養就顧路？那監管合規呢？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0026_A.mp3",
+      "start": 105.268,
+      "end": 109.876
+    },
+    {
+      "speaker": "B",
+      "text": "監管合規也是，法規要求非做不可。",
+      "terms": [
+        {
+          "cn": "監管／合規",
+          "en": "Regulatory / Compliance"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0027_B.mp3",
+      "start": 109.996,
+      "end": 113.908
+    },
+    {
+      "speaker": "B",
+      "text": "維護型不增加收入，但靠省成本創造價值。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0028_B.mp3",
+      "start": 114.028,
+      "end": 118.18
+    },
+    {
+      "speaker": "A",
+      "text": "所以維護類優先做，剩下的錢才拿去擴張？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0029_A.mp3",
+      "start": 118.3,
+      "end": 122.692
+    },
+    {
+      "speaker": "B",
+      "text": "對。一種是現有業務擴張，風險低到中等。",
+      "terms": [
+        {
+          "cn": "業務擴張",
+          "en": "Business Expansion"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0030_B.mp3",
+      "start": 122.812,
+      "end": 127.612
+    },
+    {
+      "speaker": "A",
+      "text": "像台積電蓋新廠、豐田擴產線那種？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0031_A.mp3",
+      "start": 127.732,
+      "end": 131.596
+    },
+    {
+      "speaker": "B",
+      "text": "對！核心業務內，市場熟悉，可用歷史數據評估。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0032_B.mp3",
+      "start": 131.716,
+      "end": 136.9
+    },
+    {
+      "speaker": "A",
+      "text": "另一種是全新業務線？那風險應該爆表。",
+      "terms": [
+        {
+          "cn": "全新業務線",
+          "en": "New Lines of Business"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0033_A.mp3",
+      "start": 137.02,
+      "end": 141.1
+    },
+    {
+      "speaker": "B",
+      "text": "對，像搞個跟本業八竿子打不著的新生意。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0034_B.mp3",
+      "start": 141.22,
+      "end": 145.228
+    },
+    {
+      "speaker": "A",
+      "text": "那不就是賭博？虧起來整間公司陪葬。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0035_A.mp3",
+      "start": 145.348,
+      "end": 149.404
+    },
+    {
+      "speaker": "B",
+      "text": "所以要用更高的加權平均資本成本，再加風險溢價。",
+      "terms": [
+        {
+          "cn": "加權平均資本成本",
+          "en": "Weighted Average Cost of Capital (WACC)"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0036_B.mp3",
+      "start": 149.524,
+      "end": 154.468
+    },
+    {
+      "speaker": "B",
+      "text": "風險越高、門檻越高，這就是資本預算的道理。",
+      "terms": [
+        {
+          "cn": "資本預算",
+          "en": "Capital Budgeting"
+        }
+      ],
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0037_B.mp3",
+      "start": 154.588,
+      "end": 158.884
+    },
+    {
+      "speaker": "A",
+      "text": "維護、擴張、新業務，風險一級級往上爬？",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0038_A.mp3",
+      "start": 159.004,
+      "end": 163.3
+    },
+    {
+      "speaker": "B",
+      "text": "對，優先順序正好相反，維護最先、新業務最後選。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0039_B.mp3",
+      "start": 163.42,
+      "end": 168.724
+    },
+    {
+      "speaker": "A",
+      "text": "仔細想，借錢和花錢都在逼公司想清楚一件事。",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0040_A.mp3",
+      "start": 168.844,
+      "end": 173.452
+    },
+    {
+      "speaker": "A",
+      "text": "錢從哪來、花得值不值，這才是真正的理財，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_short_term_financing_investment_line0041_A.mp3",
+      "start": 173.572,
+      "end": 177.676
+    }
+  ]
+}

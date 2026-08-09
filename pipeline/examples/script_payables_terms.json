@@ -1,0 +1,406 @@
+{
+  "id": "payables_terms",
+  "title": "貿易信貸的隱藏成本：放棄折扣的代價",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "供應商說早點付錢就打折，是天上掉餡餅？",
+      "audio_file": "audio/lines/tts_payables_terms_line0001_A.mp3",
+      "start": 0.1,
+      "end": 4.132
+    },
+    {
+      "speaker": "B",
+      "text": "這是貿易信貸優惠條款，不是免費午餐。",
+      "terms": [
+        {
+          "cn": "貿易信貸優惠條款",
+          "en": "Trade Credit Terms",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0002_B.mp3",
+      "start": 4.252,
+      "end": 8.044
+    },
+    {
+      "speaker": "B",
+      "text": "陷阱藏在放棄折扣的成本裡。",
+      "audio_file": "audio/lines/tts_payables_terms_line0003_B.mp3",
+      "start": 8.164,
+      "end": 10.924
+    },
+    {
+      "speaker": "A",
+      "text": "有多嚇人？比銀行貸款還貴？",
+      "audio_file": "audio/lines/tts_payables_terms_line0004_A.mp3",
+      "start": 11.044,
+      "end": 14.452
+    },
+    {
+      "speaker": "B",
+      "text": "2/10 net 30，年利率約 44.6%。",
+      "terms": [
+        {
+          "cn": "貿易信貸條件",
+          "en": "Trade Credit Terms",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0005_B.mp3",
+      "start": 14.572,
+      "end": 19.228
+    },
+    {
+      "speaker": "B",
+      "text": "這數字，比多數信貸都貴。",
+      "audio_file": "audio/lines/tts_payables_terms_line0006_B.mp3",
+      "start": 19.348,
+      "end": 22.324
+    },
+    {
+      "speaker": "A",
+      "text": "44.6%？你確定沒多打一個小數點？",
+      "audio_file": "audio/lines/tts_payables_terms_line0007_A.mp3",
+      "start": 22.444,
+      "end": 26.908
+    },
+    {
+      "speaker": "B",
+      "text": "俺算給你看。10 天內付款打九八折，",
+      "audio_file": "audio/lines/tts_payables_terms_line0008_B.mp3",
+      "start": 27.028,
+      "end": 30.748
+    },
+    {
+      "speaker": "B",
+      "text": "30 天內付全額，錯過就沒折扣。",
+      "audio_file": "audio/lines/tts_payables_terms_line0009_B.mp3",
+      "start": 30.868,
+      "end": 34.3
+    },
+    {
+      "speaker": "A",
+      "text": "那手頭緊，拖到 30 天再付呢？",
+      "audio_file": "audio/lines/tts_payables_terms_line0010_A.mp3",
+      "start": 34.42,
+      "end": 37.468
+    },
+    {
+      "speaker": "B",
+      "text": "等於跟供應商借了 20 天的錢，",
+      "terms": [
+        {
+          "cn": "貿易信用",
+          "en": "Trade Credit",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0011_B.mp3",
+      "start": 37.588,
+      "end": 40.372
+    },
+    {
+      "speaker": "B",
+      "text": "代價就是那 2% 的折扣。",
+      "audio_file": "audio/lines/tts_payables_terms_line0012_B.mp3",
+      "start": 40.492,
+      "end": 43.156
+    },
+    {
+      "speaker": "A",
+      "text": "才 2%，聽起來不痛不癢？",
+      "audio_file": "audio/lines/tts_payables_terms_line0013_A.mp3",
+      "start": 43.276,
+      "end": 46.372
+    },
+    {
+      "speaker": "B",
+      "text": "但年化下去，複利滾成 44.6%。",
+      "terms": [
+        {
+          "cn": "有效年利率",
+          "en": "Effective Annual Rate",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0014_B.mp3",
+      "start": 46.492,
+      "end": 50.668
+    },
+    {
+      "speaker": "B",
+      "text": "年化，就是把 20 天的成本放大到一年。",
+      "audio_file": "audio/lines/tts_payables_terms_line0015_B.mp3",
+      "start": 50.788,
+      "end": 54.796
+    },
+    {
+      "speaker": "A",
+      "text": "那這串「2/10, net 30」怎麼讀？",
+      "audio_file": "audio/lines/tts_payables_terms_line0016_A.mp3",
+      "start": 54.916,
+      "end": 58.444
+    },
+    {
+      "speaker": "B",
+      "text": "2 是折扣百分比，10 是折扣期，30 是信用期。",
+      "terms": [
+        {
+          "cn": "折扣百分比",
+          "en": "Discount Percentage",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:3"
+        },
+        {
+          "cn": "折扣期",
+          "en": "Discount Period",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:3"
+        },
+        {
+          "cn": "信用期",
+          "en": "Credit Period",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0017_B.mp3",
+      "start": 58.564,
+      "end": 63.436
+    },
+    {
+      "speaker": "A",
+      "text": "所以十天內付款，省 2%？",
+      "audio_file": "audio/lines/tts_payables_terms_line0018_A.mp3",
+      "start": 63.556,
+      "end": 66.988
+    },
+    {
+      "speaker": "B",
+      "text": "對，這是供應商給的甜頭。",
+      "audio_file": "audio/lines/tts_payables_terms_line0019_B.mp3",
+      "start": 67.108,
+      "end": 70.084
+    },
+    {
+      "speaker": "B",
+      "text": "甜頭背後，是早付的選擇權。",
+      "audio_file": "audio/lines/tts_payables_terms_line0020_B.mp3",
+      "start": 70.204,
+      "end": 73.204
+    },
+    {
+      "speaker": "A",
+      "text": "那放棄折扣，等於跟供應商借錢？",
+      "audio_file": "audio/lines/tts_payables_terms_line0021_A.mp3",
+      "start": 73.324,
+      "end": 76.612
+    },
+    {
+      "speaker": "B",
+      "text": "對，借 20 天，利息就是那 2%。",
+      "audio_file": "audio/lines/tts_payables_terms_line0022_B.mp3",
+      "start": 76.732,
+      "end": 80.596
+    },
+    {
+      "speaker": "B",
+      "text": "這筆借款，沒有合約，只有條件。",
+      "audio_file": "audio/lines/tts_payables_terms_line0023_B.mp3",
+      "start": 80.716,
+      "end": 84.292
+    },
+    {
+      "speaker": "A",
+      "text": "這利息比銀行貴，為什麼不早付？",
+      "audio_file": "audio/lines/tts_payables_terms_line0024_A.mp3",
+      "start": 84.412,
+      "end": 87.772
+    },
+    {
+      "speaker": "B",
+      "text": "所以決策看利率：EAR 和銀行借款利率比。",
+      "terms": [
+        {
+          "cn": "有效年利率",
+          "en": "Effective Annual Rate",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:2"
+        },
+        {
+          "cn": "銀行借款利率",
+          "en": "Bank Borrowing Rate",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0025_B.mp3",
+      "start": 87.892,
+      "end": 92.116
+    },
+    {
+      "speaker": "B",
+      "text": "EAR 高就享受折扣，銀行貴就慢慢付。",
+      "audio_file": "audio/lines/tts_payables_terms_line0026_B.mp3",
+      "start": 92.236,
+      "end": 96.004
+    },
+    {
+      "speaker": "A",
+      "text": "那 EAR 到底多少才算高？",
+      "audio_file": "audio/lines/tts_payables_terms_line0027_A.mp3",
+      "start": 96.124,
+      "end": 98.788
+    },
+    {
+      "speaker": "B",
+      "text": "2/10 net 30，EAR 約 44.6%。",
+      "terms": [
+        {
+          "cn": "EAR",
+          "en": "Effective Annual Rate",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0028_B.mp3",
+      "start": 98.908,
+      "end": 103.396
+    },
+    {
+      "speaker": "B",
+      "text": "這隱含成本，比銀行貸款貴多了。",
+      "audio_file": "audio/lines/tts_payables_terms_line0029_B.mp3",
+      "start": 103.516,
+      "end": 106.828
+    },
+    {
+      "speaker": "A",
+      "text": "那幾乎沒有銀行，會收這麼貴？",
+      "audio_file": "audio/lines/tts_payables_terms_line0030_A.mp3",
+      "start": 106.948,
+      "end": 110.116
+    },
+    {
+      "speaker": "B",
+      "text": "對，除非快斷糧，否則別放棄折扣。",
+      "audio_file": "audio/lines/tts_payables_terms_line0031_B.mp3",
+      "start": 110.236,
+      "end": 114.004
+    },
+    {
+      "speaker": "A",
+      "text": "這背後是什麼邏輯？",
+      "audio_file": "audio/lines/tts_payables_terms_line0032_A.mp3",
+      "start": 114.124,
+      "end": 116.308
+    },
+    {
+      "speaker": "B",
+      "text": "放棄折扣，就是付出機會成本。",
+      "terms": [
+        {
+          "cn": "機會成本",
+          "en": "Opportunity Cost",
+          "source": "materials/公司發行人/9. 應付帳款優惠條款.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_payables_terms_line0033_B.mp3",
+      "start": 116.428,
+      "end": 119.596
+    },
+    {
+      "speaker": "B",
+      "text": "放棄 2% 折扣，換 20 天緩衝。",
+      "audio_file": "audio/lines/tts_payables_terms_line0034_B.mp3",
+      "start": 119.716,
+      "end": 123.316
+    },
+    {
+      "speaker": "A",
+      "text": "那如果公司現金很緊呢？",
+      "audio_file": "audio/lines/tts_payables_terms_line0035_A.mp3",
+      "start": 123.436,
+      "end": 126.076
+    },
+    {
+      "speaker": "B",
+      "text": "現金快斷，就只能放棄折扣救急。",
+      "audio_file": "audio/lines/tts_payables_terms_line0036_B.mp3",
+      "start": 126.196,
+      "end": 129.772
+    },
+    {
+      "speaker": "B",
+      "text": "除非真的斷糧，不然別碰這高利貸。",
+      "audio_file": "audio/lines/tts_payables_terms_line0037_B.mp3",
+      "start": 129.892,
+      "end": 133.18
+    },
+    {
+      "speaker": "A",
+      "text": "所以優先順序是：先折扣，再借款？",
+      "audio_file": "audio/lines/tts_payables_terms_line0038_A.mp3",
+      "start": 133.3,
+      "end": 137.428
+    },
+    {
+      "speaker": "B",
+      "text": "對，用銀行便宜的錢，換折扣更賺。",
+      "audio_file": "audio/lines/tts_payables_terms_line0039_B.mp3",
+      "start": 137.548,
+      "end": 141.652
+    },
+    {
+      "speaker": "A",
+      "text": "那我該怎麼記住這個規則？",
+      "audio_file": "audio/lines/tts_payables_terms_line0040_A.mp3",
+      "start": 141.772,
+      "end": 144.484
+    },
+    {
+      "speaker": "B",
+      "text": "記住：EAR 高就早付，缺現金才拖。",
+      "audio_file": "audio/lines/tts_payables_terms_line0041_B.mp3",
+      "start": 144.604,
+      "end": 148.66
+    },
+    {
+      "speaker": "B",
+      "text": "這個順序，考試常考。",
+      "audio_file": "audio/lines/tts_payables_terms_line0042_B.mp3",
+      "start": 148.78,
+      "end": 151.372
+    },
+    {
+      "speaker": "A",
+      "text": "考點來了，放棄折扣等於借高利貸？",
+      "audio_file": "audio/lines/tts_payables_terms_line0043_A.mp3",
+      "start": 151.492,
+      "end": 155.092
+    },
+    {
+      "speaker": "B",
+      "text": "正是，除非斷糧，否則別當冤大頭。",
+      "audio_file": "audio/lines/tts_payables_terms_line0044_B.mp3",
+      "start": 155.212,
+      "end": 159.124
+    },
+    {
+      "speaker": "A",
+      "text": "小小折扣，背後藏著高利貸，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_payables_terms_line0045_A.mp3",
+      "start": 159.244,
+      "end": 162.268
+    }
+  ]
+}

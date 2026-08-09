@@ -1,0 +1,405 @@
+{
+  "id": "prompt_engineering_en",
+  "title": "提示詞工程入門：讓 AI 聽懂你的話",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "你說，同樣一句話，AI 給你的答案怎麼差那麼多。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0001_B.mp3",
+      "start": 0.1,
+      "end": 4.996
+    },
+    {
+      "speaker": "A",
+      "text": "對啊，我昨天問它怎麼煮飯，它回我一份食譜！",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0002_A.mp3",
+      "start": 5.116,
+      "end": 9.532
+    },
+    {
+      "speaker": "B",
+      "text": "關鍵在你怎麼「說話」，這就是提示工程。",
+      "terms": [
+        {
+          "cn": "提示工程",
+          "en": "Prompt Engineering",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0003_B.mp3",
+      "start": 9.652,
+      "end": 13.516
+    },
+    {
+      "speaker": "A",
+      "text": "所以是……跟 AI 講話還要練口才？",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0004_A.mp3",
+      "start": 13.636,
+      "end": 17.164
+    },
+    {
+      "speaker": "B",
+      "text": "差不多，它分兩步：先設計初始提示，再反覆細化。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0005_B.mp3",
+      "start": 17.284,
+      "end": 22.444
+    },
+    {
+      "speaker": "A",
+      "text": "那不就是一直試錯？搞得跟調飲料一樣。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0006_A.mp3",
+      "start": 22.564,
+      "end": 26.332
+    },
+    {
+      "speaker": "B",
+      "text": "對，靠直覺和試錯，比例不對就再調整。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0007_B.mp3",
+      "start": 26.452,
+      "end": 30.892
+    },
+    {
+      "speaker": "B",
+      "text": "有方向，先搞懂模型怎麼讀你的話。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0008_B.mp3",
+      "start": 31.012,
+      "end": 34.852
+    },
+    {
+      "speaker": "A",
+      "text": "它不就是一堆文字嗎？還挑食？",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0009_A.mp3",
+      "start": 34.972,
+      "end": 38.38
+    },
+    {
+      "speaker": "B",
+      "text": "它會把文字切成小塊，叫分詞，影響理解。",
+      "terms": [
+        {
+          "cn": "分詞",
+          "en": "Tokenization",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0010_B.mp3",
+      "start": 38.5,
+      "end": 42.892
+    },
+    {
+      "speaker": "A",
+      "text": "所以提示的結構，真的會影響品質？",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0011_A.mp3",
+      "start": 43.012,
+      "end": 46.564
+    },
+    {
+      "speaker": "B",
+      "text": "對，這就是為什麼要講究措辭，像下指令。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0012_B.mp3",
+      "start": 46.684,
+      "end": 51.172
+    },
+    {
+      "speaker": "B",
+      "text": "等等，你說 AI 不認字。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0013_B.mp3",
+      "start": 51.292,
+      "end": 54.532
+    },
+    {
+      "speaker": "A",
+      "text": "對，它只看得到一串數字拼圖。那它是怎麼讀我打的字。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0014_A.mp3",
+      "start": 54.652,
+      "end": 60.004
+    },
+    {
+      "speaker": "B",
+      "text": "它先把文字切成小塊，叫分詞。",
+      "terms": [
+        {
+          "cn": "分詞",
+          "en": "Tokenization",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0015_B.mp3",
+      "start": 60.124,
+      "end": 63.244
+    },
+    {
+      "speaker": "B",
+      "text": "切塊。像切蛋糕那樣。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0016_B.mp3",
+      "start": 63.364,
+      "end": 66.532
+    },
+    {
+      "speaker": "A",
+      "text": "差不多，但每塊大小不一定。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0017_A.mp3",
+      "start": 66.652,
+      "end": 69.34
+    },
+    {
+      "speaker": "B",
+      "text": "模型就看這些塊，不看整句話。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0018_B.mp3",
+      "start": 69.46,
+      "end": 72.652
+    },
+    {
+      "speaker": "B",
+      "text": "那切法不同，結果會差很多。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0019_B.mp3",
+      "start": 72.772,
+      "end": 75.772
+    },
+    {
+      "speaker": "A",
+      "text": "會，這直接影響回應品質。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0020_A.mp3",
+      "start": 75.892,
+      "end": 78.796
+    },
+    {
+      "speaker": "B",
+      "text": "接著基礎模型接手，處理這些塊。",
+      "terms": [
+        {
+          "cn": "基礎大型語言模型",
+          "en": "Base LLM",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0021_B.mp3",
+      "start": 78.916,
+      "end": 82.06
+    },
+    {
+      "speaker": "B",
+      "text": "所以它其實不懂意思，只會算機率。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0022_B.mp3",
+      "start": 82.18,
+      "end": 85.78
+    },
+    {
+      "speaker": "A",
+      "text": "對，它只會接龍，但接得漂亮。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0023_A.mp3",
+      "start": 85.9,
+      "end": 89.116
+    },
+    {
+      "speaker": "B",
+      "text": "關鍵就在你怎麼「說話」，這就是提示工程。",
+      "terms": [
+        {
+          "cn": "提示工程",
+          "en": "Prompt Engineering",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0024_B.mp3",
+      "start": 89.236,
+      "end": 92.884
+    },
+    {
+      "speaker": "B",
+      "text": "但AI每次回答都不一樣，超困擾的。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0025_B.mp3",
+      "start": 93.004,
+      "end": 97.012
+    },
+    {
+      "speaker": "A",
+      "text": "對，這是隨機性。提示工程能幫你加護欄。",
+      "terms": [
+        {
+          "cn": "隨機性",
+          "en": "Randomness",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0026_A.mp3",
+      "start": 97.132,
+      "end": 101.5
+    },
+    {
+      "speaker": "B",
+      "text": "護欄。那不就是叫它別亂跑。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0027_B.mp3",
+      "start": 101.62,
+      "end": 105.028
+    },
+    {
+      "speaker": "B",
+      "text": "差不多，而且模型還會一本正經胡說八道。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0028_B.mp3",
+      "start": 105.148,
+      "end": 109.324
+    },
+    {
+      "speaker": "A",
+      "text": "真的假的？那豈不是信不過它？",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0029_A.mp3",
+      "start": 109.444,
+      "end": 112.732
+    },
+    {
+      "speaker": "B",
+      "text": "對，叫幻覺。技巧能幫你識別和減輕。",
+      "terms": [
+        {
+          "cn": "幻覺",
+          "en": "Fabrications",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0030_B.mp3",
+      "start": 112.852,
+      "end": 117.412
+    },
+    {
+      "speaker": "B",
+      "text": "那新模型不是比較強。還需要學嗎。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0031_B.mp3",
+      "start": 117.532,
+      "end": 121.66
+    },
+    {
+      "speaker": "A",
+      "text": "新模型強但成本高，會設計提示反而省錢。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0032_A.mp3",
+      "start": 121.78,
+      "end": 126.436
+    },
+    {
+      "speaker": "B",
+      "text": "所以學會說話，省錢又靠譜。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0033_B.mp3",
+      "start": 126.556,
+      "end": 129.676
+    },
+    {
+      "speaker": "B",
+      "text": "正是，這就值得好好學了。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0034_B.mp3",
+      "start": 129.796,
+      "end": 132.7
+    },
+    {
+      "speaker": "A",
+      "text": "關鍵在你怎麼說話，這就是提示工程。",
+      "terms": [
+        {
+          "cn": "提示工程",
+          "en": "Prompt Engineering",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0035_A.mp3",
+      "start": 132.82,
+      "end": 136.468
+    },
+    {
+      "speaker": "B",
+      "text": "蛤。我也沒特別做什麼呀。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0036_B.mp3",
+      "start": 136.588,
+      "end": 139.564
+    },
+    {
+      "speaker": "B",
+      "text": "它分兩步：先設計提示，再反覆細化。",
+      "terms": [
+        {
+          "cn": "提示",
+          "en": "Prompt",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0037_B.mp3",
+      "start": 139.684,
+      "end": 143.74
+    },
+    {
+      "speaker": "A",
+      "text": "像調飲料，比例不對就再調整。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0038_A.mp3",
+      "start": 143.86,
+      "end": 147.196
+    },
+    {
+      "speaker": "B",
+      "text": "那模型怎麼讀我的話。",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0039_B.mp3",
+      "start": 147.316,
+      "end": 149.572
+    },
+    {
+      "speaker": "B",
+      "text": "它把文字切成小塊，叫分詞。",
+      "terms": [
+        {
+          "cn": "分詞",
+          "en": "Tokenization",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0040_B.mp3",
+      "start": 149.692,
+      "end": 152.86
+    },
+    {
+      "speaker": "A",
+      "text": "基礎模型只會接龍，指令調校型才懂任務。",
+      "terms": [
+        {
+          "cn": "指令調校型大型語言模型",
+          "en": "Instruction-Tuned LLMs",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0041_A.mp3",
+      "start": 152.98,
+      "end": 157.54
+    },
+    {
+      "speaker": "B",
+      "text": "透過 RLHF，讓它從回饋中學習。",
+      "terms": [
+        {
+          "cn": "基於人類回饋的強化學習",
+          "en": "RLHF",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0042_B.mp3",
+      "start": 157.66,
+      "end": 161.14
+    },
+    {
+      "speaker": "A",
+      "text": "哇，那我也能當馴獸師了，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_prompt_engineering_en_line0043_A.mp3",
+      "start": 161.26,
+      "end": 164.02
+    }
+  ]
+}

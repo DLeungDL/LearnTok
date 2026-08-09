@@ -1,0 +1,461 @@
+{
+  "id": "listing_trends",
+  "title": "全球上市公司數量趨勢大解密",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "咦，新興市場上市公司，怎麼一直變多？",
+      "audio_file": "audio/lines/tts_listing_trends_line0001_A.mp3",
+      "start": 0.1,
+      "end": 4.18
+    },
+    {
+      "speaker": "B",
+      "text": "經濟成長快，更多企業達到上市規模。",
+      "terms": [
+        {
+          "cn": "經濟成長",
+          "en": "Economic Growth",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0002_B.mp3",
+      "start": 4.3,
+      "end": 8.092
+    },
+    {
+      "speaker": "B",
+      "text": "企業規模到了，才有本錢公開上市。",
+      "audio_file": "audio/lines/tts_listing_trends_line0003_B.mp3",
+      "start": 8.212,
+      "end": 11.572
+    },
+    {
+      "speaker": "A",
+      "text": "那發達市場，怎麼反而變少？",
+      "audio_file": "audio/lines/tts_listing_trends_line0004_A.mp3",
+      "start": 11.692,
+      "end": 14.668
+    },
+    {
+      "speaker": "B",
+      "text": "併購整合、私募資本、企業不想上市。",
+      "terms": [
+        {
+          "cn": "發達市場",
+          "en": "Developed Markets",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0005_B.mp3",
+      "start": 14.788,
+      "end": 18.724
+    },
+    {
+      "speaker": "A",
+      "text": "併購就直接消滅上市公司？",
+      "audio_file": "audio/lines/tts_listing_trends_line0006_A.mp3",
+      "start": 18.844,
+      "end": 21.58
+    },
+    {
+      "speaker": "B",
+      "text": "對，大魚吃小魚，被收購的就下市。",
+      "terms": [
+        {
+          "cn": "併購整合",
+          "en": "Mergers and Acquisitions",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:6"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0007_B.mp3",
+      "start": 21.7,
+      "end": 25.708
+    },
+    {
+      "speaker": "A",
+      "text": "那私募資本多，公司就不用上市籌錢？",
+      "audio_file": "audio/lines/tts_listing_trends_line0008_A.mp3",
+      "start": 25.828,
+      "end": 29.452
+    },
+    {
+      "speaker": "B",
+      "text": "對，私募資金充足，公司不必靠 IPO。",
+      "terms": [
+        {
+          "cn": "私募資本",
+          "en": "Private Capital",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:7"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0009_B.mp3",
+      "start": 29.572,
+      "end": 34.084
+    },
+    {
+      "speaker": "A",
+      "text": "那企業自己，為什麼不想上市？",
+      "audio_file": "audio/lines/tts_listing_trends_line0010_A.mp3",
+      "start": 34.204,
+      "end": 37.324
+    },
+    {
+      "speaker": "B",
+      "text": "揭露財報壓力大，短期業績難扛。",
+      "terms": [
+        {
+          "cn": "公司選擇不上市",
+          "en": "Private Companies Remain Private",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:8"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0011_B.mp3",
+      "start": 37.444,
+      "end": 41.092
+    },
+    {
+      "speaker": "B",
+      "text": "加上創辦人怕失去控制權。",
+      "audio_file": "audio/lines/tts_listing_trends_line0012_B.mp3",
+      "start": 41.212,
+      "end": 44.116
+    },
+    {
+      "speaker": "A",
+      "text": "所以三大原因並行，不是誰害誰？",
+      "audio_file": "audio/lines/tts_listing_trends_line0013_A.mp3",
+      "start": 44.236,
+      "end": 47.764
+    },
+    {
+      "speaker": "B",
+      "text": "對，是並列關係，不是因果關係。",
+      "terms": [
+        {
+          "cn": "並列關係",
+          "en": "Parallel Relationship",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:9"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0014_B.mp3",
+      "start": 47.884,
+      "end": 51.772
+    },
+    {
+      "speaker": "B",
+      "text": "就像三條河，同時匯進大海。",
+      "audio_file": "audio/lines/tts_listing_trends_line0015_B.mp3",
+      "start": 51.892,
+      "end": 55.132
+    },
+    {
+      "speaker": "A",
+      "text": "那新興市場，為什麼一直冒出來？",
+      "terms": [
+        {
+          "cn": "新興市場",
+          "en": "Emerging Markets",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0016_A.mp3",
+      "start": 55.252,
+      "end": 58.492
+    },
+    {
+      "speaker": "B",
+      "text": "經濟成長快，企業一下就長大了。",
+      "audio_file": "audio/lines/tts_listing_trends_line0017_B.mp3",
+      "start": 58.612,
+      "end": 62.26
+    },
+    {
+      "speaker": "B",
+      "text": "要擴張就得籌錢，上市是條好路。",
+      "audio_file": "audio/lines/tts_listing_trends_line0018_B.mp3",
+      "start": 62.38,
+      "end": 66.148
+    },
+    {
+      "speaker": "A",
+      "text": "長大了就一定要上市嗎？",
+      "audio_file": "audio/lines/tts_listing_trends_line0019_A.mp3",
+      "start": 66.268,
+      "end": 68.836
+    },
+    {
+      "speaker": "B",
+      "text": "不一定，但 IPO 能快速籌到大資金。",
+      "audio_file": "audio/lines/tts_listing_trends_line0020_B.mp3",
+      "start": 68.956,
+      "end": 72.7
+    },
+    {
+      "speaker": "B",
+      "text": "金融改革鬆綁，交易所也持續擴容。",
+      "audio_file": "audio/lines/tts_listing_trends_line0021_B.mp3",
+      "start": 72.82,
+      "end": 76.42
+    },
+    {
+      "speaker": "A",
+      "text": "所以政府放寬，上市變容易了？",
+      "audio_file": "audio/lines/tts_listing_trends_line0022_A.mp3",
+      "start": 76.54,
+      "end": 79.66
+    },
+    {
+      "speaker": "B",
+      "text": "對，中產崛起、消費升級，新行業冒出來。",
+      "audio_file": "audio/lines/tts_listing_trends_line0023_B.mp3",
+      "start": 79.78,
+      "end": 84.532
+    },
+    {
+      "speaker": "B",
+      "text": "新公司變多，市場自然更熱鬧。",
+      "audio_file": "audio/lines/tts_listing_trends_line0024_B.mp3",
+      "start": 84.652,
+      "end": 87.748
+    },
+    {
+      "speaker": "A",
+      "text": "那國企私有化，也算一股推力？",
+      "terms": [
+        {
+          "cn": "國有企業",
+          "en": "State-Owned Enterprises",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0025_A.mp3",
+      "start": 87.868,
+      "end": 91.084
+    },
+    {
+      "speaker": "B",
+      "text": "算，那也是市場活絡的表現。",
+      "audio_file": "audio/lines/tts_listing_trends_line0026_B.mp3",
+      "start": 91.204,
+      "end": 94.372
+    },
+    {
+      "speaker": "B",
+      "text": "所以新興市場，才這麼熱鬧。",
+      "audio_file": "audio/lines/tts_listing_trends_line0027_B.mp3",
+      "start": 94.492,
+      "end": 97.492
+    },
+    {
+      "speaker": "A",
+      "text": "那發達市場，是怎麼被三大殺手擊倒？",
+      "audio_file": "audio/lines/tts_listing_trends_line0028_A.mp3",
+      "start": 97.612,
+      "end": 101.26
+    },
+    {
+      "speaker": "B",
+      "text": "併購是大魚吃小魚，小魚直接消失。",
+      "audio_file": "audio/lines/tts_listing_trends_line0029_B.mp3",
+      "start": 101.38,
+      "end": 104.908
+    },
+    {
+      "speaker": "A",
+      "text": "第二個殺手，是企業沒錢上市？",
+      "audio_file": "audio/lines/tts_listing_trends_line0030_A.mp3",
+      "start": 105.028,
+      "end": 108.124
+    },
+    {
+      "speaker": "B",
+      "text": "恰恰相反，是私募資本太多了。",
+      "terms": [
+        {
+          "cn": "私募股權",
+          "en": "Private Equity",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0031_B.mp3",
+      "start": 108.244,
+      "end": 111.556
+    },
+    {
+      "speaker": "B",
+      "text": "錢多到不用去公開市場募資。",
+      "audio_file": "audio/lines/tts_listing_trends_line0032_B.mp3",
+      "start": 111.676,
+      "end": 114.556
+    },
+    {
+      "speaker": "A",
+      "text": "有錢反而不上市，什麼道理？",
+      "audio_file": "audio/lines/tts_listing_trends_line0033_A.mp3",
+      "start": 114.676,
+      "end": 117.556
+    },
+    {
+      "speaker": "B",
+      "text": "上市要揭露財報，每季都被盯著看。",
+      "audio_file": "audio/lines/tts_listing_trends_line0034_B.mp3",
+      "start": 117.676,
+      "end": 121.108
+    },
+    {
+      "speaker": "B",
+      "text": "私募市場低調，一樣能拿大資金。",
+      "audio_file": "audio/lines/tts_listing_trends_line0035_B.mp3",
+      "start": 121.228,
+      "end": 124.42
+    },
+    {
+      "speaker": "A",
+      "text": "所以公司寧願留在私募圈？",
+      "audio_file": "audio/lines/tts_listing_trends_line0036_A.mp3",
+      "start": 124.54,
+      "end": 127.636
+    },
+    {
+      "speaker": "B",
+      "text": "對，三大原因並行，擋住新公司上市。",
+      "audio_file": "audio/lines/tts_listing_trends_line0037_B.mp3",
+      "start": 127.756,
+      "end": 131.908
+    },
+    {
+      "speaker": "B",
+      "text": "公開市場，就慢慢變冷清了。",
+      "audio_file": "audio/lines/tts_listing_trends_line0038_B.mp3",
+      "start": 132.028,
+      "end": 135.028
+    },
+    {
+      "speaker": "A",
+      "text": "那市場變少，散戶投資會怎樣？",
+      "audio_file": "audio/lines/tts_listing_trends_line0039_A.mp3",
+      "start": 135.148,
+      "end": 138.436
+    },
+    {
+      "speaker": "B",
+      "text": "公開市場選擇變少，指數越來越集中。",
+      "terms": [
+        {
+          "cn": "指數",
+          "en": "Index",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0040_B.mp3",
+      "start": 138.556,
+      "end": 142.396
+    },
+    {
+      "speaker": "B",
+      "text": "被動投資跟著壯大，ETF 越賣越好。",
+      "terms": [
+        {
+          "cn": "被動投資",
+          "en": "Passive Investing",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0041_B.mp3",
+      "start": 142.516,
+      "end": 146.116
+    },
+    {
+      "speaker": "A",
+      "text": "那在新興市場，主動選股更值錢？",
+      "audio_file": "audio/lines/tts_listing_trends_line0042_A.mp3",
+      "start": 146.236,
+      "end": 149.644
+    },
+    {
+      "speaker": "B",
+      "text": "對，但資訊不對稱，治理風險也高。",
+      "terms": [
+        {
+          "cn": "資訊不對稱",
+          "en": "Information Asymmetry",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0043_B.mp3",
+      "start": 149.764,
+      "end": 153.388
+    },
+    {
+      "speaker": "B",
+      "text": "所以得靠研究能力，小心避雷。",
+      "audio_file": "audio/lines/tts_listing_trends_line0044_B.mp3",
+      "start": 153.508,
+      "end": 157.084
+    },
+    {
+      "speaker": "A",
+      "text": "那私募市場，散戶進得去嗎？",
+      "terms": [
+        {
+          "cn": "私募市場",
+          "en": "Private Markets",
+          "source": "materials/公司發行人/2.3 公司上市數量的趨勢變化.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_listing_trends_line0045_A.mp3",
+      "start": 157.204,
+      "end": 160.156
+    },
+    {
+      "speaker": "B",
+      "text": "機構資金搶著進，散戶參與有限。",
+      "audio_file": "audio/lines/tts_listing_trends_line0046_B.mp3",
+      "start": 160.276,
+      "end": 163.804
+    },
+    {
+      "speaker": "A",
+      "text": "連退休基金，也跑去私募？",
+      "audio_file": "audio/lines/tts_listing_trends_line0047_A.mp3",
+      "start": 163.924,
+      "end": 166.756
+    },
+    {
+      "speaker": "B",
+      "text": "為了拿到公開市場沒有的報酬。",
+      "audio_file": "audio/lines/tts_listing_trends_line0048_B.mp3",
+      "start": 166.876,
+      "end": 169.564
+    },
+    {
+      "speaker": "B",
+      "text": "散戶只能另想辦法，跟緊趨勢。",
+      "audio_file": "audio/lines/tts_listing_trends_line0049_B.mp3",
+      "start": 169.684,
+      "end": 172.948
+    },
+    {
+      "speaker": "A",
+      "text": "市場在變，策略也得跟著變！咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_listing_trends_line0050_A.mp3",
+      "start": 173.068,
+      "end": 176.188
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# LearnTok AI — Git ignore (public repo)
+# Keep secrets, private materials, and third-party assets out of git.
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# === Virtual environment ===
+.venv/
+
+# === Secrets / environment ===
+.env
+.env.local
+.env.*
+!.env.example
+
+# === Generated outputs (rebuildable) ===
+output/
+pipeline/build/
+assets/rag/
+assets/audio/cache/
+assets/audio/lines/
+
+# === Third-party / copyrighted assets (not distributed) ===
+assets/backgrounds/
+assets/bgm/
+assets/avatars/
+assets/rvc_models/*
+!assets/rvc_models/.gitkeep
+!assets/rvc_models/manifest.json
+reference/
+materials/公司發行人/
+
+# === Local builds / big tools (over GitHub limit) ===
+fairseq_build/
+pipeline/tools/ffmpeg/
+
+# === Vendored third-party tools ===
+RVC-WebUI/
+
+# === Private notes ===
+MEMORY.md
+
+# === OS junk ===
+Thumbs.db
+Desktop.ini
+.DS_Store

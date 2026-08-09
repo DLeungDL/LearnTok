@@ -1,0 +1,387 @@
+{
+  "id": "debt_equity_investing",
+  "title": "債權投資 vs 股權投資：風險揭密",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "A",
+      "text": "借錢給公司跟買股票，風險差很多？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0001_A.mp3",
+      "start": 0.1,
+      "end": 3.796
+    },
+    {
+      "speaker": "B",
+      "text": "差很多，關鍵在誰先拿錢、能拿多少。",
+      "terms": [
+        {
+          "cn": "債權投資",
+          "en": "Debt Investment",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:1"
+        },
+        {
+          "cn": "股權投資",
+          "en": "Equity Investment",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0002_B.mp3",
+      "start": 3.916,
+      "end": 7.924
+    },
+    {
+      "speaker": "A",
+      "text": "公司倒了，不是都虧光本金？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0003_A.mp3",
+      "start": 8.044,
+      "end": 10.948
+    },
+    {
+      "speaker": "B",
+      "text": "最大損失一樣，但虧光的機率不同。",
+      "terms": [
+        {
+          "cn": "最大損失",
+          "en": "Maximum Loss",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0004_B.mp3",
+      "start": 11.068,
+      "end": 14.38
+    },
+    {
+      "speaker": "A",
+      "text": "債權人先拿，股東只能撿剩的？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0005_A.mp3",
+      "start": 14.5,
+      "end": 17.668
+    },
+    {
+      "speaker": "B",
+      "text": "對，債權人有優先請求權，股東拿剩餘。",
+      "terms": [
+        {
+          "cn": "優先請求權",
+          "en": "Prior Claims",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:2"
+        },
+        {
+          "cn": "剩餘請求權",
+          "en": "Residual Claims",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0006_B.mp3",
+      "start": 17.788,
+      "end": 22.228
+    },
+    {
+      "speaker": "B",
+      "text": "就像排隊領錢，債權人排最前面。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0007_B.mp3",
+      "start": 22.348,
+      "end": 25.9
+    },
+    {
+      "speaker": "A",
+      "text": "所以股東虧光的機率比較高？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0008_A.mp3",
+      "start": 26.02,
+      "end": 29.092
+    },
+    {
+      "speaker": "B",
+      "text": "對，股權波動大，損失機率高。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0009_B.mp3",
+      "start": 29.212,
+      "end": 32.932
+    },
+    {
+      "speaker": "A",
+      "text": "那風險高，回報也該高？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0010_A.mp3",
+      "start": 33.052,
+      "end": 35.764
+    },
+    {
+      "speaker": "B",
+      "text": "正是，債權回報有上限，公司賺翻股東分得多。",
+      "terms": [
+        {
+          "cn": "回報潛力",
+          "en": "Return Potential",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0011_B.mp3",
+      "start": 35.884,
+      "end": 40.852
+    },
+    {
+      "speaker": "B",
+      "text": "債權拿固定利息，股權分剩餘利潤。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0012_B.mp3",
+      "start": 40.972,
+      "end": 44.62
+    },
+    {
+      "speaker": "A",
+      "text": "那借錢有期限，股票永遠拿不回？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0013_A.mp3",
+      "start": 44.74,
+      "end": 48.148
+    },
+    {
+      "speaker": "B",
+      "text": "對，債券有到期日，股權是永久的。",
+      "terms": [
+        {
+          "cn": "資本期限",
+          "en": "Capital Tenor",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0014_B.mp3",
+      "start": 48.268,
+      "end": 52.204
+    },
+    {
+      "speaker": "B",
+      "text": "到期日一到，公司就得還本付息。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0015_B.mp3",
+      "start": 52.324,
+      "end": 55.9
+    },
+    {
+      "speaker": "A",
+      "text": "永久？那股東豈不是永遠套牢？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0016_A.mp3",
+      "start": 56.02,
+      "end": 59.5
+    },
+    {
+      "speaker": "B",
+      "text": "可以賣股換現，但公司不用還本金。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0017_B.mp3",
+      "start": 59.62,
+      "end": 63.004
+    },
+    {
+      "speaker": "B",
+      "text": "本金不用還，這就是永久的代價。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0018_B.mp3",
+      "start": 63.124,
+      "end": 66.58
+    },
+    {
+      "speaker": "A",
+      "text": "懂了，借錢像租，買股像合夥？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0019_A.mp3",
+      "start": 66.7,
+      "end": 70.18
+    },
+    {
+      "speaker": "B",
+      "text": "比喻不錯。債權人是債主，股東是夥伴。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0020_B.mp3",
+      "start": 70.3,
+      "end": 74.572
+    },
+    {
+      "speaker": "B",
+      "text": "一個求穩，一個賭成長。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0021_B.mp3",
+      "start": 74.692,
+      "end": 77.5
+    },
+    {
+      "speaker": "A",
+      "text": "那誰能管公司經營？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0022_A.mp3",
+      "start": 77.62,
+      "end": 79.9
+    },
+    {
+      "speaker": "B",
+      "text": "債權人沒有投票權，股東才有。",
+      "terms": [
+        {
+          "cn": "投票權",
+          "en": "Voting Rights",
+          "source": "materials/公司發行人/3.2 債權投資和股權投資.md:15"
+        }
+      ],
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0023_B.mp3",
+      "start": 80.02,
+      "end": 83.188
+    },
+    {
+      "speaker": "B",
+      "text": "股東用投票權，監督管理層。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0024_B.mp3",
+      "start": 83.308,
+      "end": 86.644
+    },
+    {
+      "speaker": "A",
+      "text": "所以股東能決定大事？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0025_A.mp3",
+      "start": 86.764,
+      "end": 89.5
+    },
+    {
+      "speaker": "B",
+      "text": "對，股東在股東大會上表決。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0026_B.mp3",
+      "start": 89.62,
+      "end": 92.692
+    },
+    {
+      "speaker": "B",
+      "text": "管理層做得不好，股東能換人。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0027_B.mp3",
+      "start": 92.812,
+      "end": 95.788
+    },
+    {
+      "speaker": "A",
+      "text": "債權人只能乾瞪眼？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0028_A.mp3",
+      "start": 95.908,
+      "end": 98.308
+    },
+    {
+      "speaker": "B",
+      "text": "對，債權人只管收利息，不管經營。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0029_B.mp3",
+      "start": 98.428,
+      "end": 102.268
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來債權穩，股權衝？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0030_A.mp3",
+      "start": 102.388,
+      "end": 105.052
+    },
+    {
+      "speaker": "B",
+      "text": "對，債權低風險低回報，股權反過來。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0031_B.mp3",
+      "start": 105.172,
+      "end": 109.228
+    },
+    {
+      "speaker": "B",
+      "text": "這就是風險與回報的搭配，債權也有隱藏風險。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0032_B.mp3",
+      "start": 109.348,
+      "end": 113.524
+    },
+    {
+      "speaker": "A",
+      "text": "那我全都買債權，穩穩賺？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0033_A.mp3",
+      "start": 113.644,
+      "end": 116.572
+    },
+    {
+      "speaker": "B",
+      "text": "通膨和利率，會吃掉債權報酬。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0034_B.mp3",
+      "start": 116.692,
+      "end": 120.1
+    },
+    {
+      "speaker": "B",
+      "text": "利率一升，債券價格還會下跌。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0035_B.mp3",
+      "start": 120.22,
+      "end": 123.484
+    },
+    {
+      "speaker": "A",
+      "text": "那全買股權呢？賺翻或虧光？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0036_A.mp3",
+      "start": 123.604,
+      "end": 127.036
+    },
+    {
+      "speaker": "B",
+      "text": "所以要看自己的風險承受度。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0037_B.mp3",
+      "start": 127.156,
+      "end": 130.204
+    },
+    {
+      "speaker": "B",
+      "text": "有人求穩有人賭，沒有標準答案。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0038_B.mp3",
+      "start": 130.324,
+      "end": 133.3
+    },
+    {
+      "speaker": "A",
+      "text": "說白了，就是膽量決定配置？",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0039_A.mp3",
+      "start": 133.42,
+      "end": 136.372
+    },
+    {
+      "speaker": "B",
+      "text": "對，配比看目標和承受度。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0040_B.mp3",
+      "start": 136.492,
+      "end": 139.444
+    },
+    {
+      "speaker": "B",
+      "text": "穩和衝，可以混著配，分散風險。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0041_B.mp3",
+      "start": 139.564,
+      "end": 143.116
+    },
+    {
+      "speaker": "A",
+      "text": "我好像懂了，債權安穩守本。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0042_A.mp3",
+      "start": 143.236,
+      "end": 146.164
+    },
+    {
+      "speaker": "B",
+      "text": "股權衝刺成長，就看你能承受多少。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0043_B.mp3",
+      "start": 146.284,
+      "end": 149.932
+    },
+    {
+      "speaker": "B",
+      "text": "先想清誰先拿錢，再談回報高低。",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0044_B.mp3",
+      "start": 150.052,
+      "end": 153.652
+    },
+    {
+      "speaker": "A",
+      "text": "借錢圖穩，買股圖衝，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_debt_equity_investing_line0045_A.mp3",
+      "start": 153.772,
+      "end": 156.34
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "id": "debt_vs_equity",
+  "title": "債務融資 vs 股權融資：風險與回報的博弈",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "派大星",
+      "role": "explainer",
+      "color": "#4FC3F7"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "熊大我最近發現一個矛盾的事",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0001_B.mp3",
+      "start": 0.1,
+      "end": 3.748
+    },
+    {
+      "speaker": "A",
+      "text": "什麼樣的矛盾",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0002_A.mp3",
+      "start": 3.868,
+      "end": 5.692
+    },
+    {
+      "speaker": "B",
+      "text": "借錢給公司跟買公司股票",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0003_B.mp3",
+      "start": 5.812,
+      "end": 9.724
+    },
+    {
+      "speaker": "B",
+      "text": "最壞情況都是虧光本金",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0004_B.mp3",
+      "start": 9.844,
+      "end": 13.54
+    },
+    {
+      "speaker": "A",
+      "text": "蛤，那不是差不多嗎",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0005_A.mp3",
+      "start": 13.66,
+      "end": 16.132
+    },
+    {
+      "speaker": "B",
+      "text": "但所有人都說股票風險高得多",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0006_B.mp3",
+      "start": 16.252,
+      "end": 20.38
+    },
+    {
+      "speaker": "A",
+      "text": "這不是自相矛盾嗎",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0007_A.mp3",
+      "start": 20.5,
+      "end": 22.636
+    },
+    {
+      "speaker": "B",
+      "text": "一點也不，這正好揭示風險的本質",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0008_B.mp3",
+      "start": 22.756,
+      "end": 27.196
+    },
+    {
+      "speaker": "B",
+      "text": "我們先從公司的角度來看",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0009_B.mp3",
+      "start": 27.316,
+      "end": 30.748
+    },
+    {
+      "speaker": "B",
+      "text": "公司籌資有兩條路",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0010_B.mp3",
+      "start": 30.868,
+      "end": 33.892
+    },
+    {
+      "speaker": "A",
+      "text": "借錢還是找人合夥",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0011_A.mp3",
+      "start": 34.012,
+      "end": 36.34
+    },
+    {
+      "speaker": "B",
+      "text": "就是債務融資和股權融資",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0012_B.mp3",
+      "start": 36.46,
+      "end": 40.516
+    },
+    {
+      "speaker": "B",
+      "text": "英文叫Debt Financing和Equity Financing",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0013_B.mp3",
+      "start": 40.636,
+      "end": 44.812
+    },
+    {
+      "speaker": "A",
+      "text": "一個借錢一個入股嘛",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0014_A.mp3",
+      "start": 44.932,
+      "end": 47.524
+    },
+    {
+      "speaker": "B",
+      "text": "對，先說資本成本",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0015_B.mp3",
+      "start": 47.644,
+      "end": 52.036,
+      "terms": [
+        {
+          "cn": "資本成本",
+          "en": "Cost of Capital"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "哪個比較便宜",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0016_A.mp3",
+      "start": 52.156,
+      "end": 54.028
+    },
+    {
+      "speaker": "B",
+      "text": "債務比股權便宜，有三個原因",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0017_B.mp3",
+      "start": 54.148,
+      "end": 58.132
+    },
+    {
+      "speaker": "B",
+      "text": "第一，優先受償權",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0018_B.mp3",
+      "start": 58.252,
+      "end": 63.004,
+      "terms": [
+        {
+          "cn": "優先受償權",
+          "en": "Priority in Liquidation"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "公司破產清算時，債權人排前面",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0019_B.mp3",
+      "start": 63.124,
+      "end": 67.684
+    },
+    {
+      "speaker": "A",
+      "text": "所以債權人風險低，要的利息也低",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0020_A.mp3",
+      "start": 67.804,
+      "end": 71.668
+    },
+    {
+      "speaker": "B",
+      "text": "對，就像排隊領錢，排越前面越安心",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0021_B.mp3",
+      "start": 71.788,
+      "end": 76.684
+    },
+    {
+      "speaker": "B",
+      "text": "第二，利息有稅盾效應",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0022_B.mp3",
+      "start": 76.804,
+      "end": 81.268,
+      "terms": [
+        {
+          "cn": "稅盾效應",
+          "en": "Tax Shield"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "稅盾是什麼意思",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0023_A.mp3",
+      "start": 81.388,
+      "end": 83.404
+    },
+    {
+      "speaker": "B",
+      "text": "利息能在稅前扣除，等於政府幫你分擔",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0024_B.mp3",
+      "start": 83.524,
+      "end": 88.468
+    },
+    {
+      "speaker": "B",
+      "text": "股利是稅後分配的，沒這個好處",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0025_B.mp3",
+      "start": 88.588,
+      "end": 92.812
+    },
+    {
+      "speaker": "B",
+      "text": "稅後債務成本等於稅前利率乘一減稅率",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0026_B.mp3",
+      "start": 92.932,
+      "end": 98.356
+    },
+    {
+      "speaker": "A",
+      "text": "所以利息越高省稅越多",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0027_A.mp3",
+      "start": 98.476,
+      "end": 101.236
+    },
+    {
+      "speaker": "B",
+      "text": "第三，債權人缺乏上行收益",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0028_B.mp3",
+      "start": 101.356,
+      "end": 106.108,
+      "terms": [
+        {
+          "cn": "上行收益",
+          "en": "Upside"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "公司賺再多，債權人也只拿固定利息",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0029_A.mp3",
+      "start": 106.228,
+      "end": 110.092
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯，但股東可以享受無限上行",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0030_B.mp3",
+      "start": 110.212,
+      "end": 114.508
+    },
+    {
+      "speaker": "B",
+      "text": "所以股東要求更高的回報溢價",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0031_B.mp3",
+      "start": 114.628,
+      "end": 120.004,
+      "terms": [
+        {
+          "cn": "回報溢價",
+          "en": "Risk Premium"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "那什麼時候該選債務什麼時候選股權",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0032_A.mp3",
+      "start": 120.124,
+      "end": 123.7
+    },
+    {
+      "speaker": "B",
+      "text": "關鍵看未來業績特徵",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0033_B.mp3",
+      "start": 123.82,
+      "end": 127.036
+    },
+    {
+      "speaker": "B",
+      "text": "現金流可預測就選債務",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0034_B.mp3",
+      "start": 127.156,
+      "end": 131.98,
+      "terms": [
+        {
+          "cn": "可預測",
+          "en": "Predictable"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "像電力公司收入穩定，按時付息沒問題",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0035_B.mp3",
+      "start": 132.1,
+      "end": 137.164
+    },
+    {
+      "speaker": "A",
+      "text": "不可預測的呢",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0036_A.mp3",
+      "start": 137.284,
+      "end": 139.06
+    },
+    {
+      "speaker": "B",
+      "text": "選股權，固定利息可能壓垮公司",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0037_B.mp3",
+      "start": 139.18,
+      "end": 143.788
+    },
+    {
+      "speaker": "B",
+      "text": "像生技新創研發週期長，不確定性高",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0038_B.mp3",
+      "start": 143.908,
+      "end": 148.828
+    },
+    {
+      "speaker": "A",
+      "text": "所以成熟企業愛借錢，新創愛發股",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0039_A.mp3",
+      "start": 148.948,
+      "end": 152.836
+    },
+    {
+      "speaker": "B",
+      "text": "精闢，這也牽涉財務槓桿",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0040_B.mp3",
+      "start": 152.956,
+      "end": 157.612,
+      "terms": [
+        {
+          "cn": "財務槓桿",
+          "en": "Leverage"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "債務增加槓桿，放大盈虧",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0041_B.mp3",
+      "start": 157.732,
+      "end": 161.548
+    },
+    {
+      "speaker": "A",
+      "text": "雙面刃的意思",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0042_A.mp3",
+      "start": 161.668,
+      "end": 163.564
+    },
+    {
+      "speaker": "B",
+      "text": "對，現在換到投資人的視角",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0043_B.mp3",
+      "start": 163.684,
+      "end": 167.668
+    },
+    {
+      "speaker": "B",
+      "text": "債權投資和股權投資有六個維度差異",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0044_B.mp3",
+      "start": 167.788,
+      "end": 172.828
+    },
+    {
+      "speaker": "A",
+      "text": "哪六個維度",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0045_A.mp3",
+      "start": 172.948,
+      "end": 174.724
+    },
+    {
+      "speaker": "B",
+      "text": "資本期限、利益請求權、最大損失",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0046_B.mp3",
+      "start": 174.844,
+      "end": 179.404
+    },
+    {
+      "speaker": "B",
+      "text": "回報潛力、投資風險、投票權",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0047_B.mp3",
+      "start": 179.524,
+      "end": 184.036
+    },
+    {
+      "speaker": "A",
+      "text": "一個一個來吧",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0048_A.mp3",
+      "start": 184.156,
+      "end": 185.932
+    },
+    {
+      "speaker": "B",
+      "text": "第一，資本期限",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0049_B.mp3",
+      "start": 186.052,
+      "end": 189.988,
+      "terms": [
+        {
+          "cn": "資本期限",
+          "en": "Capital Tenor"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "債權有限，有明確到期日",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0050_B.mp3",
+      "start": 190.108,
+      "end": 193.996
+    },
+    {
+      "speaker": "B",
+      "text": "股權無限，公司活著就永遠存在",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0051_B.mp3",
+      "start": 194.116,
+      "end": 198.58
+    },
+    {
+      "speaker": "A",
+      "text": "所以股票沒有到期日",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0052_A.mp3",
+      "start": 198.7,
+      "end": 201.388
+    },
+    {
+      "speaker": "B",
+      "text": "第二，利益請求權",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0053_B.mp3",
+      "start": 201.508,
+      "end": 205.228,
+      "terms": [
+        {
+          "cn": "利益請求權",
+          "en": "Interests"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "債權人優先且固定，股東是剩餘請求權",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0054_B.mp3",
+      "start": 205.348,
+      "end": 210.772
+    },
+    {
+      "speaker": "A",
+      "text": "剩餘就是最後才輪到",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0055_A.mp3",
+      "start": 210.892,
+      "end": 213.316
+    },
+    {
+      "speaker": "B",
+      "text": "對，付完所有人之後才分給股東",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0056_B.mp3",
+      "start": 213.436,
+      "end": 217.948
+    },
+    {
+      "speaker": "B",
+      "text": "第三，最大損失，兩者竟然相同",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0057_B.mp3",
+      "start": 218.068,
+      "end": 222.868
+    },
+    {
+      "speaker": "A",
+      "text": "都是虧光本金",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0058_A.mp3",
+      "start": 222.988,
+      "end": 224.884
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯，這就是開頭說的矛盾",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0059_B.mp3",
+      "start": 225.004,
+      "end": 228.892
+    },
+    {
+      "speaker": "B",
+      "text": "第四，回報潛力",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0060_B.mp3",
+      "start": 229.012,
+      "end": 233.284,
+      "terms": [
+        {
+          "cn": "回報潛力",
+          "en": "Return Potential"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "債權有上限，股權無上限",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0061_B.mp3",
+      "start": 233.404,
+      "end": 237.316
+    },
+    {
+      "speaker": "A",
+      "text": "公司賺十倍，債權人還是只拿利息",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0062_A.mp3",
+      "start": 237.436,
+      "end": 241.084
+    },
+    {
+      "speaker": "B",
+      "text": "第五，投資風險",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0063_B.mp3",
+      "start": 241.204,
+      "end": 245.236,
+      "terms": [
+        {
+          "cn": "投資風險",
+          "en": "Investment Risk"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "債權較低，股權較高",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0064_B.mp3",
+      "start": 245.356,
+      "end": 248.836
+    },
+    {
+      "speaker": "A",
+      "text": "等等，最大損失一樣，為何風險不同",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0065_A.mp3",
+      "start": 248.956,
+      "end": 252.676
+    },
+    {
+      "speaker": "B",
+      "text": "好問題，風險不只看最大損失金額",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0066_B.mp3",
+      "start": 252.796,
+      "end": 257.404
+    },
+    {
+      "speaker": "B",
+      "text": "更看損失的機率和波動性",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0067_B.mp3",
+      "start": 257.524,
+      "end": 262.036,
+      "terms": [
+        {
+          "cn": "波動性",
+          "en": "Volatility"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "債權人有優先償付權，虧損機率低",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0068_B.mp3",
+      "start": 262.156,
+      "end": 266.788
+    },
+    {
+      "speaker": "B",
+      "text": "股東是剩餘索取權，公司倒可能分文不得",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0069_B.mp3",
+      "start": 266.908,
+      "end": 271.9
+    },
+    {
+      "speaker": "B",
+      "text": "而且股價波動遠大於債券",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0070_B.mp3",
+      "start": 272.02,
+      "end": 275.908
+    },
+    {
+      "speaker": "A",
+      "text": "所以風險是機率加波動性",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0071_A.mp3",
+      "start": 276.028,
+      "end": 278.98
+    },
+    {
+      "speaker": "B",
+      "text": "第六，投票權",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0072_B.mp3",
+      "start": 279.1,
+      "end": 283.06,
+      "terms": [
+        {
+          "cn": "投票權",
+          "en": "Voting Rights"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "債權人無投票權，股東有",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0073_B.mp3",
+      "start": 283.18,
+      "end": 287.092
+    },
+    {
+      "speaker": "A",
+      "text": "所以股東能參與公司決策",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0074_A.mp3",
+      "start": 287.212,
+      "end": 290.236
+    },
+    {
+      "speaker": "B",
+      "text": "對，這也是CFA考試的重要考點",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0075_B.mp3",
+      "start": 290.356,
+      "end": 294.916
+    },
+    {
+      "speaker": "A",
+      "text": "所以發行人和投資人是鏡像關係",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0076_A.mp3",
+      "start": 295.036,
+      "end": 298.708
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯，一個降成本，一個擔風險換回報",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0077_B.mp3",
+      "start": 298.828,
+      "end": 303.964
+    },
+    {
+      "speaker": "A",
+      "text": "說到底，融資就是風險和回報的博弈",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0078_A.mp3",
+      "start": 304.084,
+      "end": 307.804
+    },
+    {
+      "speaker": "B",
+      "text": "下次我們來聊WACC和資本結構",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0079_B.mp3",
+      "start": 307.924,
+      "end": 312.292
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來更硬核了",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0080_A.mp3",
+      "start": 312.412,
+      "end": 314.452
+    },
+    {
+      "speaker": "B",
+      "text": "嗯，敬請期待",
+      "audio_file": "audio/lines/tts_debt_vs_equity_line0081_B.mp3",
+      "start": 314.572,
+      "end": 317.404
+    }
+  ]
+}

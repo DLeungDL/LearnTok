@@ -1,0 +1,495 @@
+{
+  "id": "llm_comparison",
+  "title": "選擇大型語言模型的智慧：從基礎模型到 RAG",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "語言模型可不只會聊天，選錯會花大錢又沒效果。",
+      "terms": [
+        {
+          "cn": "大型語言模型",
+          "en": "Large Language Model (LLM)",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0001_B.mp3",
+      "start": 0.1,
+      "end": 4.876
+    },
+    {
+      "speaker": "A",
+      "text": "那我要怎麼挑？不是越貴越好嗎？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0002_A.mp3",
+      "start": 4.996,
+      "end": 8.38
+    },
+    {
+      "speaker": "B",
+      "text": "先搞清楚用途，要音訊、圖像還是文字。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0003_B.mp3",
+      "start": 8.5,
+      "end": 12.868
+    },
+    {
+      "speaker": "A",
+      "text": "音訊用什麼？圖像又用什麼？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0004_A.mp3",
+      "start": 12.988,
+      "end": 16.228
+    },
+    {
+      "speaker": "B",
+      "text": "音訊像 Whisper，圖像有 DALL-E，",
+      "terms": [
+        {
+          "cn": "多模態",
+          "en": "Multimodal",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0005_B.mp3",
+      "start": 16.348,
+      "end": 19.924
+    },
+    {
+      "speaker": "B",
+      "text": "文字看 GPT。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0006_B.mp3",
+      "start": 20.044,
+      "end": 22.06
+    },
+    {
+      "speaker": "A",
+      "text": "那多模態是啥？能吃嗎？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0007_A.mp3",
+      "start": 22.18,
+      "end": 25.156
+    },
+    {
+      "speaker": "B",
+      "text": "多模態能處理文字、圖像、音訊，像全能選手。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0008_B.mp3",
+      "start": 25.276,
+      "end": 30.22
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來很猛，但會不會貴到爆？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0009_A.mp3",
+      "start": 30.34,
+      "end": 33.244
+    },
+    {
+      "speaker": "B",
+      "text": "要比較任務質量、延遲、成本，不能只看價格。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0010_B.mp3",
+      "start": 33.364,
+      "end": 38.044
+    },
+    {
+      "speaker": "B",
+      "text": "所以選模型像買手機，規格要看清楚。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0011_B.mp3",
+      "start": 38.164,
+      "end": 42.244
+    },
+    {
+      "speaker": "A",
+      "text": "對，先搞清楚需求，再挑合適的，別盲從最新。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0012_A.mp3",
+      "start": 42.364,
+      "end": 46.948
+    },
+    {
+      "speaker": "B",
+      "text": "為什麼有些模型免費下載，有些只能租用。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0013_B.mp3",
+      "start": 47.068,
+      "end": 50.98
+    },
+    {
+      "speaker": "B",
+      "text": "好問題。先分清基礎模型和大型語言模型。",
+      "terms": [
+        {
+          "cn": "基礎模型",
+          "en": "Foundation Model",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:5"
+        },
+        {
+          "cn": "大型語言模型",
+          "en": "Large Language Model",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0014_B.mp3",
+      "start": 51.1,
+      "end": 55.876
+    },
+    {
+      "speaker": "A",
+      "text": "基礎模型用無監督學習訓練，是其他模型的起點。",
+      "terms": [
+        {
+          "cn": "無監督學習",
+          "en": "Unsupervised Learning",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:5"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0015_A.mp3",
+      "start": 55.996,
+      "end": 60.628
+    },
+    {
+      "speaker": "B",
+      "text": "像 GPT-3.5 是 ChatGPT 的基礎。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0016_B.mp3",
+      "start": 60.748,
+      "end": 64.948
+    },
+    {
+      "speaker": "B",
+      "text": "對，微調後變成聊天版本，像樂高底座。",
+      "terms": [
+        {
+          "cn": "微調",
+          "en": "Fine-tuning",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:5"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0017_B.mp3",
+      "start": 65.068,
+      "end": 69.508
+    },
+    {
+      "speaker": "A",
+      "text": "接著看開權重與專有模型的差別。",
+      "terms": [
+        {
+          "cn": "開權重",
+          "en": "Open-weights",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:6"
+        },
+        {
+          "cn": "專有模型",
+          "en": "Proprietary Model",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:6"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0018_A.mp3",
+      "start": 69.628,
+      "end": 73.084
+    },
+    {
+      "speaker": "B",
+      "text": "開源能下載檢查，像自家廚房可隨意煮。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0019_B.mp3",
+      "start": 73.204,
+      "end": 77.092
+    },
+    {
+      "speaker": "B",
+      "text": "專有只能租用，像高級餐廳不能進廚房。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0020_B.mp3",
+      "start": 77.212,
+      "end": 81.388
+    },
+    {
+      "speaker": "A",
+      "text": "那企業為何選專有？不能自己煮嗎？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0021_A.mp3",
+      "start": 81.508,
+      "end": 85.204
+    },
+    {
+      "speaker": "B",
+      "text": "專有提供支援、安全與擴展，省去營運麻煩。",
+      "terms": [
+        {
+          "cn": "擴展能力",
+          "en": "Scalability",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:6"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0022_B.mp3",
+      "start": 85.324,
+      "end": 89.884
+    },
+    {
+      "speaker": "B",
+      "text": "但無法檢查權重，需審查供應商條款。",
+      "terms": [
+        {
+          "cn": "模型權重",
+          "en": "Model Weights",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:6"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0023_B.mp3",
+      "start": 90.004,
+      "end": 93.964
+    },
+    {
+      "speaker": "A",
+      "text": "所以免費不一定省，租用不一定虧。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0024_A.mp3",
+      "start": 94.084,
+      "end": 97.756
+    },
+    {
+      "speaker": "B",
+      "text": "想像主管要你出考題，你有兩個同事。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0025_B.mp3",
+      "start": 97.876,
+      "end": 101.38
+    },
+    {
+      "speaker": "B",
+      "text": "一個只會寫，一個只會改。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0026_B.mp3",
+      "start": 101.5,
+      "end": 104.38
+    },
+    {
+      "speaker": "A",
+      "text": "對，寫的人像僅解碼器，看主題就續寫。",
+      "terms": [
+        {
+          "cn": "僅解碼器",
+          "en": "Decoder-only",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:8"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0027_A.mp3",
+      "start": 104.5,
+      "end": 108.676
+    },
+    {
+      "speaker": "B",
+      "text": "那改的人就是僅編碼器，只懂審不愛寫。",
+      "terms": [
+        {
+          "cn": "僅編碼器",
+          "en": "Encoder-only",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:9"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0028_B.mp3",
+      "start": 108.796,
+      "end": 112.948
+    },
+    {
+      "speaker": "B",
+      "text": "沒錯，像 BERT 只做分類。",
+      "terms": [
+        {
+          "cn": "編碼器-解碼器",
+          "en": "Encoder-Decoder",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:10"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0029_B.mp3",
+      "start": 113.068,
+      "end": 115.756
+    },
+    {
+      "speaker": "A",
+      "text": "兩者合體就是編碼器-解碼器。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0030_A.mp3",
+      "start": 115.876,
+      "end": 119.26
+    },
+    {
+      "speaker": "B",
+      "text": "那豈不是什麼都能做。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0031_B.mp3",
+      "start": 119.38,
+      "end": 121.372
+    },
+    {
+      "speaker": "B",
+      "text": "對，像 BART 和 T5。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0032_B.mp3",
+      "start": 121.492,
+      "end": 123.988
+    },
+    {
+      "speaker": "A",
+      "text": "接著看服務和模型的分別。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0033_A.mp3",
+      "start": 124.108,
+      "end": 126.748
+    },
+    {
+      "speaker": "A",
+      "text": "服務比較貴？服務含模型和資料，付費換便利；",
+      "terms": [
+        {
+          "cn": "服務",
+          "en": "Service",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:11"
+        },
+        {
+          "cn": "模型",
+          "en": "Model",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:12"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0034_A.mp3",
+      "start": 126.868,
+      "end": 131.932
+    },
+    {
+      "speaker": "B",
+      "text": "模型可自託管但要硬體。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0035_B.mp3",
+      "start": 132.052,
+      "end": 134.812
+    },
+    {
+      "speaker": "A",
+      "text": "模型笨笨的，除了罵它還能怎麼辦？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0036_A.mp3",
+      "start": 134.932,
+      "end": 138.484
+    },
+    {
+      "speaker": "B",
+      "text": "有三招：提示工程、RAG，還有微調。",
+      "terms": [
+        {
+          "cn": "提示工程",
+          "en": "Prompt Engineering",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:3"
+        },
+        {
+          "cn": "RAG",
+          "en": "Retrieval-Augmented Generation",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0037_B.mp3",
+      "start": 138.604,
+      "end": 142.78
+    },
+    {
+      "speaker": "B",
+      "text": "提示工程。那不就是多講幾句話。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0038_B.mp3",
+      "start": 142.9,
+      "end": 146.404
+    },
+    {
+      "speaker": "A",
+      "text": "對，但要有料。給例子和上下文，模型就懂。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0039_A.mp3",
+      "start": 146.524,
+      "end": 151.036
+    },
+    {
+      "speaker": "B",
+      "text": "所以像教小孩，要講清楚才不會搞砸。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0040_B.mp3",
+      "start": 151.156,
+      "end": 155.14
+    },
+    {
+      "speaker": "B",
+      "text": "正是！這是最省錢的入門招。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0041_B.mp3",
+      "start": 155.26,
+      "end": 158.668
+    },
+    {
+      "speaker": "A",
+      "text": "那要是模型不知道新消息呢？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0042_A.mp3",
+      "start": 158.788,
+      "end": 161.38
+    },
+    {
+      "speaker": "B",
+      "text": "就用 RAG，把最新資料餵給它。",
+      "terms": [
+        {
+          "cn": "檢索增強生成",
+          "en": "Retrieval-Augmented Generation",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:4"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0043_B.mp3",
+      "start": 161.5,
+      "end": 164.476
+    },
+    {
+      "speaker": "B",
+      "text": "哦，像考試偷看小抄。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0044_B.mp3",
+      "start": 164.596,
+      "end": 167.284
+    },
+    {
+      "speaker": "A",
+      "text": "差不多，但抄得聰明。需要私人數據就靠它。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0045_A.mp3",
+      "start": 167.404,
+      "end": 171.748
+    },
+    {
+      "speaker": "B",
+      "text": "那微調呢。聽起來更厲害。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0046_B.mp3",
+      "start": 171.868,
+      "end": 175.06
+    },
+    {
+      "speaker": "B",
+      "text": "微調是讓模型練成特定風格，像特訓。",
+      "terms": [
+        {
+          "cn": "微調",
+          "en": "Fine-tuning",
+          "source": "materials/genai-beginners/zh-HK/02-exploring-and-comparing-different-llms/README.md:5"
+        }
+      ],
+      "audio_file": "audio/lines/tts_llm_comparison_line0047_B.mp3",
+      "start": 175.18,
+      "end": 179.212
+    },
+    {
+      "speaker": "A",
+      "text": "所以先試便宜的，不夠再升級？",
+      "audio_file": "audio/lines/tts_llm_comparison_line0048_A.mp3",
+      "start": 179.332,
+      "end": 182.596
+    },
+    {
+      "speaker": "B",
+      "text": "聰明！先提示工程，再 RAG，最後微調。",
+      "audio_file": "audio/lines/tts_llm_comparison_line0049_B.mp3",
+      "start": 182.716,
+      "end": 187.42
+    },
+    {
+      "speaker": "A",
+      "text": "懂了！以後模型再笨，我有三招治它，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_llm_comparison_line0050_A.mp3",
+      "start": 187.54,
+      "end": 191.5
+    }
+  ]
+}

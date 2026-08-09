@@ -1,0 +1,419 @@
+{
+  "id": "genai_course_setup",
+  "title": "生成式 AI 初學者雲端設定指南",
+  "resolution": "720x1280",
+  "characters": {
+    "A": {
+      "name": "企鵝燈",
+      "role": "questioner",
+      "color": "#FFD54F"
+    },
+    "B": {
+      "name": "熊大",
+      "role": "explainer",
+      "color": "#81C784"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "B",
+      "text": "不想裝任何東西就能寫程式。沒錯，",
+      "terms": [
+        {
+          "cn": "GitHub Codespaces",
+          "en": "GitHub Codespaces",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/01-setup-cloud.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0001_B.mp3",
+      "start": 0.1,
+      "end": 4.084
+    },
+    {
+      "speaker": "B",
+      "text": "GitHub Codespaces 就行。",
+      "terms": [
+        {
+          "cn": "GitHub Codespaces",
+          "en": "GitHub Codespaces",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/01-setup-cloud.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0002_B.mp3",
+      "start": 4.204,
+      "end": 6.58
+    },
+    {
+      "speaker": "A",
+      "text": "瀏覽器版 VS Code 夠用嗎？",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0003_A.mp3",
+      "start": 6.7,
+      "end": 9.7
+    },
+    {
+      "speaker": "B",
+      "text": "還預建好開發容器，Python 齊全。",
+      "terms": [
+        {
+          "cn": "開發容器",
+          "en": "Dev Container",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/01-setup-cloud.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0004_B.mp3",
+      "start": 9.82,
+      "end": 13.132
+    },
+    {
+      "speaker": "A",
+      "text": "那豈不是連 iPad 都能寫？",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0005_A.mp3",
+      "start": 13.252,
+      "end": 15.964
+    },
+    {
+      "speaker": "B",
+      "text": "對，而且每月有免費配額。免費。那肯定沒多少吧。",
+      "terms": [
+        {
+          "cn": "配額",
+          "en": "Quota",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/01-setup-cloud.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0006_B.mp3",
+      "start": 16.084,
+      "end": 22.06
+    },
+    {
+      "speaker": "B",
+      "text": "120 核心小時加 60 GB 小時。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0007_B.mp3",
+      "start": 22.18,
+      "end": 25.516
+    },
+    {
+      "speaker": "A",
+      "text": "聽起來挺夠用的嘛。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0008_A.mp3",
+      "start": 25.636,
+      "end": 27.82
+    },
+    {
+      "speaker": "B",
+      "text": "記得停止閒置的 codespace。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0009_B.mp3",
+      "start": 27.94,
+      "end": 30.868
+    },
+    {
+      "speaker": "B",
+      "text": "免得配額被白白吃掉。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0010_B.mp3",
+      "start": 30.988,
+      "end": 33.316
+    },
+    {
+      "speaker": "A",
+      "text": "本機開發竟然有四條路？哪條適合我？",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0011_A.mp3",
+      "start": 33.436,
+      "end": 37.636
+    },
+    {
+      "speaker": "B",
+      "text": "四種選擇，看你的需求。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0012_B.mp3",
+      "start": 37.756,
+      "end": 40.492
+    },
+    {
+      "speaker": "B",
+      "text": "最快的是哪條。原生 Python，裝個虛擬環境。",
+      "terms": [
+        {
+          "cn": "虛擬環境",
+          "en": "Virtual Environment",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/02-setup-local.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0013_B.mp3",
+      "start": 40.612,
+      "end": 45.388
+    },
+    {
+      "speaker": "A",
+      "text": "那開發容器是什麼？",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0014_A.mp3",
+      "start": 45.508,
+      "end": 47.716
+    },
+    {
+      "speaker": "B",
+      "text": "用 Docker 建一個統一環境。",
+      "terms": [
+        {
+          "cn": "開發容器",
+          "en": "Dev Container",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/02-setup-local.md:6"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0015_B.mp3",
+      "start": 47.836,
+      "end": 50.62
+    },
+    {
+      "speaker": "A",
+      "text": "感覺有點複雜，有簡單的嗎？",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0016_A.mp3",
+      "start": 50.74,
+      "end": 53.572
+    },
+    {
+      "speaker": "B",
+      "text": "Miniconda 用環境檔管理套件。",
+      "terms": [
+        {
+          "cn": "環境檔",
+          "en": "environment.yml",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/02-setup-local.md:9"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0017_B.mp3",
+      "start": 53.692,
+      "end": 56.764
+    },
+    {
+      "speaker": "A",
+      "text": "那 Jupyter 呢？",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0018_A.mp3",
+      "start": 56.884,
+      "end": 58.66
+    },
+    {
+      "speaker": "B",
+      "text": "瀏覽器裡跑筆記本，適合探索。",
+      "terms": [
+        {
+          "cn": "Jupyter",
+          "en": "Jupyter",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0019_B.mp3",
+      "start": 58.78,
+      "end": 62.092
+    },
+    {
+      "speaker": "B",
+      "text": "我還是用原生 Python 好了。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0020_B.mp3",
+      "start": 62.212,
+      "end": 64.828
+    },
+    {
+      "speaker": "A",
+      "text": "等等，金鑰直接寫在程式碼裡會怎樣？",
+      "terms": [
+        {
+          "cn": "API 金鑰",
+          "en": "API Key",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/02-setup-local.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0021_A.mp3",
+      "start": 64.948,
+      "end": 68.38
+    },
+    {
+      "speaker": "B",
+      "text": "要是推到公開倉庫，等於把家門鑰匙交給陌生人。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0022_B.mp3",
+      "start": 68.5,
+      "end": 72.964
+    },
+    {
+      "speaker": "B",
+      "text": "那不就等著被偷用，荷包大失血。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0023_B.mp3",
+      "start": 73.084,
+      "end": 76.372
+    },
+    {
+      "speaker": "A",
+      "text": "對，輕則帳單爆漲，重則被拿去做壞事。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0024_A.mp3",
+      "start": 76.492,
+      "end": 80.356
+    },
+    {
+      "speaker": "B",
+      "text": "所以要用 .env 檔，把金鑰藏在裡面。",
+      "terms": [
+        {
+          "cn": "環境變數",
+          "en": "Environment Variable",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/02-setup-local.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0025_B.mp3",
+      "start": 80.476,
+      "end": 84.388
+    },
+    {
+      "speaker": "B",
+      "text": "藏起來就沒事了。Git 會追蹤它嗎。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0026_B.mp3",
+      "start": 84.508,
+      "end": 88.3
+    },
+    {
+      "speaker": "A",
+      "text": "不會，.env 預設被忽略，別人看不到秘密。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0027_A.mp3",
+      "start": 88.42,
+      "end": 92.476
+    },
+    {
+      "speaker": "B",
+      "text": "那程式怎麼讀到金鑰。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0028_B.mp3",
+      "start": 92.596,
+      "end": 95.164
+    },
+    {
+      "speaker": "B",
+      "text": "用 python-dotenv，一行指令載入變數。",
+      "terms": [
+        {
+          "cn": "python-dotenv",
+          "en": "python-dotenv",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/02-setup-local.md:3"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0029_B.mp3",
+      "start": 95.284,
+      "end": 98.86
+    },
+    {
+      "speaker": "A",
+      "text": "先 pip install，再在程式裡呼叫它。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0030_A.mp3",
+      "start": 98.98,
+      "end": 102.508
+    },
+    {
+      "speaker": "B",
+      "text": "這樣金鑰就不會出現在程式碼裡了。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0031_B.mp3",
+      "start": 102.628,
+      "end": 105.916
+    },
+    {
+      "speaker": "B",
+      "text": "這麼多供應商，該選哪一家。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0032_B.mp3",
+      "start": 106.036,
+      "end": 109.012
+    },
+    {
+      "speaker": "A",
+      "text": "模型能力有差，成本也不同。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0033_A.mp3",
+      "start": 109.132,
+      "end": 112.06
+    },
+    {
+      "speaker": "B",
+      "text": "呃…不是都叫大型語言模型。",
+      "terms": [
+        {
+          "cn": "大型語言模型",
+          "en": "Large Language Model",
+          "source": "materials/genai-beginners/zh-HK/04-prompt-engineering-fundamentals/README.md:1"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0034_B.mp3",
+      "start": 112.18,
+      "end": 115.276
+    },
+    {
+      "speaker": "B",
+      "text": "能力有差，成本跟複雜度也不同。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0035_B.mp3",
+      "start": 115.396,
+      "end": 118.828
+    },
+    {
+      "speaker": "A",
+      "text": "要比較任務質量、延遲這些指標。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0036_A.mp3",
+      "start": 118.948,
+      "end": 122.212
+    },
+    {
+      "speaker": "B",
+      "text": "那豈不是要自己架伺服器。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0037_B.mp3",
+      "start": 122.332,
+      "end": 124.828
+    },
+    {
+      "speaker": "B",
+      "text": "有託管端點，像 OpenAI、",
+      "terms": [
+        {
+          "cn": "託管端點",
+          "en": "Managed Endpoint",
+          "source": "materials/genai-beginners/zh-HK/00-course-setup/03-providers.md:2"
+        }
+      ],
+      "audio_file": "audio/lines/tts_genai_course_setup_line0038_B.mp3",
+      "start": 124.948,
+      "end": 127.924
+    },
+    {
+      "speaker": "A",
+      "text": "Azure 幫你管好。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0039_A.mp3",
+      "start": 128.044,
+      "end": 130.036
+    },
+    {
+      "speaker": "B",
+      "text": "Hugging Face 開放權重，也能自己部署。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0040_B.mp3",
+      "start": 130.156,
+      "end": 133.54
+    },
+    {
+      "speaker": "B",
+      "text": "自己部署。那不是很麻煩。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0041_B.mp3",
+      "start": 133.66,
+      "end": 136.732
+    },
+    {
+      "speaker": "A",
+      "text": "Microsoft Foundry 有",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0042_A.mp3",
+      "start": 136.852,
+      "end": 138.988
+    },
+    {
+      "speaker": "B",
+      "text": "模型目錄可比較。",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0043_B.mp3",
+      "start": 139.108,
+      "end": 141.196
+    },
+    {
+      "speaker": "A",
+      "text": "原來選供應商要這麼多學問，咕咕嘎嘎！",
+      "_sfx": "咕咕嘎嘎",
+      "audio_file": "audio/lines/tts_genai_course_setup_line0044_A.mp3",
+      "start": 141.316,
+      "end": 144.292
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+﻿{
+  "backgrounds": [
+    {
+      "file": "backgrounds/bg_minecraft_parkour_001_1080x1920_703s.mp4",
+      "duration": 702.6,
+      "source": "aigei.com",
+      "license": "pending-review",
+      "fit": "crop",
+      "tags": [
+        "minecraft",
+        "parkour"
+      ]
+    },
+    {
+      "file": "backgrounds/bg_minecraft_parkour_002_1280x720_2437s.mp4",
+      "duration": 2436.8,
+      "source": "bilibili-download",
+      "license": "pending-review",
+      "fit": "crop",
+      "tags": [
+        "minecraft",
+        "parkour",
+        "landscape"
+      ]
+    },
+    {
+      "file": "backgrounds/bg_minecraft_parkour_003_1080x1920_659s.mp4",
+      "duration": 659.4,
+      "source": "youtube:OrbitalNCG",
+      "license": "pending-review",
+      "fit": "crop",
+      "tags": [
+        "minecraft",
+        "parkour",
+        "vertical"
+      ]
+    },
+    {
+      "file": "backgrounds/bg_minecraft_parkour_004_1080x1920_608s.mp4",
+      "duration": 608.3,
+      "source": "youtube:OrbitalNCG",
+      "license": "pending-review",
+      "fit": "crop",
+      "tags": [
+        "minecraft",
+        "parkour",
+        "vertical"
+      ]
+    },
+    {
+      "file": "backgrounds/bg_minecraft_parkour_005_1080x1920_651s.mp4",
+      "duration": 651.1,
+      "source": "youtube:OrbitalNCG",
+      "license": "pending-review",
+      "fit": "crop",
+      "tags": [
+        "minecraft",
+        "parkour",
+        "vertical"
+      ]
+    }
+  ],
+  "bgm": [
+    {
+      "file": "bgm/bgm_sacred_play_secret_place.mp3",
+      "volume": 0.237,
+      "loop": true
+    },
+    {
+      "file": "bgm/bgm_date_radwimps.mp3",
+      "volume": 0.462,
+      "loop": true
+    },
+    {
+      "file": "bgm/bgm_haru_haru.mp3",
+      "volume": 0.407,
+      "loop": true
+    }
+  ],
+  "avatars": [
+    {
+      "file": "avatars/avatar_deng_default.png",
+      "speaker": "A",
+      "side": "left",
+      "source": "user-provided",
+      "license": "pending-review"
+    },
+    {
+      "file": "avatars/avatar_paidaxing_default.png",
+      "speaker": "B",
+      "side": "right",
+      "source": "user-provided",
+      "license": "pending-review"
+    },
+    {
+      "license": "pending-review",
+      "speaker": "A",
+      "source": "user-provided",
+      "file": "avatars/avatar_deng_leftfacing.png",
+      "side": "left"
+    },
+    {
+      "license": "pending-review",
+      "speaker": "B",
+      "source": "user-provided",
+      "file": "avatars/avatar_paidaxing_rightfacing.png",
+      "side": "right"
+    },
+    {
+      "license": "pending-review",
+      "speaker": "B",
+      "source": "user-provided",
+      "file": "avatars/avatar_xiongda_default.png",
+      "side": "right"
+    }
+  ]
+}
