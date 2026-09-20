@@ -22,6 +22,10 @@ class CliMappingTest(unittest.TestCase):
             "migrate-terms": "learntok.tools.migrate_terms",
             "rag-build": "learntok.tools.rag_build",
             "rag-retrieve": "learntok.tools.rag_retrieve",
+            "series-bible": "learntok.tools.series_bible",
+            "series-outline": "learntok.tools.series_bible",
+            "series-gen": "learntok.tools.series_bible",
+            "script-review": "learntok.tools.series_bible",
             "doctor": "learntok.doctor",
         }
         for sub, mod in cases.items():

@@ -172,6 +172,20 @@ Copy-Item "src/learntok/tools/utils_patched.py" "<python>/Lib/site-packages/rvc_
 - [ ] 多語音角色擴充（超過 2 人對話）
 
 
+## 系列聖經（Series Bible）
+
+單支影片用 `script-gen`。系列影片先寫 bible（學習路徑），人工 `--approve`，再 `series-outline` / `series-gen` / `script-review`。
+
+範本：`pipeline/examples/sample_bible.json`。集數跟學習路徑，不跟素材檔數。
+
+```powershell
+.venv\Scripts\learntok.exe series-bible --bible pipeline/examples/sample_bible.json --dry-run
+.venv\Scripts\learntok.exe series-bible --bible pipeline/series/<id>/bible.json --approve
+.venv\Scripts\learntok.exe series-outline --bible pipeline/series/<id>/bible.json --episode <ep-id>
+.venv\Scripts\learntok.exe series-gen --bible pipeline/series/<id>/bible.json --episode <ep-id>
+.venv\Scripts\learntok.exe script-review --script pipeline/examples/script_<ep-id>.json --bible pipeline/series/<id>/bible.json --episode <ep-id>
+```
+
 ## LLM 腳本生成（Script Generation）
 
 `learntok script-gen`（`src/learntok/tools/script_gen.py`）— 以 LLM 兩段式生成腳本（Step 0 自動化）。

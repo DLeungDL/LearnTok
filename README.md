@@ -24,6 +24,7 @@
 - [快速開始](#快速開始quick-start)
 - [CLI 指令總覽](#cli-指令總覽cli-reference)
 - [運作流程](#運作流程how-it-works)
+- [系列管線](#系列管線series-pipeline)
 - [腳本 JSON Schema](#腳本-json-schema)
 - [RAG 知識庫](#rag-知識庫fact-check-backend)
 - [角色與素材](#角色與素材characters--assets)
@@ -122,6 +123,10 @@ powershell -ExecutionPolicy Bypass -File scripts/make_video.ps1 -Generate -Sourc
 | `learntok migrate-terms` | 行內英文括號 → 結構化 terms |
 | `learntok rag-build` | 建立 ChromaDB 知識庫 |
 | `learntok rag-retrieve` | 檢索知識庫 |
+| `learntok series-bible` | 系列聖經（series bible）：學習路徑草案，人工 `--approve` 後才能出片 |
+| `learntok series-outline` | 依已核准 bible 產出單集大綱 |
+| `learntok series-gen` | 依 bible（與大綱）生成單集對白腳本 |
+| `learntok script-review` | 規則閘門 + LLM 審查單集腳本 |
 | `learntok doctor` | 環境檢查 |
 | `learntok init` | 建立工作區骨架（output／build 等目錄） |
 
@@ -144,6 +149,20 @@ flowchart LR
 ```
 
 ---
+
+## 系列管線（Series Pipeline）
+
+單支影片用 `script-gen`。若要做一個**學習路徑**（不是一篇素材一支片），先寫系列聖經（series bible），人工核准後再出各集：
+
+```powershell
+.venv\Scripts\learntok.exe series-bible --bible pipeline/examples/sample_bible.json --dry-run
+.venv\Scripts\learntok.exe series-bible --bible pipeline/series/<id>/bible.json --approve
+.venv\Scripts\learntok.exe series-outline --bible pipeline/series/<id>/bible.json --episode ep01-idea
+.venv\Scripts\learntok.exe series-gen --bible pipeline/series/<id>/bible.json --episode ep01-idea
+.venv\Scripts\learntok.exe script-review --script pipeline/examples/script_ep01-idea.json --bible pipeline/series/<id>/bible.json --episode ep01-idea
+```
+
+範本見 `pipeline/examples/sample_bible.json`。集數跟學習路徑走，不跟素材檔案數走；`status` 必須是 `approved` 才能 `series-gen`（除非 `--force`）。
 
 ## 腳本 JSON Schema
 

@@ -24,6 +24,7 @@
 - [Quick Start](#quick-start)
 - [CLI Reference](#cli-reference)
 - [How It Works](#how-it-works)
+- [Series Pipeline](#series-pipeline)
 - [Script JSON Schema](#script-json-schema)
 - [RAG Knowledge Base (Fact-Check Backend)](#rag-knowledge-base-fact-check-backend)
 - [Characters & Assets](#characters--assets)
@@ -122,6 +123,10 @@ See [`pipeline/README.md`](pipeline/README.md) for detailed pipeline usage.
 | `learntok migrate-terms` | Inline English parentheses → structured terms |
 | `learntok rag-build` | Build the ChromaDB knowledge base |
 | `learntok rag-retrieve` | Query the knowledge base |
+| `learntok series-bible` | Series bible: draft a learning path; human `--approve` required before scripts |
+| `learntok series-outline` | Per-episode outline from an approved bible |
+| `learntok series-gen` | Generate one episode script from the bible (and outline) |
+| `learntok script-review` | Rule gate + LLM review of one episode script |
 | `learntok doctor` | Environment check |
 | `learntok init` | Create a workspace skeleton (`output` / `build` directories, etc.) |
 
@@ -144,6 +149,20 @@ flowchart LR
 ```
 
 ---
+
+## Series Pipeline
+
+Use `script-gen` for a single video. For a **learning path** (not one video per source file), write a series bible, approve it, then generate each episode:
+
+```powershell
+.venv\Scripts\learntok.exe series-bible --bible pipeline/examples/sample_bible.json --dry-run
+.venv\Scripts\learntok.exe series-bible --bible pipeline/series/<id>/bible.json --approve
+.venv\Scripts\learntok.exe series-outline --bible pipeline/series/<id>/bible.json --episode ep01-idea
+.venv\Scripts\learntok.exe series-gen --bible pipeline/series/<id>/bible.json --episode ep01-idea
+.venv\Scripts\learntok.exe script-review --script pipeline/examples/script_ep01-idea.json --bible pipeline/series/<id>/bible.json --episode ep01-idea
+```
+
+See `pipeline/examples/sample_bible.json` for the template. Episode count follows the learning path, not the number of source files. `status` must be `approved` before `series-gen` (unless `--force`).
 
 ## Script JSON Schema
 

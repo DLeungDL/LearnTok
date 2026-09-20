@@ -273,7 +273,7 @@ def section_user_prompt(section, prev_tail, source_text, rag_ctx, fix_feedback, 
         "- speaker 只能是 A 或 B（A=Questioner 提問方，B=Explainer 講解方）\n"
         "- text 純繁體中文、8~25 字（超過 25 字即違規，太長務必拆成兩句）、單行；text 不得含英文括號（如 （Fork）），英文只放 terms，不可唸成台詞\n"
         "- 有檢索結果時：每段至少 2 個 terms；cn 必須是精準術語本體；每個 terms 都必須加 source（格式：來源路徑:chunk編號，來源路徑取自檢索結果）\n"
-        "- 每段 8~15 行；A 台詞 2~4 句（A 佔比約 30%，上限 38%），其餘都是 B；B 連續最多 2 行\n"
+        "- 每段 12~18 行（長片，少於 12 行算失敗）；A 台詞 4~6 句（A 佔比約 30%，上限 38%），其餘都是 B；B 連續最多 2 行\n"
         "- 同一 speaker 最多連續 2 行，禁止 3 連；A 的台詞要有質疑/吐槽/推極端，不是被動發問\n"
         "- 角色分工：A 永遠是提問／質疑／吐槽／裝傻的一方，絕不長篇講解；B 永遠是講解／舉例／引導的一方，不得唸問句。每段檢查：所有問句（含「？」）必須是 A，所有講解必須是 B\n"
         "- 禁用不雅詞彙（白嫖／幹／屄等粗口）；出現即驗證失敗\n"
@@ -690,6 +690,8 @@ def main():
                     help="RAG 主題過濾（子課程粒度，如 genai-04-prompt-engineering-fundamentals）")
     ap.add_argument("--series", default=None,
                     help="系列名稱（如 genai-beginners；檢索當前系列優先，不足自動借其他系列）")
+    ap.add_argument("--outline", default=None,
+                    help="使用既有大綱 JSON（跳過 Stage 1）")
     args = ap.parse_args()
     args.rag_sources = not args.no_rag_sources
 
@@ -719,10 +721,17 @@ def main():
     client = LLMClient(provider, base_url, model, api_key, args.temperature)
     sys_prompt = system_prompt(pairing)
 
-    print("Stage 1/2：生成大綱（%s / %s）..." % (provider, model))
-    outline = client.chat_json(sys_prompt, outline_user_prompt(source_text), 2000, "outline")
-    outline = normalize_outline(outline, args.max_sections)
-    print("  title: %s（%d 段）" % (outline.get("title", "?"), len(outline.get("sections", []))))
+    if args.outline:
+        print("Stage 1/2：讀取既有大綱 %s" % args.outline)
+        with io.open(args.outline, "r", encoding="utf-8-sig") as fh:
+            outline = json.load(fh)
+        outline = normalize_outline(outline, args.max_sections)
+        print("  title: %s（%d 段，沿用審查大綱）" % (outline.get("title", "?"), len(outline.get("sections", []))))
+    else:
+        print("Stage 1/2：生成大綱（%s / %s）..." % (provider, model))
+        outline = client.chat_json(sys_prompt, outline_user_prompt(source_text), 2000, "outline")
+        outline = normalize_outline(outline, args.max_sections)
+        print("  title: %s（%d 段）" % (outline.get("title", "?"), len(outline.get("sections", []))))
 
     sections = []
     prev_tail = []

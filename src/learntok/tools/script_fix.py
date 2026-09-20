@@ -25,6 +25,17 @@ BUILD_DIR = config.build_dir()
 _BOUNDS = set("。！？!?；;，,、")
 
 
+
+QUESTIONER_VOICE = re.compile(
+    r"(?:" + "|".join([
+        "蛤", "啊？", "呃…", r"呃\.\.\.",
+        "我不知道", "真的假的",
+        "怎麼可能", "聽起來好複雜",
+        r"^等等[,，]?", r"^等一下",
+    ]) + ")"
+)
+
+
 def _is_question(text):
     return (text or "").rstrip().endswith(("？", "?"))
 
@@ -294,6 +305,43 @@ def fix_a_ratio(lines, lo=A_MIN, hi=A_MAX):
     return out, changed
 
 
+
+def fix_questioner_voice(lines):
+    """Reassign B lines that use questioner voice to A.
+
+    Opener is always flipped (confused B opening is a hard style bug).
+    Other lines flip when it will not break A-ratio or create a 3-run.
+    """
+    out = list(lines)
+    changed = False
+    n = len(out)
+    if not n:
+        return out, False
+    for i, ln in enumerate(out):
+        if ln.get("speaker") != "B":
+            continue
+        text = ln.get("text", "")
+        if not QUESTIONER_VOICE.search(text):
+            continue
+        opener = (i == 0)
+        projected = _a_ratio(out) + 100.0 / n
+        if opener or (projected <= A_MAX and not _would_create_run(out, i, "A")):
+            if (not opener) and _would_create_run(out, i, "A"):
+                continue
+            ln["speaker"] = "A"
+            changed = True
+            if opener and _a_ratio(out) > A_MAX:
+                for j in range(n - 1, 0, -1):
+                    other = out[j]
+                    if other.get("speaker") != "A" or _is_question(other.get("text", "")):
+                        continue
+                    if _would_create_run(out, j, "B"):
+                        continue
+                    other["speaker"] = "B"
+                    break
+    return out, changed
+
+
 def fix_b_questions(lines):
     """B 行出現「？」（中段或結尾）＝講解者唸問句：能安全改為 A 就改，否則把？改為。"""
     out = list(lines)
@@ -405,6 +453,16 @@ def fix_closer(lines):
         return out, False
     if n >= 3 and out[-2].get("speaker") == "A" and out[-3].get("speaker") == "A":
         return out, False
+    # Prefer swapping with the previous A so gugu stays last without creating BBB.
+    if n >= 2 and out[-2].get("speaker") == "A":
+        if not (n >= 4 and out[-3].get("speaker") == "B" and out[-4].get("speaker") == "B"):
+            gugu_line = dict(out[-1])
+            gugu_line["speaker"] = "A"
+            prev = dict(out[-2])
+            prev["speaker"] = "B"
+            out[-2] = prev
+            out[-1] = gugu_line
+            return out, True
     if _a_ratio(out) + 100.0 / n > A_MAX:
         for i in range(n - 2, -1, -1):
             ln = out[i]
@@ -523,6 +581,8 @@ def apply_fixes(script):
     lines, c = fix_speakers(lines)
     changed = changed or c
     lines, c = fix_closer(lines)
+    changed = changed or c
+    lines, c = fix_questioner_voice(lines)
     changed = changed or c
     lines, c = fix_terms_prefix(lines)
     changed = changed or c
@@ -732,7 +792,7 @@ def _self_test():
         {"speaker": "B", "text": "還有內容要繼續說明"},
         {"speaker": "A", "text": "那還有什麼要注意的"},
         {"speaker": "B", "text": "記得要有實際範例"},
-        {"speaker": "B", "text": "練習久了自然會熟練"},
+        {"speaker": "A", "text": "好我會多練習幾次"},
         {"speaker": "B", "text": "有問題隨時再問我，咕咕嘎嘎！"},
     ], ignore=(), expect_changed=True)
 
