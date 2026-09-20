@@ -21,6 +21,10 @@ SUBMODULES = {
     "migrate-terms": "learntok.tools.migrate_terms",
     "rag-build": "learntok.tools.rag_build",
     "rag-retrieve": "learntok.tools.rag_retrieve",
+    "series-bible": "learntok.tools.series_bible",
+    "series-outline": "learntok.tools.series_bible",
+    "series-gen": "learntok.tools.series_bible",
+    "script-review": "learntok.tools.series_bible",
     "doctor": "learntok.doctor",
 }
 
@@ -40,6 +44,10 @@ LearnTok AI pipeline CLI. Subcommands:
   migrate-terms  migrate inline-parenthesized terms to structured terms
   rag-build      build the ChromaDB knowledge base
   rag-retrieve   query the ChromaDB knowledge base
+  series-bible   Stage 0 series bible (human-approved learning path)
+  series-outline Stage 1 per-episode outline from an approved bible
+  series-gen     Stage 2 dialogue generation gated by the bible
+  script-review  Stage 3 rule gate + LLM review
   doctor         environment checks
   init [dir]     create a workspace skeleton in dir (default: current dir)
 
@@ -86,8 +94,19 @@ def main(argv=None):
         print("error: unknown subcommand '%s'" % sub, file=sys.stderr)
         print(HELP, file=sys.stderr)
         return 2
+    extra_env = None
+    if sub in ("series-bible", "series-outline", "series-gen", "script-review"):
+        extra_env = dict(os.environ)
+        extra_env["LEARNTOK_SERIES_ACTION"] = {
+            "series-bible": "bible",
+            "series-outline": "outline",
+            "series-gen": "gen",
+            "script-review": "review",
+        }[sub]
     cmd = build_command(sub, args[1:])
-    return subprocess.call(cmd)
+    if extra_env is None:
+        return subprocess.call(cmd)
+    return subprocess.call(cmd, env=extra_env)
 
 
 if __name__ == "__main__":

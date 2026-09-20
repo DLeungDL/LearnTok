@@ -1,0 +1,68 @@
+{
+  "series": "sample-series",
+  "title": "Sample series bible",
+  "status": "draft",
+  "audience": "curious beginners who want a path, not one video per source file",
+  "throughline": "Episode count follows a learning path. Humans approve the bible before scripts are generated.",
+  "learning_path": [
+    "what the idea is",
+    "how the mechanism works",
+    "where the idea breaks",
+    "how to practice it"
+  ],
+  "notes_for_human": "Template only. Copy to pipeline/series/<id>/bible.json, edit, then run learntok series-bible --bible <path> --approve.",
+  "episodes": [
+    {
+      "id": "ep01-idea",
+      "title": "What is this idea?",
+      "one_liner": "Name the thing before you explain the machinery.",
+      "hook": "Why should anyone care before the jargon starts?",
+      "must_cover": ["definition", "everyday analogy", "what it is not"],
+      "do_not_cover": ["proofs", "implementation details"],
+      "recap_from_prev": "",
+      "target_minutes": 12,
+      "target_sections": 8,
+      "rag_topic": "sample-01-idea",
+      "sources": ["materials/sample-series"]
+    },
+    {
+      "id": "ep02-mechanism",
+      "title": "How does it actually work?",
+      "one_liner": "Walk the moving parts without dumping the whole textbook.",
+      "hook": "If the idea is so simple, why does the mechanism look messy?",
+      "must_cover": ["core steps", "one worked example", "common mix-up"],
+      "do_not_cover": ["edge-case catalogues", "research survey"],
+      "recap_from_prev": "We named the idea and the everyday analogy.",
+      "target_minutes": 12,
+      "target_sections": 8,
+      "rag_topic": "sample-02-mechanism",
+      "sources": ["materials/sample-series"]
+    },
+    {
+      "id": "ep03-limits",
+      "title": "Where does the idea break?",
+      "one_liner": "Every model has assumptions; show the ones that actually bite.",
+      "hook": "What happens when the tidy story meets a messy world?",
+      "must_cover": ["key assumptions", "failure mode", "why it still helps"],
+      "do_not_cover": ["new architecture", "full literature review"],
+      "recap_from_prev": "We walked the mechanism with one worked example.",
+      "target_minutes": 13,
+      "target_sections": 8,
+      "rag_topic": "sample-03-limits",
+      "sources": ["materials/sample-series"]
+    },
+    {
+      "id": "ep04-practice",
+      "title": "How do you practice it?",
+      "one_liner": "Turn the path into a check you can reuse on the next topic.",
+      "hook": "If you only remember one checklist, what is on it?",
+      "must_cover": ["checklist", "one practice prompt", "what to ignore"],
+      "do_not_cover": ["tool setup dumps", "unrelated extras"],
+      "recap_from_prev": "We saw where the assumptions break.",
+      "target_minutes": 12,
+      "target_sections": 8,
+      "rag_topic": "sample-04-practice",
+      "sources": ["materials/sample-series"]
+    }
+  ]
+}
