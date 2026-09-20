@@ -81,6 +81,21 @@ def find_episode(bible, episode_id):
     return None, None
 
 
+def llm_review_passed(data):
+    """LLM review passes only on an explicit JSON boolean true."""
+    return isinstance(data, dict) and data.get("pass") is True
+
+
+def max_sections_for_gen(explicit_max, ep, outline=None):
+    """Keep a reviewed outline intact unless the caller set --max-sections."""
+    if explicit_max:
+        return int(explicit_max)
+    n_outline = len((outline or {}).get("sections") or [])
+    if n_outline:
+        return n_outline
+    return int((ep or {}).get("target_sections") or 8)
+
+
 def episode_source_paths(ep, series):
     sources = ep.get("sources") or []
     root = config.workspace_root()
@@ -305,7 +320,7 @@ def cmd_review(args):
     out = args.out or os.path.join(config.build_dir(), "review_%s.json" % (script.get("id") or "script"))
     save_json(out, {"rule_errors": errors, "rule_warnings": warnings, "llm": data})
     print("wrote %s  pass=%s" % (out, data.get("pass")))
-    if errors or data.get("pass") is False:
+    if errors or not llm_review_passed(data):
         sys.exit(1)
 
 
@@ -336,7 +351,6 @@ def cmd_gen(args):
     out = args.out or os.path.join(
         config.workspace_root(), "pipeline", "examples", "script_%s.json" % ep["id"]
     )
-    max_sections = args.max_sections or int(ep.get("target_sections") or 8)
     min_lines = args.min_lines if args.min_lines else max(90, int(ep.get("target_minutes") or 10) * 8)
     header = (
         "[SERIES BIBLE]\nseries=%s\nthroughline=%s\nepisode=%s %s\n"
@@ -358,6 +372,14 @@ def cmd_gen(args):
     with io.open(tmp, "w", encoding="utf-8") as fh:
         fh.write(header)
     gen_argv = ["--source", tmp] + list(sources)
+    default_outline = os.path.join(
+        os.path.dirname(os.path.abspath(args.bible)),
+        "outline_%s.json" % ep["id"],
+    )
+    outline = load_json(default_outline) if os.path.isfile(default_outline) else None
+    if outline is not None:
+        print("using reviewed outline %s" % default_outline)
+    max_sections = max_sections_for_gen(args.max_sections, ep, outline)
     gen_argv.extend([
         "--id", ep["id"],
         "--title", ep.get("title") or ep["id"],
@@ -368,13 +390,8 @@ def cmd_gen(args):
         "--characters", args.characters,
         "--provider", args.provider,
     ])
-    default_outline = os.path.join(
-        os.path.dirname(os.path.abspath(args.bible)),
-        "outline_%s.json" % ep["id"],
-    )
-    if os.path.isfile(default_outline):
+    if outline is not None:
         gen_argv.extend(["--outline", default_outline])
-        print("using reviewed outline %s" % default_outline)
     if ep.get("rag_topic"):
         gen_argv.extend(["--rag-topic", ep["rag_topic"]])
     if args.model:
@@ -383,6 +400,8 @@ def cmd_gen(args):
         gen_argv.extend(["--base-url", args.base_url])
     if args.api_key:
         gen_argv.extend(["--api-key", args.api_key])
+    if args.no_rag_sources:
+        gen_argv.append("--no-rag-sources")
     if args.dry_run:
         gen_argv.append("--dry-run")
     print("Stage 2: script-gen %s -> %s (min_lines=%d, max_sections=%d)" % (

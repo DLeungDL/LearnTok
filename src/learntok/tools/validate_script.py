@@ -55,6 +55,30 @@ def _is_question(text):
     return (text or "").rstrip().endswith(("\uff1f", "?"))
 
 
+def resolve_bible(bible, script_id=None, episode_id=None):
+    """Map a series bible (or already-resolved object) to {episode: ...}.
+
+    `validate()` reads recap_from_prev from bible["episode"] or the object
+    itself. A standard series bible has `episodes`, so the CLI must pick one.
+    """
+    if not bible:
+        return None
+    if isinstance(bible.get("episode"), dict):
+        return {"episode": bible["episode"]}
+    eps = bible.get("episodes")
+    if isinstance(eps, list):
+        want = episode_id or script_id
+        if not want:
+            return None
+        for ep in eps:
+            if ep.get("id") == want:
+                return {"episode": ep}
+        return None
+    if bible.get("recap_from_prev") is not None or bible.get("must_cover") or bible.get("id"):
+        return {"episode": bible}
+    return None
+
+
 def validate(path, require_rag_sources=False, rag_collection="leantok_kb", rag_db=None,
              min_lines=0, bible=None, strict_voice=False):
     with io.open(path, "r", encoding="utf-8-sig") as f:
@@ -219,6 +243,7 @@ def main():
     ap.add_argument("--rag-db", default=None)
     ap.add_argument("--min-lines", type=int, default=0)
     ap.add_argument("--bible", default=None)
+    ap.add_argument("--episode", default=None)
     ap.add_argument("--strict-voice", action="store_true")
     args = ap.parse_args()
 
@@ -228,7 +253,14 @@ def main():
     bible = None
     if args.bible:
         with io.open(args.bible, "r", encoding="utf-8-sig") as fh:
-            bible = json.load(fh)
+            bible_raw = json.load(fh)
+        script_id = None
+        with io.open(args.script, "r", encoding="utf-8-sig") as fh:
+            script_id = json.load(fh).get("id")
+        bible = resolve_bible(bible_raw, script_id=script_id, episode_id=args.episode)
+        if bible is None:
+            print("error: could not resolve episode in bible (pass --episode matching script id)")
+            sys.exit(2)
     errors, warnings = validate(args.script,
                                 require_rag_sources=args.rag_sources,
                                 rag_collection=args.rag_collection,
@@ -255,4 +287,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

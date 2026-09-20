@@ -120,5 +120,45 @@ class CliMappingTest(unittest.TestCase):
             self.assertEqual(cli.module_for(sub), "learntok.tools.series_bible")
 
 
+class ReviewGateTest(unittest.TestCase):
+    def test_llm_review_requires_explicit_true(self):
+        self.assertTrue(sb.llm_review_passed({"pass": True}))
+        self.assertFalse(sb.llm_review_passed({}))
+        self.assertFalse(sb.llm_review_passed({"pass": None}))
+        self.assertFalse(sb.llm_review_passed({"pass": "false"}))
+        self.assertFalse(sb.llm_review_passed({"pass": False}))
+
+
+class OutlineSectionsTest(unittest.TestCase):
+    def test_reviewed_outline_keeps_all_sections(self):
+        ep = {"target_sections": 8}
+        outline = {"sections": [{"title": str(i)} for i in range(10)]}
+        self.assertEqual(sb.max_sections_for_gen(0, ep, outline), 10)
+
+    def test_explicit_max_sections_wins(self):
+        ep = {"target_sections": 8}
+        outline = {"sections": [{"title": str(i)} for i in range(10)]}
+        self.assertEqual(sb.max_sections_for_gen(8, ep, outline), 8)
+
+    def test_fallback_to_target_without_outline(self):
+        self.assertEqual(sb.max_sections_for_gen(0, {"target_sections": 8}, None), 8)
+
+
+class ResolveBibleTest(unittest.TestCase):
+    def test_picks_episode_by_script_id(self):
+        bible = sb.load_json(os.path.join("pipeline", "examples", "sample_bible.json"))
+        resolved = vs.resolve_bible(bible, script_id="ep02-mechanism")
+        self.assertEqual(resolved["episode"]["id"], "ep02-mechanism")
+        self.assertTrue(resolved["episode"]["recap_from_prev"])
+
+    def test_missing_episode_returns_none(self):
+        bible = sb.load_json(os.path.join("pipeline", "examples", "sample_bible.json"))
+        self.assertIsNone(vs.resolve_bible(bible, script_id="nope"))
+
+    def test_already_resolved_episode_passthrough(self):
+        resolved = vs.resolve_bible({"episode": {"id": "ep01", "recap_from_prev": ""}})
+        self.assertEqual(resolved["episode"]["id"], "ep01")
+
+
 if __name__ == "__main__":
     unittest.main()
